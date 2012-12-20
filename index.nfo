@@ -36,13 +36,13 @@
 		(md5 "77d5c6877df644edf9a8cf7169b1a4c2")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "Hume's islands")
 	  (author "Hume")
 	  (license "GPL 2+ / CC-by-sa 3.0")
-	  (http-url "http://supertux.lethargik.org/addons/files/hume.zip")
-	  (file "hume.zip")
-	  (md5 "0a3f8bdd50f78e82f5f1625321c9be61")
+	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/hume_v10.zip")
+	  (file "hume_v10.zip")
+	  (md5 "b0d0a947bad1ebc579aea10a57f2d83b")
 	)
 	(supertux-addoninfo
 	  (kind "World")
