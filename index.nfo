@@ -1,21 +1,12 @@
 (supertux-addons
 	(supertux-addoninfo
-		(kind "Level")
-		(title "Coconut Fortress")
-		(author "Anja")
-		(license "GPL 2+ / CC-by-sa 3.0")
-		(http-url "http://supertux.lethargik.org/addons/files/coconut_fortress.zip")
-		(file "coconut_fortress.zip")
-		(md5 "cfb7288cba34a0231cc4f0232a9525d7")
-	)
-	(supertux-addoninfo
-		(kind "Level")
-		(title "In The Spring")
-		(author "Anja")
-		(license "GPL 2+ / CC-by-sa 3.0")
-		(http-url "http://supertux.lethargik.org/addons/files/in_the_spring.zip")
-		(file "in_the_spring.zip")
-		(md5 "300d26f2b6a3ce687e7745c727b07710")
+	  (kind "Levelset")
+	  (title "Christoph's")
+	  (author "Anja")
+	  (license "GPL 2+ / CC-by-sa 3.0")
+	  (http-url "http://addons.supertux.googlecode.com/git/levels/christoph.zip")
+	  (file "christoph.zip")
+	  (md5 "ef62b81f4e716734f8e34194529afed4")
 	)
 	(supertux-addoninfo
 		(kind "Level set")
