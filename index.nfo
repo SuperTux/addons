@@ -105,7 +105,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/The_Valley_Of_Chaos.zip")
 	  (file "The_Valley_Of_Chaos.zip")
-	  (md5 "c686b6efb41833fed75cc0633a8878ed")
+	  (md5 "1676c6de77b2f789b98afc4440639e26")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
