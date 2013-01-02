@@ -51,7 +51,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/CTs_Domain.zip")
 	  (file "CTs_Domain.zip")
-	  (md5 "12c9042ceed753459b3468676417455e")
+	  (md5 "69e368d46676f3b9ccfe3cd2b75d0a2b")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
@@ -60,7 +60,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/octo.zip")
 	  (file "octo.zip")
-	  (md5 "3a442391f3b45d495582f908a3eaa397")
+	  (md5 "c60a3a4f7e1dc56067daaa99d2630982")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
@@ -69,7 +69,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/YETIS_REVENGE_update3.zip")
 	  (file "YETIS_REVENGE_update3.zip")
-	  (md5 "650bba93e7925b7bd9d1668716d4e9b9")
+	  (md5 "62af590320a1c83d1bcca45b25b31b8d")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
@@ -87,7 +87,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/hume_rc_v3.zip")
 	  (file "hume_rc_v3.zip")
-	  (md5 "ec6b3d1a30505343899ebfc15f2de8c3")
+	  (md5 "fd58a04f370c5f9b230956c4e343df84")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
@@ -96,7 +96,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/penny_mod.zip")
 	  (file "penny_mod.zip")
-	  (md5 "45552d94a296b5516a2a7e5031e6da1b")
+	  (md5 "7313d5c362486e29bf7efb3a430e95d9")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
