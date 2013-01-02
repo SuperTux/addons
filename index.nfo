@@ -45,7 +45,7 @@
 	  (md5 "b0d0a947bad1ebc579aea10a57f2d83b")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "CT's Domain")
 	  (author "CT.da'Bomb")
 	  (license "GPL 2+ / CC-by-sa 3.0")
@@ -54,7 +54,7 @@
 	  (md5 "12c9042ceed753459b3468676417455e")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "octo's Levels")
 	  (author "Octo")
 	  (license "GPL 2+ / CC-by-sa 3.0")
@@ -63,7 +63,7 @@
 	  (md5 "3a442391f3b45d495582f908a3eaa397")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "Yeti's Revenge")
 	  (author "niso")
 	  (license "GPL 2+ / CC-by-sa 3.0")
@@ -72,7 +72,7 @@
 	  (md5 "650bba93e7925b7bd9d1668716d4e9b9")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "Island of Moob (beta)")
 	  (author "Treskalle")
 	  (license "GPL 2+ / CC-by-sa 3.0")
@@ -81,7 +81,7 @@
 	  (md5 "18692646a9857c4f8e9b2203840d80c5")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "Hume's Rainbow Cave")
 	  (author "hume2")
 	  (license "GPL 2+ / CC-by-sa 3.0")
@@ -90,7 +90,7 @@
 	  (md5 "ec6b3d1a30505343899ebfc15f2de8c3")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "Race to Penny")
 	  (author "CT.da'Bomb")
 	  (license "GPL 2+ / CC-by-sa 3.0")
@@ -99,7 +99,7 @@
 	  (md5 "45552d94a296b5516a2a7e5031e6da1b")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "The Valley of Chaos")
 	  (author "SemajD")
 	  (license "GPL 2+ / CC-by-sa 3.0")
@@ -108,7 +108,7 @@
 	  (md5 "c686b6efb41833fed75cc0633a8878ed")
 	)
 	(supertux-addoninfo
-	  (kind "World")
+	  (kind "Worldmap")
 	  (title "Narre Land")
 	  (author "Narre")
 	  (license "GPL 2+ / CC-by-sa 3.0")
@@ -124,6 +124,15 @@
 	  (http-url "http://addons.supertux.googlecode.com/git/Levels/levels-of-wolfs.zip")
 	  (file "levels-of-wolfs.zip")
 	  (md5 "dd451c1a42618ded06d5c3f5a100c20f")
+	)
+	(supertux-addoninfo
+	  (kind "Worldmap")
+	  (title "Mantis Valley")
+	  (author "Various Authors")
+	  (license "GPL 2+ / CC-by-sa 3.0")
+	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/pre_git_bugtracker_worldmap.zip")
+	  (file "pre_git_bugtracker_worldmap.zip")
+	  (md5 "8d7a1fa91228c81cd032ffb141b2fd6c")
 	)
 )
 
