@@ -28,12 +28,12 @@
 	)
 	(supertux-addoninfo
 		(kind "World")
-		(title "Mattie's Iceberg")
+		(title "Mattie's World")
 		(author "LMH")
 		(license "GPL 2 / CC-by-sa 3.0")
-		(http-url "http://supertux.lethargik.org/addons/files/mattie_world.zip")
-		(file "mattie_world.zip")
-		(md5 "77d5c6877df644edf9a8cf7169b1a4c2")
+		(http-url "http://addons.supertux.googlecode.com/git/Worldmaps/mattie_world2012.zip")
+		(file "mattie_world2012.zip")
+		(md5 "4cc14e1796d973486233b2c5d1a0e671")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
@@ -74,7 +74,7 @@
 	(supertux-addoninfo
 	  (kind "Worldmap")
 	  (title "Island of Moob (Beta 6)")
-	  (author "Treskalle")
+	  (author "treskalle")
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/moob-island-beta6.zip")
 	  (file "moob-island-beta6.zip")
