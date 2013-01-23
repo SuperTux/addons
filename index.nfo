@@ -33,7 +33,7 @@
 		(license "GPL 2 / CC-by-sa 3.0")
 		(http-url "http://addons.supertux.googlecode.com/git/Worldmaps/mattie_world2012.zip")
 		(file "mattie_world2012.zip")
-		(md5 "4cc14e1796d973486233b2c5d1a0e671")
+		(md5 "99fef5a88effd0cf053ed78f9508aaa6")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
