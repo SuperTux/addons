@@ -1,0 +1,49 @@
+Changes made to levels by LMH 03-FEB-2012:
+*Removed empty tilemaps on following levels
+	-"Under the Ice"
+	-"Hanging From the Roof"
+	-"Out on the Crystal Fields"
+	-"Blue iced hills"
+	-"Bads mountains"
+	-"level tsrif ehT <---"
+	-"Ice sea"
+	-"The Toilette zone"
+	-"Holes, a Day on Ice"
+	-"Sewer escape"
+	-"Tux is hungry!"
+	-"Mountain climbing"
+	-"A long adventure"
+
+*Fixed graphical glitches
+	-"Crystal Sunset" arrow sign at savepoint partly missing
+	-"Blue iced hills" snow top at end of level partly missing
+	-"Bads mountains" second warning sign partly missing
+	-"Sever escape rebuild" renamed to "Sewer escape" correcting translation error and removing confusing development naming 
+	-"Mountanin climbing rebuild" renamed to "Mountain climbing" fixing typo and removing confusing development naming 
+	-"A long adventure" undefined background (missing image)
+	-"Snowfall alert" two undefined decals (missing sprites)
+	
+*Scripting
+	-Modified "Crystal mountain" so that the crystal keys only need to be acquired once
+	-Removed non-functioning code from "Nice Ice"
+
+*Added license information at the request of the author
+	-"Deep, deeper..."
+	-"...deepest!"
+	-"To rain or not to rain - That's the question"
+	-"To rain or not to rain - That's the question (Antarctic)"
+	-"Some light in the darkness would be fine, thanks!"
+	-"Red alert! The forest is burning!"
+	-"The abandoned castle"
+	-"Castle of Light and Darkness"
+	-"The dark castle"
+	-"You can't climb higher than the clouds..."
+	-"...but no one can stop it..."
+	-"Antarctic rain"
+	-"-89.2 degrees"
+
+*Additional levels included at author's request
+	-"Deep, deeper..."
+	-"...deepest!"
+	-"Kugelblitzstorm"
+	-"It's getting unfinishable"
