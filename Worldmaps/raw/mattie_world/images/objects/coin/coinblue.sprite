@@ -1,0 +1,15 @@
+(supertux-sprite
+      (action 
+          (name "normal")
+          (images "coinblue-0.png"
+                  "coinblue-1.png"
+                  "coinblue-2.png"
+                  "coinblue-3.png"
+                  "coinblue-4.png"
+                  "coinblue-5.png"
+                  "coinblue-6.png"
+                  "coinblue-7.png"))
+      (action
+          (name "still")
+          (images "coinblue-0.png"))
+)

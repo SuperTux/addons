@@ -1,0 +1,562 @@
+(supertux-level																																							
+	(version 	2	)																																				
+	(name (_ "	The Trophy Room	"))																																				
+	(author "LMH")																																						
+	(license	"GPL 2 / CC-by-sa 3.0"	)																																				
+	(tileset	"images/LMHtiles.strf"	)																																				
+																																							
+	(sector	(name	"main"	)																																			
+		(ambient-light	1	1	1	)																																	
+		(camera	(mode	"normal"	))																																		
+		(gradient	(top_color	0.5	0	0.5	)																																
+			(bottom_color	0	0	0	))																																
+																																							
+		(init-script "	dune1.set_visible(!query(\"duneswag\"));																																				
+			dune2.set_visible(!query(\"duneboost\"));																																				
+			geo1.set_visible(!query(\"geofast\"));																																				
+																																							
+																																							
+																																							
+			air1.set_visible(!query(\"aircannon\"));																																				
+																																							
+																																							
+																																							
+																																							
+																																							
+																																							
+																																							
+			escape1.set_visible(!query(\"escapestar\"));																																				
+			rock1.set_visible(!query(\"rockhard\"));																																				
+																																							
+																																							
+																																							
+																																							
+			sl1.set_visible(!query(\"Savaged\"));																																				
+			sl2.set_visible(!query(\"slsky\"));																																				
+			ocean1.set_visible(!query(\"Ocean\"));																																				
+																																							
+			arena1.set_visible(!query(\"Arena\"));																																				
+			arena2.set_visible(!query(\"ahole\"));																																				
+			toad1.set_visible(!query(\"tcstash\"));																																				
+			toad2.set_visible(!query(\"tcdungeon\"));																																				
+			airship1.set_visible(!query(\"airshipegg\"));																																				
+			airship2.set_visible(!query(\"airshipflower\"));																																				
+			airship3.set_visible(!query(\"airshipfirefly\"));																																				
+			airship4.set_visible(!query(\"airshipdoll\"));																																				
+			trophy.set_visible(!query(\"Trophy\"));																																				
+																																							
+			time.set_visible(!query(\"Time\"));																																				
+			secrets.set_visible(!query(\"Secrets\"));																																				
+			coins.set_visible(!query(\"Coins\"));																																				
+			frags.set_visible(!query(\"Frags\"));																																				
+																																							
+																																							
+																																							
+			achieve(\"Trophy\");	trophy.set_visible(!query(\"Trophy\"));																																			
+			announce(1);																																				
+			lift1.goto_node(0);	liftimage1.goto_node(0);	down1 <- true;																																		
+			lift2.goto_node(0);	liftimage2.goto_node(0);	down2 <- true;	")						;	blevels.set_visible(!query(\"SecretLevels\"));	artifacts.set_visible(!query(\"Artifacts\"));																									
+																																							
+		(spawnpoint	(name	"main"	)																																		
+			(x	112	)(y	680	))																																
+																																							
+		(pushbutton	(script "	delete_progress();																																			
+				dune1.set_visible(true);																																			
+				dune2.set_visible(true);																																			
+				geo1.set_visible(true);																																			
+																																							
+																																							
+																																							
+				air1.set_visible(true);																																			
+																																							
+																																							
+																																							
+																																							
+				escape1.set_visible(true);																																			
+				rock1.set_visible(true);																																			
+																																							
+																																							
+																																							
+																																							
+																																							
+																																							
+																																							
+				sl1.set_visible(true);																																			
+				sl2.set_visible(true);																																			
+				ocean1.set_visible(true);																																			
+																																							
+				arena1.set_visible(true);																																			
+				arena2.set_visible(true);																																			
+				toad1.set_visible(true);																																			
+				toad2.set_visible(true);																																			
+				airship1.set_visible(true);																																			
+				airship2.set_visible(true);																																			
+				airship3.set_visible(true);																																			
+				airship4.set_visible(true);																																			
+				trophy.set_visible(true);																																			
+																																							
+				time.set_visible(true);																																			
+				secrets.set_visible(true);																																			
+				coins.set_visible(true);																																			
+				frags.set_visible(true);																																			
+																																							
+					")					;	blevels.set_visible(true);	artifacts.set_visible(true);																											
+			(x	1152	)(y	224	))																																
+																																							
+		(tilemap	(name	"interactive"	)																																		
+			(z-pos	0	)(solid	#t	)																																
+			(width 	38	)(height	25	)																																
+			(tiles	;	160	192	224	256	288	320	352	384	416	448	480	512	544	576	608	640	672	704	736	768	800	832	864	896	928	960	992	1024	1056	1088	1120	1152	1184		
+1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372		
+1406	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1394	1372	1372	1372	1372	1372	;	32
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1374	1376	1376	1376	1376	1394	;	64
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	48	0	0	0	0	1404	;	96
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	128
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	160
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1628	1629	0	1404	;	192
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	48	0	1630	1631	48	1404	;	224
+1373	0	0	0	0	1408	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1396	;	256
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	288
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	320
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	352
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	384
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	416
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	448
+1381	1388	0	0	0	1408	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1388	0	0	0	0	1404	;	480
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	512
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	544
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	576
+1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	608
+1373	0	0	2819	2820	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	640
+1373	0	0	2819	2820	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	;	672
+1383	1379	1379	0	0	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1371	;	704
+1372	1372	1372	0	0	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	;	736
+1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	;	768
+		))																																					
+																																							
+		(tilemap	(name	"pipetop2"	)																																		
+		(z-pos	0	)(solid	#t	)																																	
+		(path	(node	(x	96	)(y	640	))	)																														
+		(width 	2	)(height	1	)																																	
+		(tiles	2833	2839	))																																		
+		(tilemap	(name	"pipelift"	)																																		
+		(z-pos	0	)(solid	#t	)																																	
+		(path	(node	(x	96	)(y	768	)(time	0.8	))																													
+			(node	(x	96	)(y	640	)(time	0.1	))																													
+			(node	(x	96	)(y	736	)(time	1	))	)																												
+		(width 	2	)(height	1	)																																	
+		(tiles	2817	2817	))																																		
+		(scripttrigger	(button	#f	)(script "	Tux.deactivate();																																	
+						pipelift.goto_node(1);																																	
+						wait(	1	);																															
+						Tux.activate();	")																																
+			(width	64	)(height	64	)																																
+			(x	96	)(y	752	))																																
+		(scripttrigger	(button	#t	)(script "	Tux.deactivate();																																	
+						pipelift.goto_node(0);																																	
+						wait(	0.7	);																															
+						Tux.activate();																																	
+						exit_screen();	")																																
+			(width	32	)(height	64	)																																
+			(x	112	)(y	576	))																																
+		(tilemap	(name	"foreground"	)																																		
+		(z-pos	100	)(solid	#f	)																																	
+		(path	(node	(x	96	)(y	640	))	)																														
+		(width	2	)(height	4	)																																	
+		(tiles	3085	3086	3087	3088	1379	1379	1372	1372	))																												
+; Tier 1																																							
+		(infoblock	(message (_ "-Sky Pirate Swag
+#
+#Steal a little booty from pirates in the Frosted Dunes."))																																				
+			(x	224	)(y	576	))																																
+		(scriptedobject	(name	"dune1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	224	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Help from Above
+#
+#Find that extra boost to help you through the Frosted Dunes"))																																				
+			(x	192	)(y	576	))																																
+		(scriptedobject	(name	"dune2"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	192	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+																																							
+		(infoblock	(message (_ "-Crystal Quick
+#
+#Find the two shortcuts through The Giant Geode. [DISABLED]"))																																				
+			(x	256	)(y	576	))																																
+		(scriptedobject	(name	"geo1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	256	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	288	)(y	576	))																																
+	;	(scriptedobject	(name	"dungeon1"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	288	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	320	)(y	576	))																																
+	;	(scriptedobject	(name	"dungeon2"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	320	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	352	)(y	576	))																																
+	;	(scriptedobject	(name	"dungeon3"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	352	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+																																							
+		(infoblock	(message (_ "-Airship Cannon
+#
+#Launch yourself from the airship cannon accessable from the level Under The Airship."))																																				
+			(x	416	)(y	576	))																																
+		(scriptedobject	(name	"air1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	416	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	448	)(y	576	))																																
+	;	(scriptedobject	(name	"cavern2"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	448	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+																																							
+		(infoblock	(message (_ "-Ode to Useless Stars
+#
+#Don't you just hate it when your invincibility goes to waste?"))																																				
+			(x	512	)(y	576	))																																
+		(scriptedobject	(name	"escape1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	512	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	544	)(y	576	))																																
+	;	(scriptedobject	(name	"lantern2"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	544	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+																																							
+		(infoblock	(message (_ "-The Hard Way
+#
+#In Rock Climbing take the hard path to the top without dieing or taking shortcuts."))																																				
+			(x	608	)(y	576	))																																
+		(scriptedobject	(name	"rock1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	608	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	640	)(y	576	))																																
+	;	(scriptedobject	(name	"wall2"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	640	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	672	)(y	576	))																																
+	;	(scriptedobject	(name	"wall4"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	672	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;																																						
+	;	(infoblock																																					
+	;		(x	736	)(y	576	))																																
+	;	(scriptedobject	(name	"garden1"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	736	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	768	)(y	576	))																																
+	;	(scriptedobject	(name	"garden2"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	768	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	800	)(y	576	))																																
+	;	(scriptedobject	(name	"garden3"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	800	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;																																						
+	;	(infoblock																																					
+	;		(x	864	)(y	576	))																																
+	;	(scriptedobject	(name	"moat1"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	864	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	896	)(y	576	))																																
+	;	(scriptedobject	(name	"moat2"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	896	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;																																						
+	;	(infoblock																																					
+	;		(x	960	)(y	576	))																																
+	;	(scriptedobject	(name	"escape1"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	960	)(y	576	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+; Tier 2																																							
+		(infoblock	(message (_ "*Bonus Level: Savaged Lands
+#
+#Discover and start the bonus level Savaged Lands."))																																				
+			(x	864	)(y	384	))																																
+		(scriptedobject	(name	"sl1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	864	)(y	384	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Fire in the Sky
+#
+#Seek out the fire-flower hidden above the Savaged Lands."))																																				
+			(x	832	)(y	384	))																																
+		(scriptedobject	(name	"sl2"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	832	)(y	384	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+																																							
+		(infoblock	(message (_ "*Bonus Level: On the Open Ocean
+#
+#Discover and start the bonus level On the Open Ocean. [DISABLED]"))																																				
+			(x	608	)(y	384	))																																
+		(scriptedobject	(name	"ocean1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	608	)(y	384	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	576	)(y	384	))																																
+	;	(scriptedobject	(name	"waldo2"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	576	)(y	384	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;																																						
+		(infoblock	(message (_ "*Bonus Level: Skellington Arena
+#
+#Find and start the bonus level Skellington Arena."))																																				
+			(x	352	)(y	384	))																																
+		(scriptedobject	(name	"arena1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	352	)(y	384	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Hole in the Wall
+#
+#Who doesn't like extra coins?"))																																				
+			(x	320	)(y	384	))																																
+		(scriptedobject	(name	"arena2"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	320	)(y	384	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+																																							
+		(infoblock	(message (_ "-Toad Tower Treasure
+#
+#Find Toad's hidden stash within his castle."))																																				
+			(x	736	)(y	352	))																																
+		(scriptedobject	(name	"toad1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	736	)(y	352	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Toad Castle Dungeon
+#
+#Find the alternate route through Toad Castle."))																																				
+			(x	704	)(y	352	))																																
+		(scriptedobject	(name	"toad2"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	704	)(y	352	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+																																							
+		(infoblock	(message (_ "-A Little Help
+#
+#No sense in Tux attacking the Airship while small."))																																				
+			(x	512	)(y	352	))																																
+		(scriptedobject	(name	"airship1"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	512	)(y	352	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Fire in the Sky
+#
+#Discover the fire-flower on Flathead's Airship."))																																				
+			(x	480	)(y	352	))																																
+		(scriptedobject	(name	"airship2"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	480	)(y	352	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Do Over
+#
+#Find any one of two respawn bells on Flathead's Airship"))																																				
+			(x	448	)(y	352	))																																
+		(scriptedobject	(name	"airship3"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	448	)(y	352	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Something for Your Trouble
+#
+#Find the Tux doll on Flathead's Airship"))																																				
+			(x	416	)(y	352	))																																
+		(scriptedobject	(name	"airship4"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	416	)(y	352	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+; Tier 3																																							
+		(infoblock	(message (_ "-Trophy Room
+#
+*Find the Trophy Room (hint: you're in it right now)."))																																				
+			(x	256	)(y	128	))																																
+		(scriptedobject	(name	"trophy"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	256	)(y	128	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	352	)(y	128	))																																
+	;	(scriptedobject	(name	"blevels"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	352	)(y	128	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Master of Secrets
+#
+*Discover every secret area within DOOM Islands. [DISABLED]"))																																				
+			(x	448	)(y	128	))																																
+		(scriptedobject	(name	"secrets"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	448	)(y	128	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-The Coin Collector
+#
+*Collect all the coins from each level within DOOM Islands. [DISABLED]"))																																				
+			(x	544	)(y	128	))																																
+		(scriptedobject	(name	"coins"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	544	)(y	128	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-Roadrunner
+#
+*Complete DOOM Islands with best times totalling less than ### seconds. [DISABLED]"))																																				
+			(x	640	)(y	128	))																																
+		(scriptedobject	(name	"time"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	640	)(y	128	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+		(infoblock	(message (_ "-DOOMBRINGER
+#
+*Eliminate every unique foe from within DOOM Islands. [DISABLED]"))																																				
+			(x	736	)(y	128	))																																
+		(scriptedobject	(name	"frags"	)																																		
+			(z-pos	100	)(physic-enabled	#f	)																																
+					(solid	#f	)																																
+			(x	736	)(y	128	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	832	)(y	128	))																																
+	;	(scriptedobject	(name	"artifacts"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	832	)(y	128	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;	(infoblock																																					
+	;		(x	928	)(y	128	))																																
+	;	(scriptedobject	(name	"wall3"	)																																		
+	;		(z-pos	100	)(physic-enabled	#f	)																																
+	;				(solid	#f	)																																
+	;		(x	928	)(y	128	)(sprite	"images/objects/bonus_block/purpleblock.sprite"	))																														
+	;																																						
+		(infoblock	(message (_ "*---WARNING!---
+#Pressing this button will reset all your trophies and level statistics.
+-DO NOT PUSH"))																																				
+			(x	1088	)(y	128	))																																
+																																							
+		(tilemap	(name	"background"	)																																		
+			(z-pos	-100	)(solid	#f	)																																
+			(path	(node	(x	192	)(y	64	))	)																													
+			(width	26	)(height	20	)																																
+			(tiles																																				
+1762	1763	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1762	1763														
+1764	1765	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1764	1765														
+1766	1767	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1766	1767														
+1768	1769	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1768	1769														
+1770	1771	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1770	1771														
+1772	1773	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1772	1773														
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0														
+0	1762	1763	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1762	1763	0														
+0	1764	1765	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1764	1765	0														
+0	1766	1767	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1766	1767	0														
+0	1768	1769	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1768	1769	0														
+0	1770	1771	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1770	1771	0														
+0	1772	1773	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1772	1773	0														
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0														
+1762	1763	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1762	1763														
+1764	1765	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1764	1765														
+1766	1767	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1766	1767														
+1768	1769	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1768	1769														
+1770	1771	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1770	1771														
+1772	1773	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1772	1773														
+		))																																					
+		(tilemap	(name	"lift1"	)																																		
+			(z-pos	-100	)(solid	#t	)																																
+			(path	(node	(x	1056	)(y	672	)(time	1	))																												
+				(node	(x	1056	)(y	480	)(time	1	))	)																											
+			(width	4	)(height	1	)																																
+			(tiles	2817	2817	2817	2817	))																															
+		(tilemap	(name	"liftimage1"	)																																		
+			(z-pos	-100	)(solid	#f	)																																
+			(path	(node	(x	1056	)(y	672	)(time	1	))																												
+				(node	(x	1056	)(y	480	)(time	1	))	)																											
+			(width	4	)(height	7	)																																
+			(tiles	340	338	341	339																																
+				1348	0	0	1348																																
+				79	0	0	79																																
+				79	0	0	79																																
+				79	0	0	79																																
+				79	0	0	79																																
+				79	0	0	79	))																															
+		(switch	(script "	if (down1){	lift1.goto_node(1);	liftimage1.goto_node(1);																																	
+					lift2.goto_node(0);	liftimage2.goto_node(0);																																	
+					wait(	1.1	);																																
+					down1 <- false;	down2 <- true;																																	
+					announce(2);																																		
+				}else{	lift1.goto_node(0);	liftimage1.goto_node(0);																																	
+					wait(	1.1	);																																
+					down1 <- true;																																		
+				}")																																			
+			(x	1168	)(y	608	)(sprite	"images/objects/switch/left.sprite"	))																														
+		(switch	(script "	lift1.goto_node(0);	liftimage1.goto_node(0);																																		
+				wait(	0.1	);																																	
+				down1 <- true;																																			
+				announce(1);	")																																		
+			(x	1168	)(y	416	)(sprite	"images/objects/switch/left.sprite"	))																														
+		(tilemap	(name	"lift2"	)																																		
+			(z-pos	-100	)(solid	#t	)																																
+			(path	(node	(x	32	)(y	448	)(time	1	))																												
+				(node	(x	32	)(y	256	)(time	1	))	)																											
+			(width	4	)(height	1	)																																
+			(tiles	2817	1311	1311	1311	))																															
+		(tilemap	(name	"liftimage2"	)																																		
+			(z-pos	-100	)(solid	#f	)																																
+			(path	(node	(x	32	)(y	64	)(time	1	))																												
+				(node	(x	32	)(y	-128	)(time	1	))	)																											
+			(width	4	)(height	13	)																																
+			(tiles	2807	0	0	2807																																
+				2809	0	0	2809																																
+				2811	0	0	2811																																
+				2807	0	0	2807																																
+				2809	0	0	2809																																
+				2811	0	0	2811																																
+				2807	0	0	2807																																
+				2809	0	0	2809																																
+				2811	0	0	2811																																
+				2807	0	0	2807																																
+				2809	0	0	2809																																
+				2811	0	0	2811																																
+				340	341	338	339	))																															
+		(switch	(script "	if (down2){	lift2.goto_node(1);	liftimage2.goto_node(1);																																	
+					wait(	1.1	);																																
+					down2 <- false;																																		
+					announce(3);																																		
+				}else{	lift2.goto_node(0);	liftimage2.goto_node(0);																																	
+					wait(	1.1	);																																
+					down2 <- true;																																		
+				}")																																			
+			(x	26	)(y	384	)(sprite	"images/objects/switch/right.sprite"	))																														
+		(switch	(script "	lift2.goto_node(0);	liftimage2.goto_node(0);																																		
+				wait(	0.1	);																																	
+				down2 <- true;																																			
+				announce(2);	")																																		
+			(x	26	)(y	192	)(sprite	"images/objects/switch/right.sprite"	))																														
+))																																							

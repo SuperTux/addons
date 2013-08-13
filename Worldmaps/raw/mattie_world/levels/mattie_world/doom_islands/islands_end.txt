@@ -1,0 +1,29 @@
+(supertux-text			
+	(background	"oiltux.jpg"	)
+	(music	"music/ghostforest2.ogg"	)
+	(text "	Wow, good job!	
+			
+		You have completed the preview	
+		of DOOM Islands, including the	
+		somewhat absurd airship.	
+			
+		As this level set is only under 	
+		construction at this time, more	
+		content will be added as well as	
+		many difficulty tweaks will be 	
+		made.	
+			
+		Hope you have enjoyed the	
+		content thus far.	
+			
+			
+		You've been playing	
+-		DOOM Islands	
+			
+		Levelset designed by	
+-		LMH	
+*		lmh.0013@gmail.com	
+		(ideas, suggestions welcomed)	
+			
+	")		
+)			

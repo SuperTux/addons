@@ -1,0 +1,7 @@
+(supertux-world
+ (title (_ "DOOM Islands"))
+ (description "Levels from the Mind of DOOM")
+ (hide-from-contribs #f)
+ (levelset #f)
+)
+
