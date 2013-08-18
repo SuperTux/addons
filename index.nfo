@@ -78,7 +78,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/moob-island-beta7.zip")
 	  (file "moob-island-beta7.zip")
-	  (md5 "5333fe9855ccee4bcdfb7664321d2869")
+	  (md5 "ae05a9fd311744e90c84ebbfd492a9ef")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
