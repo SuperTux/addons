@@ -73,12 +73,12 @@
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
-	  (title "Island of Moob (Beta 6)")
+	  (title "Island of Moob")
 	  (author "treskalle")
 	  (license "GPL 2+ / CC-by-sa 3.0")
-	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/moob-island-beta6.zip")
-	  (file "moob-island-beta6.zip")
-	  (md5 "18692646a9857c4f8e9b2203840d80c5")
+	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/moob-island-beta7.zip")
+	  (file "moob-island-beta7.zip")
+	  (md5 "5333fe9855ccee4bcdfb7664321d2869")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
