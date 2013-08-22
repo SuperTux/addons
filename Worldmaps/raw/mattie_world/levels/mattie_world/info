@@ -1,6 +1,0 @@
-;SuperTux-Level-Subset
-(supertux-level-subset
-  (title (_ "Mattie's World"))
-  (description "Levels from the Mind of DOOM")
-  (levelset #f)
-)

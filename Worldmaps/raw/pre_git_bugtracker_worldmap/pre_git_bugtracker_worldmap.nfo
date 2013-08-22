@@ -1,8 +1,0 @@
-(supertux-addoninfo
- (kind "Worldmap")
- (title "Mantis Valley")
- (author "Various Authors")
- (license "GPL 2 / CC-by-sa 3.0")
- (http-url "https://addons.supertux.googlecode.com/git/Worldmaps/pre_git_bugtracker_worldmap.zip")
- (file "pre_git_bugtracker_worldmap.zip")
-)
