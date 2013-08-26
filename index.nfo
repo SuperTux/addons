@@ -132,7 +132,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/pre_git_bugtracker_worldmap.zip")
 	  (file "pre_git_bugtracker_worldmap.zip")
-	  (md5 "2a666dc8949a22367d79aca050ac9e7e")
+	  (md5 "da62582bc4d7c7776b6dc0ba5b6bb41f")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
