@@ -143,5 +143,14 @@
 	  (file "rubberduck.zip")
 	  (md5 "a17f4d87b89a93f996b21cb09ac8921b")
 	)
+	(supertux-addoninfo
+	  (kind "Worldmap")
+	  (title "Lolkat's Levels")
+    (author "Lolkat")
+    (license "GPL 2+ / CC-by-sa 3.0")
+	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/lolkat.zip")
+	  (file "lolkat.zip")
+	  (md5 "0d15086eb5ff2fb9c6b9066fe73311af")
+	)
 )
 
