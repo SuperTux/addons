@@ -55,12 +55,12 @@
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
-	  (title "octo's Levels")
+	  (title "Octo's Levels")
 	  (author "Octo")
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/octo.zip")
 	  (file "octo.zip")
-	  (md5 "c60a3a4f7e1dc56067daaa99d2630982")
+	  (md5 "86b0594921d455d09cd735765f009db0")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
@@ -118,12 +118,12 @@
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
-	  (title "rubberducks levels")
+	  (title "Rubberducks levels")
 	  (author "Basti")
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/rubberduck.zip")
 	  (file "rubberduck.zip")
-	  (md5 "a17f4d87b89a93f996b21cb09ac8921b")
+	  (md5 "96fd633c272382a9776eb0a6ff61f34d")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
