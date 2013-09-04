@@ -1,14 +1,5 @@
 (supertux-addons
 	(supertux-addoninfo
-	  (kind "Levelset")
-	  (title "Christoph's")
-	  (author "Anja")
-	  (license "GPL 2+ / CC-by-sa 3.0")
-	  (http-url "http://addons.supertux.googlecode.com/git/Levels/christoph.zip")
-	  (file "christoph.zip")
-	  (md5 "49be5eab746d22345aaf62d66f5ac407")
-	)
-	(supertux-addoninfo
 	  (kind "Worldmap")
 	  (title "Dungeon Island")
 	  (author "Torfi Gunnarsson")
@@ -114,7 +105,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/pre_git_bugtracker_worldmap.zip")
 	  (file "pre_git_bugtracker_worldmap.zip")
-	  (md5 "9240cc05bfca674ad2bb8ec107593d3c")
+	  (md5 "e3b01b66dfe6f3121277be685623ebd9")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
