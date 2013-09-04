@@ -51,7 +51,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/ct_worlds.zip")
 	  (file "ct_worlds.zip")
-	  (md5 "fc03e4a338527c5b681b12bc48471c8c")
+	  (md5 "9f61289b7cd2a22df033b0e3bd5ba921")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
