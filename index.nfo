@@ -90,13 +90,13 @@
 	  (md5 "b40559513180c61e76b636201a1b69d8")
 	)
 	(supertux-addoninfo
-	  (kind "Levelset")
+	  (kind "Worldmap")
 	  (title "Levels of Wolfs")
 	  (author "Wolfs")
 	  (license "GPL 2+ / CC-by-sa 3.0")
-	  (http-url "http://addons.supertux.googlecode.com/git/Levels/levels-of-wolfs.zip")
+	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/levels-of-wolfs.zip")
 	  (file "levels-of-wolfs.zip")
-	  (md5 "dd451c1a42618ded06d5c3f5a100c20f")
+	  (md5 "e3f18430d4558ee68d8ab2b04a2f4805")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
