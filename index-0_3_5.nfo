@@ -22,9 +22,9 @@
 		(title "Mattie's World")
 		(author "LMH")
 		(license "GPL 2 / CC-by-sa 3.0")
-		(http-url "http://addons.supertux.googlecode.com/git/Worldmaps/mattie_world2012.zip")
-		(file "mattie_world2012.zip")
-		(md5 "99fef5a88effd0cf053ed78f9508aaa6")
+		(http-url "http://addons.supertux.googlecode.com/git/Worldmaps/mattie_world_0_3_4.zip")
+		(file "mattie_world_0_3_4.zip")
+		(md5 "b7d1bdb30e80657009963307fc8e3351")
 	)
 	(supertux-addoninfo
 	  (kind "World")
