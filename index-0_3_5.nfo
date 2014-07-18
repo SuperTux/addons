@@ -1,15 +1,6 @@
 (supertux-addons
 	(supertux-addoninfo
 	  (kind "Worldmap")
-	  (title "Dungeon Island")
-	  (author "Torfi Gunnarsson")
-	  (license "Free to be distributed via the SuperTux Add-on Manager")
-	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/dungeon_island.zip")
-	  (file "dungeon_island.zip")
-		(md5 "ca521483362a150aaada2c191e48efcd")
-	)
-	(supertux-addoninfo
-	  (kind "Worldmap")
 	  (title "Tux Strikes Back")
 	  (author "Christian Schaefers")
 	  (license "freeware that must not be sold provided \"as is\" without express or implied warranty")
@@ -97,15 +88,6 @@
 	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/levels-of-wolfs.zip")
 	  (file "levels-of-wolfs.zip")
 	  (md5 "e3f18430d4558ee68d8ab2b04a2f4805")
-	)
-	(supertux-addoninfo
-	  (kind "Worldmap")
-	  (title "Mantis Valley")
-	  (author "Various Authors")
-	  (license "GPL 2+ / CC-by-sa 3.0")
-	  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/pre_git_bugtracker_worldmap.zip")
-	  (file "pre_git_bugtracker_worldmap.zip")
-	  (md5 "e3b01b66dfe6f3121277be685623ebd9")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
