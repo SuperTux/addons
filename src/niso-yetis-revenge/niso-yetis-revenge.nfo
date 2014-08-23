@@ -1,0 +1,7 @@
+ (supertux-addoninfo
+  (id "niso-yetis-revenge")
+  (version 1)
+  (type "worldmap")
+  (title "Yeti's Revenge")
+  (author "niso")
+  (license "GPL 2+ / CC-by-sa 3.0"))

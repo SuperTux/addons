@@ -1,8 +1,0 @@
-(supertux-addoninfo
-  (kind "Worldmap")
-  (title "Yeti's Revenge")
-  (author "niso")
-  (license "GPL 2 / CC-by-sa 3.0")
-  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/YETIS_REVENGE_update3.zip")
-  (file "YETIS_REVENGE_update3.zip")
-)
