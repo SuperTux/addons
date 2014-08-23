@@ -1,0 +1,31 @@
+(supertux-text			
+	(background	"oiltux.jpg"	)
+	(music	"music/credits.ogg"	)
+	(text "	
+-		Congratulations!
+		
+		You have currently finished
+
+-		Island of Moob
+		
+		A SuperTux levelset designed by
+		Treskalle
+
+		Is there something more I can say?
+		What about:
+
+		See you later in
+
+-		Forest of Moob
+
+		(Sorry for the bad English,
+		but English isn't my first language...)
+
+*		Some blue text at the end of
+*		this (boring) extro...
+			
+	")		
+)			
+			
+;* blue			
+;- yellow			

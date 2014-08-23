@@ -1,0 +1,7 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title (_ "rubberducks levels"))
+  (description "rubberducks levels")
+  (hide-from-contribs #f)
+  (levelset #f)
+)

@@ -1,0 +1,20 @@
+;intro
+(supertux-text
+  (background "oiltux.jpg")
+;  (music "music/theme.ogg")
+  (text
+"#One day, Tux finds a note from his arch-enemy
+#Nolok lying in front of his igloo.
+
+#  Tux, your world is about to die! I have built
+#  a lava powered machine, hidden somewhere in
+#  Antarctica. It will make your beloved ice
+#  melt. Don't even bother, you have no chance
+#  to stop me. Ha ha!
+#  Signed,
+#  Nolok
+
+#Tux is shocked. Now it's up to him to save
+#Antarctica. He has to find Nolok's machine and
+#turn it off before it's too late.")
+)

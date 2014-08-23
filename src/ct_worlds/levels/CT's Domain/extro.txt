@@ -1,0 +1,16 @@
+; Ending text
+(supertux-text
+  (background "oiltux.jpg")
+  (music "music/theme.ogg")
+
+  (text (_ "-Thanks for playing CT's Domain!
+
+#I hope you like liked this levelset.
+#If you have any questions, comments,
+#or ideas, please let me know on bug
+#number 827 on the bug tracker.
+
+#\" This has been CT's Domain
+#Levels by CT. da'Bomb and
+#Retep"))
+)

@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (kind "World")
+  (title "Lolkat's Levels")
+  (author "Lolkat")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (http-url "http://www.mediafire.com/download/nzbdzu2lbl46gy8/lolkat.zip")
+  (file "lolkat.zip")
+  )

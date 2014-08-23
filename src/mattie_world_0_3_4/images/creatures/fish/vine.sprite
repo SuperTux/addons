@@ -1,0 +1,36 @@
+(supertux-sprite
+ (action
+  (name "normal")
+  (hitbox 2 3 31.8 31.8)
+  (images "vine01.png"
+					"vine02.png"
+					"vine03.png"
+					"vine04.png"
+					"vine05.png"
+					"vine04.png"
+					"vine03.png"
+					"vine02.png"))
+
+ (action
+  (name "down")
+  (hitbox 2 11 31.8 31.8)
+  (images "vine01.png"
+					"vine02.png"
+					"vine03.png"
+					"vine04.png"
+					"vine05.png"
+					"vine04.png"
+					"vine03.png"
+					"vine02.png"))
+
+ (action
+  (name "iced")
+  (hitbox 2 3 31.8 31.8)
+  (images "vine_frozen.png"))
+
+ (action
+  (name "iced-down")
+  (hitbox 2 11 31.8 31.8)
+  (images "vine_frozen.png"))
+)
+

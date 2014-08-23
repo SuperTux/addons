@@ -1,0 +1,361 @@
+(supertux-level
+  (version 2)
+  (name (_ "Survive or not to survive? That's the question. (boss)"))
+  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (sector
+    (name "main")
+    (music "music/bossattack.ogg")
+    (ambient-light 1 1 1)
+    (camera
+      (mode "normal")
+    )
+    (dispenser
+      (badguy "snowball")
+      (cycle 0.5)
+      (x 32)
+      (y 32)
+    )
+    (dispenser
+      (badguy "bouncingsnowball")
+      (cycle 1)
+      (x 192)
+      (y 32)
+    )
+    (dispenser
+      (badguy "mrbomb")
+      (cycle 2)
+      (x 352)
+      (y 32)
+    )
+    (dispenser
+      (badguy "mriceblock")
+      (cycle 4)
+      (x 512)
+      (y 32)
+    )
+    (dispenser
+      (badguy "snail")
+      (cycle 8)
+      (x 672)
+      (y 32)
+    )
+    (dispenser
+      (badguy "poisonivy")
+      (cycle 16)
+      (x 832)
+      (y 32)
+    )
+    (dispenser
+      (badguy "skullyhop")
+      (cycle 32)
+      (x 992)
+      (y 32)
+    )
+    (gradient
+      (top_color 1 1 1)
+      (bottom_color 1 1 1)
+    )
+    (scripttrigger
+      (script "if (!(\"washere\" in this)){
+washere <- false
+Text.set_text(\"survive next 60 seconds\")
+Text.fade_in(0.2);
+play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 59 seconds\")
+play_sound(\"sounds/darthit.wav\")
+Text.fade_in(0.2);
+wait(1);
+Text.set_text(\"survive next 58 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 57 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 56 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 55 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 54 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 53 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 52 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 51 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 50 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 49 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 48 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 47 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 46 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 45 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1)
+Text.set_text(\"survive next 44 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 43 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1)
+Text.set_text(\"survive next 42 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 41 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1)
+Text.set_text(\"survive next 40 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 39 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 38 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 37 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 36 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 35 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 34 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 33 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 32 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 31 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 30 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 29 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 28 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 27 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 26 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 25 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 24 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 23 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 22 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 21 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 20 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 19 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 18 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 17 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 16 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 15 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 14 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 13 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 12 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 11 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 10 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 9 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 8 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 7 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 6 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 5 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 4 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 3 seconds\")
+Text.fade_in(0.2);play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 2 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+Text.set_text(\"survive next 1 seconds\")
+Text.fade_in(0.2); play_sound(\"sounds/darthit.wav\")
+wait(1);
+import(\"levels/hume/defualt.nut\")
+sector.Tux.trigger_sequence(\"fireworks\")
+unlock_archivement(\"p\")
+}")
+      (button #f)
+      (width 456)
+      (height 32)
+      (x 372)
+      (y 608)
+    )
+    (spawnpoint
+      (name "main")
+      (x 544)
+      (y 544)
+    )
+    (tilemap
+      (z-pos -100)
+      (solid #f)
+      (name "Background")
+      (width 35)
+      (height 25)
+      (tiles
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653 2654 2651 2652 2653
+      2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649 2650 2647 2648 2649
+      )
+    )
+    (tilemap
+      (z-pos 0)
+      (solid #t)
+      (name "Interactive")
+      (width 35)
+      (height 25)
+      (tiles
+      2472 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2508 2507 2469
+      2486 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2483
+      2500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2497
+      2514 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2511
+      2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463
+      2482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477
+      2496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2491
+      2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2491
+      2482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463
+      2496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477
+      2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2491
+      2482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463
+      2496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477
+      2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2491
+      2482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463
+      2496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477
+      2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2491
+      2482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463
+      2496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477
+      2468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2491
+      2482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2463
+      2496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2477
+      2416 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2491
+      2430 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2424 2423 2413
+      2444 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2438 2437 2427
+      )
+    )
+    (tilemap
+      (z-pos 100)
+      (solid #f)
+      (name "Foreground")
+      (width 35)
+      (height 25)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+  )
+)

@@ -1,0 +1,35 @@
+(supertux-sprite
+  (action
+    (name "normal")
+		(hitbox 0 0 31.8 31.8)
+    (images "stone-tiny.png")
+  )
+	(action
+    (name "squished")
+		(hitbox 0 0 31.8 31.8)
+    (images "stone-tiny-cracked-01.png"
+		"stone-tiny-cracked-02.png"
+		"stone-tiny-cracked-03.png"
+		"stone-tiny-cracked-04.png"
+		"stone-tiny-cracked-05.png"
+		"stone-tiny-cracked-06.png"
+		"stone-tiny-cracked-07.png"
+		"stone-tiny-cracked-08.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		"stone-tiny-cracked-09.png"
+		)
+  )
+)

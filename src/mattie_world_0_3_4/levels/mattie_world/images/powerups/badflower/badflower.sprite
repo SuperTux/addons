@@ -1,0 +1,9 @@
+(supertux-sprite
+       (action
+         (name "default")
+         (images "bad_flower-0.png"
+                 "bad_flower-1.png"
+                 "bad_flower-2.png"
+								 "bad_flower-3.png"
+                 "bad_flower-4.png"
+                 "bad_flower-5.png")))

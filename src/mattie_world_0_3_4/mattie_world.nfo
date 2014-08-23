@@ -1,0 +1,9 @@
+(supertux-addoninfo
+ (kind "World")
+ (title "Mattie's World")
+ (author "LMH")
+ (contact "lmh.0013@gmail.com")
+ (license "GPL 2 / CC-by-sa 3.0")
+ (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/mattie_world_0_3_4.zip")
+ (file "mattie_world_0_3_4.zip")
+)

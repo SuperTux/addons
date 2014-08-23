@@ -1,0 +1,8 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+ (title "Levels of Wolfs")
+ (description "Levels of Wolfs after move to GIT")
+ (hide-from-contribs #f)
+ (levelset #f)
+)
+

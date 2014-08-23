@@ -1,0 +1,27 @@
+; Ending text
+(supertux-text
+  (background "arctis_dark.jpg")
+  (music "music/voc-daytime2.music")
+
+  (text (_ "-The end of the castle
+
+#As Tux reached the end of the castle,
+#he realized that the yeti that all
+#the minions had been guarding was not
+#in the castle.
+
+#But in the corner, hidden in a pile
+#of dust, Tux noticed there was a map.
+#the map showed Tux that there was a
+#secret passageway leading out of the
+#side of the castle out to the sea.
+
+#Tux saw that to the north-east there
+#was a small island that appeared to be
+#the retreat of the yeti.
+
+#Tux left the castle through the secret
+#passageway and swam in the direction
+#of the island determined to find the
+#oppressor of The Valley Of Chaos...."))
+)

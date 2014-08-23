@@ -1,0 +1,20 @@
+(supertux-text			
+	(background	"../../levels/fiona/images/extro.jpg"	)
+	(music	"music/intro.ogg"	)
+	(text "	Hip-hip-hooray!
+
+		You have gotten the big fat egg
+		from the big fat hen.  Now the 
+		only thing to do is have a big
+		fat omlette.
+
+    Yum.
+
+		Thanks for playing	
+- Fiona's World	
+			
+		Levelset designed by	
+-	LMH	
+*	lmh.0013@gmail.com
+	")		
+)			

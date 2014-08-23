@@ -1,0 +1,15 @@
+(supertux-text
+  (background "arctis.jpg")
+  (text (_ "-Dear Supertuxer,
+
+#Thank you for helping Me save
+#Penny From Nolok.
+#Yours penguinly,
+#               Tux
+#
+#
+#P.S. Penny Says thanks also :-)
+
+
+ Bye..."))
+)

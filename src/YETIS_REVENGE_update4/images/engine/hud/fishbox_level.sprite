@@ -1,0 +1,8 @@
+(supertux-sprite
+      (action 
+          (name "normal")
+          (images "fishbox-empty.png"))
+			(action
+					(name "found")
+					(images "fishbox-full.png"))
+)

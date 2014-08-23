@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (kind "Worldmap")
+  (title "Levels of Wolfs")
+  (author "Wolfs")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (http-url "https://addons.supertux.googlecode.com/git/Worldmaps/levels-of-wolfs.zip")
+  (file "levels-of-wolfs.zip")
+)

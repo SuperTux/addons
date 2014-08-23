@@ -1,0 +1,32 @@
+(supertux-sprite
+      (action 
+          (name "0")
+          (images "fishbox_counter-0.png"))
+			(action 
+          (name "1")
+          (images "fishbox_counter-1.png"))
+			(action 
+          (name "2")
+          (images "fishbox_counter-2.png"))
+			(action 
+          (name "3")
+          (images "fishbox_counter-3.png"))
+			(action 
+          (name "4")
+          (images "fishbox_counter-4.png"))
+			(action 
+          (name "5")
+          (images "fishbox_counter-5.png"))
+			(action 
+          (name "6")
+          (images "fishbox_counter-6.png"))
+			(action 
+          (name "7")
+          (images "fishbox_counter-7.png"))
+			(action 
+          (name "8")
+          (images "fishbox_counter-8.png"))
+			(action 
+          (name "9")
+          (images "fishbox_counter-9.png"))
+)

@@ -1,0 +1,60 @@
+(supertux-sprite
+  (action
+    (name "closed")
+    (hitbox 0 0 0 0)
+    (images 
+      "../../../images/objects/door/door-7.png"
+    )
+  )
+  (action
+    (name "opening")
+    (hitbox 0 0 0 0)
+    (images 
+      "../../../images/objects/door/door-7.png"
+      "../../../images/objects/door/door-6.png"
+      "../../../images/objects/door/door-5.png"
+      "../../../images/objects/door/door-4.png"
+      "../../../images/objects/door/door-3.png"
+      "../../../images/objects/door/door-2.png"
+      "../../../images/objects/door/door-1.png"
+      "../../../images/objects/door/door-0.png"
+      "../../../images/objects/door/door-0.png"
+      "../../../images/objects/door/door-1.png"
+      "../../../images/objects/door/door-2.png"
+      "../../../images/objects/door/door-3.png"
+      "../../../images/objects/door/door-4.png"
+      "../../../images/objects/door/door-5.png"
+      "../../../images/objects/door/door-6.png"
+      "../../../images/objects/door/door-7.png"
+    )
+  )
+  (action
+    (name "open")
+    (hitbox 0 0 0 0)
+    (images 
+      "../../../images/objects/door/door-7.png"
+    )
+  )
+  (action
+    (name "closing")
+    (hitbox 0 0 0 0)
+    (images 
+      "../../../images/objects/door/door-7.png"
+      "../../../images/objects/door/door-6.png"
+      "../../../images/objects/door/door-5.png"
+      "../../../images/objects/door/door-4.png"
+      "../../../images/objects/door/door-3.png"
+      "../../../images/objects/door/door-2.png"
+      "../../../images/objects/door/door-1.png"
+      "../../../images/objects/door/door-0.png"
+      "../../../images/objects/door/door-0.png"
+      "../../../images/objects/door/door-1.png"
+      "../../../images/objects/door/door-2.png"
+      "../../../images/objects/door/door-3.png"
+      "../../../images/objects/door/door-4.png"
+      "../../../images/objects/door/door-5.png"
+      "../../../images/objects/door/door-6.png"
+      "../../../images/objects/door/door-7.png"
+    )
+  )
+)

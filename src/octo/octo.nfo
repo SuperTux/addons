@@ -1,0 +1,8 @@
+(supertux-addoninfo
+ (kind "Worldmap")
+ (title "Octo's Levels")
+ (author "Florian \"octo\" Forster")
+ (license "GPL 2+ / CC-by-sa 3.0")
+ (http-url "http://octo.it/supertux/files/octo.zip")
+ (file "octo.zip")
+)

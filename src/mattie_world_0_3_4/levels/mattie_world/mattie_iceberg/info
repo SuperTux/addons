@@ -1,0 +1,6 @@
+(supertux-level-subset
+  (title (_ "Mattie's Iceberg"))
+  (description "Levels from the Mind of DOOM")
+  (hide-from-contribs #f)
+  (levelset #f)
+)

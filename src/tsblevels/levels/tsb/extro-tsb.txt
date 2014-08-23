@@ -1,0 +1,44 @@
+;extro
+(supertux-text
+  (background "extro.jpg")
+;  (music "music/theme.ogg")
+  (text
+"	...as Tux destroys the ice melting
+	machine, his eyes capture a shadow
+	in the distant, quickly vanishing
+	into the darkness...
+
+
+	His arch enemy Nolok has managed to
+	escape once again...
+
+
+	Tux knows that evil will return to
+	Antarctica someday, as he starts his
+	journey back home...
+	
+
+	However, he promises to himself
+	to be there and defend his world
+	whenever it will be needed...
+
+
+
+
+
+
+
+-Tux Strikes Back
+
+	Created by Christian Schaefers
+*www.christian-schaefers.de
+
+
+
+
+
+
+
+
+-THANKS FOR PLAYING!!")
+)

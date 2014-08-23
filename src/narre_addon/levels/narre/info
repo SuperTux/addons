@@ -1,0 +1,6 @@
+(supertux-world
+  (title (_ "Narre Land"))
+  (description "Worldmap")
+  (hide-from-contribs #f)
+  (levelset #f)
+)

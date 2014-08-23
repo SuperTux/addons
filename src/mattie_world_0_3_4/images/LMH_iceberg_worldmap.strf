@@ -1,0 +1,322 @@
+(supertux-tiles
+
+(tilegroup
+  (name "Invisible Paths")
+  (tiles
+		2030 2031 2032 2033
+		2034 2035 2036 2037
+		2038 2039 2040 2041
+		2042 2043 2044 2045
+  )
+)
+
+(tilegroup
+	(name "Forest")
+	(tiles
+		1927 1928	1929 1930
+    789 790 791 792 793 794 795 796 797
+    798 799 800 801 802 803 804 805 806
+    807 808 809 810 811 812 813 814 815
+    816 817 818 819 820 821 822 823 824
+    825 826 827 828 829 830 831 832 933 ;mistake?
+    834 835 836 837 838 839 840 841 842
+    843 844 845 846 847 848 849 850 851
+    852 853 854 855 856 857 858 859 860
+    861 862 863 864 865 866 867 868 869
+    870 871 872 873 874 875 876 877 878
+    879 880 881 882 883 884 885 886 887
+    888 889 890 891 892 893 894 895 896
+    897 898 899 900 901 902 903 904 905
+    906 0   907 908 909 910 911 912 913
+	)
+)
+
+(tilegroup
+  (name "Snow")
+  (tiles
+    11  16  12  9
+    15  19  17  0
+    14  18  13  0
+    20  21  35  36
+    23  22  34  33
+    24  25  26  0
+    31  32  27  0
+    30  29  28  0
+    37  71  39  40
+    41  42  43  44
+    45  46  47  48
+    68  68  69  70
+    49  50  51  58
+    52  53  54  59
+    55  56  57  60
+    73  74  75  0
+
+
+		2170 2181 2184 2187
+		2171 2182 2185 2188
+		2172 2183 2186 2189
+		2173 2175 2177 2179
+		2174 2176 2178 2180
+		2190 2193 2196 2192 
+		2191 2194 2197 2195
+
+		2204 2205 2206 0
+		2207 2208 2209 0
+		2210 2211 2212 0
+		2213 2214 2217 0
+		2215 2216 2218 0
+  )
+)
+(tile
+	(id 9)
+	(images "worldmap/shared/water_01.png"
+		"worldmap/shared/water_02.png"
+		"worldmap/shared/water_03.png"
+		"worldmap/shared/water_04.png"
+		"worldmap/shared/water_05.png"
+		"worldmap/shared/water_06.png"
+		"worldmap/shared/water_07.png"
+		"worldmap/shared/water_08.png"
+		"worldmap/shared/water_09.png"
+		"worldmap/shared/water_10.png"
+		"worldmap/shared/water_11.png"
+		"worldmap/shared/water_12.png"
+		"worldmap/shared/water_13.png"
+		"worldmap/shared/water_14.png"
+		"worldmap/shared/water_15.png"
+		"worldmap/shared/water_16.png")
+)
+
+(tiles
+	(width 5)(height 9)
+	(images "worldmap/ice/land.png")
+	(ids
+		11 16 12 20 21
+		15 19 17 23 22
+		14 18 13 60 58
+		9117 9118 9119 9123 59
+		9120 9121 9122 9127 9135
+		9124 9125 9126 9128 9134
+		9132 9131 9130 9129 9133
+		9249 9250 9253 9254 0
+		9251 9252 9255 9256 0
+	)
+	(datas
+		0 0 0 0 0
+		0 0 0 0 0
+		0 0 0 0 0
+		0 0 0 0 18
+		0 0 0 0 0
+		0 0 0 0 0
+		0 0 0 0 0
+		0 0 0 0 0
+		0 0 0 0 0
+	)
+)
+(tiles
+	(width 3)(height 3)
+	(images "worldmap/ice/woodconvex.png")
+	(ids
+		24 25 26
+    31 32 27
+    30 29 28
+	)
+)
+(tiles
+	(width 2)(height 2)
+	(images "worldmap/ice/woodconcave.png")
+	(ids
+    35 36
+    34 33
+	)
+)
+(tiles
+	(width 4)(height 5)
+	(images "worldmap/shared/roads.png")
+	(ids
+    48 39 41 43
+    37 42 44 46
+		69 70 40 47
+		68 71 45 0
+		0 0 0 0
+	)
+	(datas
+		 6 10 23 30
+		 5  9 29 27
+		20 18 12  3
+		17 24 31  0
+		 0  0  0  0
+	)
+)
+(tiles
+	(width 3)(height 3)
+	(images "worldmap/shared/castle.png")
+	(ids
+    49 50 51
+    52 53 54
+    55 56 57
+	)
+)
+(tiles
+	(width 4)(height 4)
+	(images 
+		(region "worldmap/shared/roads.png" 96 128 32 32)
+	)
+	(editor-images "worldmap/shared/invisible_paths-editor.png")
+	(ids
+		2030 2031 2032 2033
+		2034 2035 2036 2037
+		2038 2039 2040 2041
+		2042 2043 2044 2045
+	)
+	(datas
+		 6 10 23 30
+		 5  9 29 27
+		20 18 12  3
+		17 24 31  0
+	)
+)
+(tiles
+	(width 3)(height 4)
+	(images "worldmap/shared/bridge.png")
+	(ids
+		9046 9047 9048
+		9049 9050 9051
+		73 74 75
+		9087 9088 9089
+	)
+	(datas
+		12 12 12
+		 3  3  3
+		12 12 12
+		 3  3  3
+	)
+)
+(tiles
+	(width 2)(height 4)
+	(images "worldmap/shared/pier.png")
+	(ids
+		 767 9054
+		 772 9055
+		9056 9057
+		9058 9059
+	)
+	(datas
+		 3  3
+		 3  3
+		12 12
+		12 12
+	)
+)
+(tiles
+  (width 9)
+  (height 14)
+  (ids
+    789 790 791 792 793 794 795 796 797
+    798 799 800 801 802 803 804 805 806
+    807 808 809 810 811 812 813 814 815
+    816 817 818 819 820 821 822 823 824
+    825 826 827 828 829 830 831 832 933 ;mistake?
+    834 835 836 837 838 839 840 841 842
+    843 844 845 846 847 848 849 850 851
+    852 853 854 855 856 857 858 859 860
+    861 862 863 864 865 866 867 868 869
+    870 871 872 873 874 875 876 877 878
+    879 880 881 882 883 884 885 886 887
+    888 889 890 891 892 893 894 895 896
+    897 898 899 900 901 902 903 904 905
+    906 0   907 908 909 910 911 912 913
+  )
+  (attributes
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1
+  )
+  (image "../levels/mattie_world/images/worldmap/forest.png")
+)
+(tiles
+  (width 2)
+  (height 2)
+  (ids
+    1927 1928
+    1929 1930
+  )
+	(datas
+		31 18
+    24 20
+	)
+  (image "../levels/mattie_world/images/worldmap/endpaths.png")
+)
+(tiles
+	(width 4)(height 7)
+	(images "worldmap/ice/mountain.png")
+	(ids
+		2170 2181 2184 2187
+		2171 2182 2185 2188
+		2172 2183 2186 2189
+		2173 2175 2177 2179
+		2174 2176 2178 2180
+		2190 2193 2196 2192 
+		2191 2194 2197 2195
+	)
+)
+(tiles
+	(width 3)(height 5)
+	(images "worldmap/ice/thin_ice.png")
+	(ids
+		2204 2205 2206
+		2207 2208 2209
+		2210 2211 2212
+		2213 2214 2217
+		2215 2216 2218
+	)
+)
+(tile
+  (id 1)
+  (images
+    (region "worldmap/shared/roads.png" 64 64 32 32)
+  )
+  (editor-images
+    (region "worldmap/shared/invisible_paths-editor.png" 64 32 32 32)
+  )
+  (stop #t)
+  (north #t)
+  (south #f)
+  (west  #t)
+  (east  #t)
+)
+(tile
+  (id 2)
+  (images
+    (region "worldmap/antarctica/castle.png" 32 0 32 32)
+  )
+)
+(tiles
+  (width 4)(height 4)
+  (ids 
+    0 0 3 4
+    0 0 5 6
+    0 0 0 0
+    0 0 0 0
+  )
+  (images "worldmap/antarctica/roads.png")
+  (datas
+     0 0 23 30
+     0 0 29 27
+     0 0  0  0
+     0 0  0  0
+  )
+)
+
+)

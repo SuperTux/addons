@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (kind "Worldmap")
+  (title "Fiona's World")
+  (author "LMH")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (http-url "https://addons.supertux.googlecode.com/git/Worldmaps-0_3_5/fiona.zip")
+  (file "fiona.zip")
+)

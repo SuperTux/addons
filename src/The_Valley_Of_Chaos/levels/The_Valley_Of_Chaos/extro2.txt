@@ -1,0 +1,37 @@
+; Ending text
+(supertux-text
+  (background "oiltux.jpg")
+  (music "music/voc-daytime2.music")
+
+  (text (_ "-The Valley Of Chaos
+
+
+
+*Congratulations!
+
+*You beat this worldmap!
+
+*Thanks for playing
+
+
+
+*Please go to the Bug Tracker and help
+*make The Valley Of Chaos better at:
+*https://supertux.lethargik.org/bugs/view.php?id=886
+ bug #0000748
+
+
+
+
+*Special thanks to:
+*CT da'Bomb
+*Everyone on the Bug Tracker
+
+
+
+
+*Designed by:
+*semajD
+
+"))
+)

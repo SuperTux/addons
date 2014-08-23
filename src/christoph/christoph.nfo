@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (kind "Levelset")
+  (title "Christoph's")
+  (author "Anja")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (http-url "https://addons.supertux.googlecode.com/git/Levels/christoph.zip")
+  (file "coconut_fortress.zip")
+)

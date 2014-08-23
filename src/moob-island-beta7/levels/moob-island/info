@@ -1,0 +1,7 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Island of Moob")
+  (description "Island of Moob")
+  (hide-from-contribs #f)
+  (levelset #f)
+  )

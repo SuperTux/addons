@@ -1,0 +1,25 @@
+(supertux-text
+(background "extro.jpg")
+(music "music/cave.ogg")
+(text "
+-Tux's escape
+
+	Tux got into a secret cave that serves as
+	an exit from Hume's islands. Tux went a
+	long way in cave until he reached the
+	underground lake. Meanwhile, Tux was
+	thirsty so he drank water from the lake.
+	It was not a very good idea, because after
+	several days of travel around the lake
+	became ill with jaundice. It was not just
+	because they drank from the lake, but also
+	Tux ate protozoa from the lake. But this
+	much is eaten enough. Therefore, as soon
+	as he had to climb out of the cave. When
+	he got out of the cave waiting for an
+	ambulance there for him. They cured Tux in
+	the hospital, but they forgot where Tux
+	take back. They took him somewhere else.
+	But where? It's up to you what you play
+	worldmap then.
+"))

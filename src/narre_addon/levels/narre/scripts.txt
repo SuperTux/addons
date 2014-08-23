@@ -1,0 +1,37 @@
+Level.spawn("sector","spawnpoint")                                            Teleportování
+sector.Tux.kill(true or false                                                 Zabití
+tilemap.fade(0 ne 1 jo,time)                                                  Fade Tilemap
+platform.goto_node(node)                                                      Pøemístìní platformu, nebo Hurtingplatformu
+wait(time)                                                                    Poèkat
+while(true){script}                                                           Smyèka nekoneènokrát              
+if(true){script}                                                              Smyèka jedenkrát
+.set_burning(true or false)                                                   Svíèka (rozsvítit-zhasnout)
+
+Camera.set_mode("manual")
+Camera.scroll_to(x,y,time)                                                    Posouvání kamery
+Camera.set_mode("normal or autoscroll")
+
+Effect.fade_out(time)                                                         Stmívání
+Effect.fade_in(time)                                                          Rozednívání
+
+Text.fade_in(time)
+Text.set_text("kec a kec a kec")                                              Text na obrazovce
+wait(time)
+Text.fade_out(time)
+
+play_music("umístìní v datech")                                               Zmìna hudby
+play_sound("umístìní v datech")                                               Pøehrát zvuk
+ghost()                                                                       Tux Duch
+mortal()                                                                      Konec ducha
+restart()                                                                     Restart úrovnì
+Level.flip_vertically()                                                       Pøeklopit vertikálnì úroveò
+platform.start_moving()                                                       Nastartovat platform
+platform.stop_moving()                                                        Vypnout platform
+sector.Tux.add_bonus("powerup")                                               Pøidat powerup
+sector.Tux.add_coins(poèet)                                                   Pøidat penízky
+sector.Tux.deactivate()                                                       Vypnout Tuxe
+sector.Tux.activate()                                                         Nastartovat Tuxe
+sector.Tux.trigger_sequence("stoptux or endsequence or fireworks")            Vycílit Tuxe
+Tux.do_backflip()                                                             Vysaltíèkovat Tuxe
+sector.Tux.walk(rychlost)                                                     Tux jde dopøedu
+quit()                                                                        Vypnout úroveò

@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (kind "Worldmap")
+  (title "Dungeon Island")
+  (author "Torfi Gunnarsson")
+  (license "Free to be distributed via the SuperTux Add-on Manager")
+  (http-url "http://supertux.lethargik.org/addons/files/dungeon_island.zip")
+  (file "dungeon_island.zip")
+)

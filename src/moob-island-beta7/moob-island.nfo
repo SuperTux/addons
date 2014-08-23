@@ -1,0 +1,7 @@
+(supertux-addoninfo
+ (kind "Worldmap")
+ (title "Island of Moob")
+ (author "treskalle")
+ (license "GPL 2+ / CC-by-sa")
+ (file "moob-island-beta7.zip")
+)

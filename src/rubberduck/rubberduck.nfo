@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (kind "Worldmap")
+  (title "Rubberducks levels")
+  (author "Basti")
+  (license "GPL 2 / CC-by-sa 3.0")
+  (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/rubberduck.zip")
+  (file "rubberduck.zip")
+)

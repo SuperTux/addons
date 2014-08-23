@@ -1,0 +1,11 @@
+(supertux-sprite
+      (action 
+          (name "normal")
+          (images "blue_coin-0.png"))
+			(action
+					(name "found")
+					(images "blue_coin-1.png"))
+			(action
+					(name "reward")
+					(images "mini_doll.png"))
+)

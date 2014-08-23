@@ -1,0 +1,10 @@
+; Ending text
+(supertux-text
+  (background "extro.jpg")
+  (music "music/credits.ogg")
+
+  (text (_ "-Well done! You completed NarreLand!
+
+#You killed Nolok !
+#Nolok can't move Penny from this moment, because he is killed. Just only find Penny."))
+)

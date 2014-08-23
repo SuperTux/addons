@@ -1,0 +1,656 @@
+(supertux-level
+  (version 2)
+  (name (_ "Yeti's Revenge"))
+  (author "niso")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (sector
+    (name "main")
+    (music "music/salcon.ogg")
+    (init-script " display_fishbox_counter();
+			check_bonus(); ")
+    (ambient-light 1 1 1)
+    (special-tile
+      (sprite "images/worldmap/common/boat/boat.sprite")
+      (x 21)
+      (y 18)
+    )
+    (special-tile
+      (sprite "images/worldmap/common/boat/boat.sprite")
+      (x 18)
+      (y 19)
+    )
+    (special-tile
+      (sprite "images/worldmap/common/boat/boat.sprite")
+      (x 15)
+      (y 17)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"home\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 4)
+      (y 7)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"above\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 2)
+      (y 10)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"hail\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 6)
+      (y 12)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"groundwater\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 9)
+      (y 10)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"playground\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 13)
+      (y 10)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"home\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 4)
+      (y 7)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"above\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 2)
+      (y 10)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"groundwater\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 9)
+      (y 10)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"playground\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 13)
+      (y 10)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"crazy\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 17)
+      (y 11)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"lotus\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 18)
+      (y 13)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"bombastic\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 23)
+      (y 7)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"colder\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 20)
+      (y 9)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"blueone\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 26)
+      (y 8)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"down\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 31)
+      (y 13)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"afraid\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 30)
+      (y 15)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"without\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 27)
+      (y 15)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"harbor\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 23)
+      (y 16)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"foreign\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 18)
+      (y 18)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"escape\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 12)
+      (y 18)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"enjoy\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 8)
+      (y 20)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"windy\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 5)
+      (y 23)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"stars\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 8)
+      (y 25)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"slippery\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 11)
+      (y 25)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"freeze\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 19)
+      (y 27)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"shaft\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 18)
+      (y 22)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"latern\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 19)
+      (y 25)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"spooky\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 21)
+      (y 23)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"spikes\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 22)
+      (y 27)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"hang\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 25)
+      (y 25)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"waterfalls\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 27)
+      (y 27)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"end\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 31)
+      (y 26)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"bonus\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 36)
+      (y 26)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"bridge\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 15)
+      (y 22)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"temperature\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 13)
+      (y 24)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"bluetwo\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 27)
+      (y 10)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"bluetwo\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 30)
+      (y 12)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"reaching\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 29)
+      (y 11)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"carry\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 3)
+      (y 12)
+    )
+    (special-tile
+      (invisible-tile #t)
+      (script "display_fishbox(\"staple\");")
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 21)
+      (y 12)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 90)
+      (height 30)
+      (tiles
+      9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 749 749 749 9 749 9 9 749 749 9 749 749 749 9
+      9 9 11 16 16 16 16 12 9 9 9 9 9 9 11 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 749 9 749 9 749 9 9 749 9 9 749 9 749 9
+      9 9 15 19 58 60 19 17 9 9 9 9 9 9 14 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 749 9 749 9 749 9 749 749 9 9 749 749 749 9
+      9 9 15 19 59 24 26 17 9 9 9 9 11 12 9 9 9 9 11 16 16 16 12 11 12 9 9 9 9 9 9 9 9 9 9 11 16 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 11 22 19 47 31 27 23 16 16 12 9 14 13 9 9 9 9 15 24 25 26 23 22 17 9 9 9 9 9 9 9 9 9 11 22 20 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 15 24 26 47 30 28 24 25 26 17 9 9 9 9 9 11 16 22 30 29 28 19 19 23 16 16 16 16 12 9 11 12 9 14 18 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 15 30 28 47 19 19 31 32 27 23 16 12 9 9 9 15 24 25 26 19 48 40 40 40 40 39 19 19 17 9 14 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 15 48 40 42 24 25 33 32 27 24 26 17 9 9 11 22 31 32 27 48 42 24 25 25 26 47 19 19 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 15 47 24 25 33 32 35 29 28 30 28 17 9 9 15 19 30 36 27 47 19 31 32 32 27 47 19 19 23 16 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 15 47 30 36 32 35 28 48 40 40 40 73 74 74 75 40 39 30 28 37 39 31 32 32 27 37 40 40 39 19 17 11 16 16 16 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      11 22 47 19 30 29 28 48 42 19 20 18 13 9 9 15 19 65 24 25 26 47 30 36 32 34 26 19 19 47 19 23 22 24 26 19 23 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      15 19 37 40 40 40 40 42 19 19 17 9 9 9 11 22 19 65 30 29 28 47 19 31 32 32 34 25 26 37 40 39 19 30 28 19 19 23 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      14 18 21 19 19 19 19 19 19 20 13 9 9 9 15 19 19 37 40 40 40 42 19 31 32 32 32 32 27 19 19 47 19 19 19 24 26 19 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 14 18 18 18 18 18 18 13 9 9 11 16 22 24 26 19 19 20 21 19 19 30 29 29 29 29 28 19 19 47 19 19 19 30 28 60 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 11 16 16 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 9 9 9 9 9 9 9 9 9 9 14 18 21 30 28 19 20 13 14 18 18 21 19 19 48 40 40 40 40 42 20 18 18 21 19 19 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 15 24 26 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 11 16 12 9 9 9 9 9 9 9 9 9 9 14 18 18 18 13 9 80 78 78 75 40 40 42 20 18 18 18 18 13 9 9 14 18 18 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 11 22 30 28 17 9 9 9 9 9 9 11 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 15 20 13 9 9 11 16 16 16 16 16 12 9 9 9 9 9 9 9 79 9 9 14 18 18 18 13 9 9 9 9 9 9 9 80 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 75 40 40 39 17 9 9 9 9 9 11 22 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 14 13 9 11 16 22 19 19 48 40 40 73 78 78 78 78 78 78 78 85 9 9 9 9 9 9 9 11 16 16 16 16 12 9 79 11 16 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 14 18 21 37 73 78 78 78 63 63 75 39 17 9 11 16 16 12 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 9 9 15 19 19 19 19 47 19 19 23 12 9 9 9 9 9 9 9 9 9 9 11 16 16 16 22 19 19 19 19 73 63 85 15 20 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 14 18 13 9 9 9 9 9 15 37 73 74 75 40 71 17 9 9 9 9 9 9 9 9 11 12 11 12 9
+      9 9 11 16 22 19 48 40 40 42 19 24 26 23 16 12 9 11 12 9 9 9 11 16 22 19 19 19 19 19 19 19 19 23 12 9 14 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 14 18 13 9 14 18 21 17 11 12 9 9 9 9 11 12 15 17 14 13 9
+      9 9 15 24 26 48 42 24 25 25 26 31 27 19 19 17 9 15 23 16 16 16 22 19 19 19 19 19 19 24 25 25 25 26 23 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 11 22 17 15 17 11 12 11 12 15 17 14 13 9 9 9
+      9 9 15 30 28 47 24 33 32 32 27 30 28 19 48 73 74 75 40 39 19 19 19 19 19 19 24 25 25 33 32 32 32 27 19 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 14 18 13 14 13 15 17 15 17 14 13 9 9 9 9 9
+      9 9 15 19 19 47 30 29 29 29 28 19 19 19 47 23 16 22 19 41 66 66 39 19 19 19 31 32 32 35 29 29 29 28 19 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 14 13 14 13 9 9 9 9 9 9 9
+      9 9 15 19 19 37 40 40 39 19 19 48 40 40 42 24 26 19 19 47 24 26 37 40 40 39 30 29 29 28 49 50 51 19 19 23 16 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 14 18 18 21 24 26 47 60 19 47 19 24 26 30 28 48 40 42 30 28 19 19 19 47 24 26 19 19 52 53 54 19 19 19 19 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 9 9 9 15 30 28 37 40 40 42 19 30 28 19 19 37 39 19 19 20 18 21 19 47 30 28 48 40 77 76 57 40 40 40 71 17 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 11 12 9 14 18 18 18 21 19 19 20 18 18 18 18 21 37 40 40 73 74 75 40 44 40 40 42 19 19 19 19 19 19 20 18 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 14 13 9 9 9 9 9 15 19 20 13 9 9 9 9 15 19 19 19 17 9 14 18 21 19 19 20 18 18 18 18 18 18 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      9 9 9 9 9 9 9 9 9 14 18 13 9 9 9 9 9 14 18 18 18 13 9 9 9 14 18 18 13 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+      )
+    )
+    (tilemap
+      (solid #t)
+      (alpha 0)
+      (z-pos 0)
+      (name "secret")
+      (width 90)
+      (height 30)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 40 40 40 73 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 40 42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 40 40 42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 10)
+      (name "secrettop")
+      (width 90)
+      (height 30)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 19 19 19 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 19 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 19 19 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (level
+      (name "intro.stl")
+      (auto-play #t)
+      (sprite "images/objects/invisible/invisible.sprite")
+      (x 4)
+      (y 3)
+    )
+    (level
+      (name "Yetis Revenge.stl")
+      (quit-worldmap #t)
+      (sprite "images/worldmap/common/yeti.sprite")
+      (x 34)
+      (y 26)
+    )
+    (level
+      (name "Leaving Home And Start The Journey.stl")
+      (x 4)
+      (y 7)
+    )
+    (level
+      (name "Above The Clouds.stl")
+      (x 2)
+      (y 10)
+    )
+    (level
+      (name "Playground In The Water.stl")
+      (x 13)
+      (y 10)
+    )
+    (level
+      (name "Crazy Cave.stl")
+      (x 17)
+      (y 11)
+    )
+    (level
+      (name "Escape From The Pirates.stl")
+      (x 12)
+      (y 18)
+    )
+    (level
+      (name "Lotus Grotto.stl")
+      (x 18)
+      (y 13)
+    )
+    (level
+      (name "Blue Mountain.stl")
+      (x 26)
+      (y 8)
+    )
+    (level
+      (name "Reaching The Top.stl")
+      (x 29)
+      (y 11)
+    )
+    (level
+      (name "Path Without Name.stl")
+      (x 27)
+      (y 15)
+    )
+    (level
+      (name "Pirates Harbor.stl")
+      (x 23)
+      (y 16)
+    )
+    (level
+      (name "Something To Enjoy.stl")
+      (x 8)
+      (y 20)
+    )
+    (level
+      (name "Windy Day On Ice.stl")
+      (x 5)
+      (y 23)
+    )
+    (level
+      (name "Next To The Stars.stl")
+      (x 8)
+      (y 25)
+    )
+    (level
+      (name "Spooky Way Of Life.stl")
+      (x 21)
+      (y 23)
+    )
+    (level
+      (name "I Go With My Latern.stl")
+      (x 19)
+      (y 25)
+    )
+    (level
+      (name "Hang Out In The Underground.stl")
+      (x 25)
+      (y 25)
+    )
+    (level
+      (name "Cave Of Waterfalls.stl")
+      (x 27)
+      (y 27)
+    )
+    (level
+      (name "Living Spikes.stl")
+      (x 22)
+      (y 27)
+    )
+    (level
+      (name "Alls Well That Ends Well.stl")
+      (x 31)
+      (y 26)
+    )
+    (level
+      (name "A Wonderful Day.stl")
+      (x 61)
+      (y 17)
+    )
+    (level
+      (name "Big Wave.stl")
+      (x 64)
+      (y 18)
+    )
+    (level
+      (name "Surfing Tux.stl")
+      (x 67)
+      (y 18)
+    )
+    (level
+      (name "No Bridge Out There.stl")
+      (x 71)
+      (y 19)
+    )
+    (level
+      (name "Still Waters Run Deep.stl")
+      (x 75)
+      (y 19)
+    )
+    (level
+      (name "Foreign Passenger.stl")
+      (x 18)
+      (y 18)
+    )
+    (level
+      (name "Dont Be Afraid.stl")
+      (x 30)
+      (y 15)
+    )
+    (level
+      (name "Slippery Climbing.stl")
+      (x 11)
+      (y 25)
+    )
+    (level
+      (name "Shaft Racing.stl")
+      (x 18)
+      (y 22)
+    )
+    (level
+      (name "Its Getting Colder.stl")
+      (x 20)
+      (y 9)
+    )
+    (level
+      (name "Through The Groundwater.stl")
+      (x 9)
+      (y 10)
+    )
+    (level
+      (name "Something In The Water.stl")
+      (x 26)
+      (y 21)
+    )
+    (level
+      (name "intro.stl")
+      (sprite "images/worldmap/common/leveldot.sprite")
+      (x 4)
+      (y 5)
+    )
+    (level
+      (name "bonus.stl")
+      (x 36)
+      (y 26)
+    )
+    (level
+      (name "A Bombastic Day.stl")
+      (x 23)
+      (y 7)
+    )
+    (level
+      (name "Hail Storm.stl")
+      (x 6)
+      (y 12)
+    )
+    (level
+      (name "Freeze n Flee.stl")
+      (x 19)
+      (y 27)
+    )
+    (level
+      (name "The Grand Bridge.stl")
+      (x 15)
+      (y 22)
+    )
+    (level
+      (name "Controlling the Temperature.stl")
+      (x 13)
+      (y 24)
+    )
+    (level
+      (name "More Of The Blue Mountain.stl")
+      (x 27)
+      (y 10)
+    )
+    (level
+      (name "The Way Down.stl")
+      (x 31)
+      (y 13)
+    )
+    (level
+      (name "Carry Me.stl")
+      (x 3)
+      (y 12)
+    )
+    (level
+      (name "Staple Me.stl")
+      (x 21)
+      (y 12)
+    )
+    (worldmap-spawnpoint
+      (name "main")
+      (x 4)
+      (y 4)
+    )
+  )
+  (tileset "images/worldmap.strf")
+)

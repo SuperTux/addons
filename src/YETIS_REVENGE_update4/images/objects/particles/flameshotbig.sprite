@@ -1,0 +1,7 @@
+(supertux-sprite
+ (action
+  (hitbox 0 0 120 96)
+  (name "normal")
+  (images "flameshotbig-0.png"
+          "flameshotbig-1.png"))
+)

@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Lolkat's Levels")
+ (levelset #f)
+ )

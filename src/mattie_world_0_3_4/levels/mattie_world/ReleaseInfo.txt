@@ -1,0 +1,108 @@
+Installation:
+
+Simply place the .zip file containing this document into the "supertux2" directory or into the "data" directory for SuperTux.  Access should be available in the "Contrib Levels" option in the SuperTux main menu.
+
+Licence: GPL 2 / CC-by-sa 3.0
+
+Update: Sep 2013
+Looks like I missed an update for the last release (2012), oh well... I guess I did some things to make the set "Mattie's World" rather than just "Mattie's Iceberg". 
+
+Since I've been working more on the actual development of SuperTux proper, these levels have becom a bit neglected.  However, I hope to get back to them soon.
+
+Anyway, this update is unfortunately more of just graphical and feature updates making the set work better for SuperTux 0.3.4.  Since I am restructuring the files a bit to make management a little more easy, it's possible I broke something (again- <sigh>).  If I did please let me know.
+
+lmh.0013@gmail.com
+
+---
+
+Update: Oct 2011
+I was very bipolar about the bonus features of the last update, and have chosen to remove them keeping the little hidden eggs hidden.  To replace them I've reworked the set a bit.  The set is now made up as follows:
+
+- 13 regular levels, 2 boss/mini-boss levels,  3 hidden secret levels
+- a shop which allows powerups to be bought dependent on level statistics from 12 of the regular levels, players must enter the sky sequence in "Three Magic Lanterns" to access the shop
+- 3 super secret bonus levels, these must be discovered within other levels (hints are hidden in the regular secret levels) and can subsequently be entered from the map.  This content is much more difficult, but has its own reward.
+- 3 hidden artifacts which will help in the final castle
+
+Additional changes include:
+- Removed all bonus areas and trophy room
+- Removed "The Crushed Garden"- too buggy at the moment, replaced with "Beware of Fire" featuring destructible iceblocks
+- Restored fourth secret area in "Three Magic Lanterns" activates the shop when found, it is also easier to reach
+- Removed preview of "DOOM Islands" (I will make this available separately)
+- Made collecting all the coins from "Where's Waldo?" easier
+
+Known bugs:
+- Meaningless Kill Count Stat: The "Max Fragging" level statistic is meaningless on levels with dispensers since dispensed baddies are counted.  Also for some reason the angrystones in level 13 are included in total number of enemies to be killed even though they are unkillable.
+- Badguy Falling From Above: On occasion I've found that sometimes a badguy will fall through the unisolid tiles on levels that scroll up/down.  It happens off screen is probably due to badguys landing on top of each other.  If you find badguys on the wrong platform this may be the cause.
+- Free Powerups!: I realize that once Tux runs out of coins he can continue to purchase powerups at the shop.  Coins are actually going negative but display as zero.  I have yet to figure out how to access the number of coins Tux has within a script, so for now it will be our little secret...
+
+The most recent revisions as well as additional player-made levels can be found at (for as long as I manage to maintain them):
+
+http://www.mediafire.com/?k47v61nz6i230
+
+As always I may be contacted at: 
+
+lmh.0013@gmail.com
+
+---
+
+Update: May 2011
+
+The largest change made to the level set has been implementation of 30 bonus area and 8 achievements to Mattie's Iceberg.  The bonus areas are hidden powerups and pathways which I felt would be inappropriate as a secret areas.  Many of these existed in previous versions, now they are explicitly enumerated.  They will provide more of a challenge which I hope will compensate for the general decrease in difficulty in recent releases.  This release is optimized for SuperTux version 0.3.3 SVN r6689.  The following are additional changes to Mattie's Iceberg (DOOM Islands still incomplete, waiting for next stable release of SuperTux):
+
+- Two new levels: "Scary Skies" and "The Crushed Garden"
+- Removed secret areas: second area in "Dusky Dungeon" fourth area in "Three Magic Lanterns" and area in "Midway Castle" these are now bonus areas which I'm more comfortable with due to the difficulty of finding them
+- Added a trophy room to track bonuses and achievements, it's entrance is well hidden
+- Normalized pipe behavior (press "up" to activate a pipe)
+- Bonus level, "Little Strange Day" made more bizarre
+- Cleaned up last part of "Three Magic Lanterns"
+- Environmental Iceflowers now work properly
+
+A small amount of work has been done on DOOM Islands which is also included for those interested.  As always, bugs, comments, suggestions, complaints, and sandwich ideas may be sent to:
+
+lmh.0013@gmail.com
+
+---
+
+Update: July 2010
+
+I made the unfortunate discovery that the June 2010 update was in fact designed for a hybrid version of SuperTux (between the development snapshot and SVN).  As such, I have redone the levels to be in line with SuperTux version SVN r6640 to take advantage of more recent features.  The set will still work with the snapshot, but will probably be a bit buggy.  In addition, the following changes were made to the levelset:
+
+- The Airship (and all associated levels) have moved away from Mattie's Iceberg.
+- Rock Climbing and Arena also removed.
+- The level set has been made considerably easier, but advanced players shouldn't fret as I've included the difficult levels in a preview of DOOM Islands- the next worldmap after Mattie's Iceberg.
+- Badguy machine in Quarrelsome Quarry has been changed to account for badguys not being able to kill each other.
+- Second secret area added to Dusky Dungeon.
+- Minor visual tweaks throughout.
+- Where's Waldo? bonus level made slightly less annoying to find secret areas (only slightly).
+- Reduced badguy count in 3 Magic Lanterns and Over the Wall.
+- Reduced complexity/difficulty of Toad's Castle and Escape.
+- Included credits.
+- Added preview of DOOM Islands with difficult/incomplete levels.
+
+I hope the changes make the level set available to a broader audience.  Novice players may not want to play the preview of DOOM Islands, but I hope they provide a challenge for advanced players.  As always and comments, suggestions, complaints or ideas can be sent to:
+
+lmh.0013@gmail.com
+
+---
+
+Update: June 2010
+
+Levels have been updated for use with SuperTux development version 0.3.3.  No testing has been done with earlier versions, and it is not expected that anything will work with versions earlier than 0.3.3.
+
+In addition, the number of levels has been doubled.  Instead of 8 levels + 2 bonus of the original release, there are now 13 levels + 3 boss levels (1 previously as a numbered level) + 4 bonus levels.  Most changes to the original set have been environmental, with new features used to make them more in line with my original design concept.  Some difficulty tweaks have also been made.  All levels should work (and look good) with the higher resolution settings.
+
+I hope the levels contain challenges which players find fun and/or unique.  I generally try to do something new in every level I make (not always with success) and hope someone will think some part somewhere is cool or neat.  As always, complements, criticisms, suggestions, and favorite curse while attempting the airship level can be sent to:
+
+lmh.0013@gmail.com
+
+---
+
+Release: August 2008
+
+The enclosed set of levels (8 regular and 2 bonus, plus world map) were created for use with SuperTux development version 0.3.1, although I have no evidence that they won't work on the non-development version.  The levels were built using a custom level creator and tested in the Mac OS X build of SuperTux (seems to work on Windows as well, my Linux system is currently "under construction").  
+
+The levels themselves are meant to be a semi-challenging collection for a wide range of player skill levels.  Most can be beat in less than a minute; however, bonus areas and collecting all the coins are more of a challenge.  My intentions were a set of levels which did not rely on timing/precision, or deceptive tilesets as a means for difficulty (excepting one of the bonus stages).  
+
+I hope some of the content and challenges are new and enjoyable to players.  Feel free to send comments and criticisms to: 
+
+lmh.0013@gmail.com

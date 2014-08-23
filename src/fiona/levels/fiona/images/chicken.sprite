@@ -1,0 +1,43 @@
+(supertux-sprite
+	(action
+	  (name "standing-left")
+	  (hitbox 8 8 80 80)
+	  (images "standing-0.png"))
+	(action
+	  (name "standing-right")
+	  (hitbox 8 8 80 80)
+	  (mirror-action "standing-left"))
+	(action
+	  (name "charging-left")
+	  (hitbox 8 8 80 80)
+	  (fps 9.0)
+	  (images "charging-0.png"
+		  "charging-1.png"
+		  "charging-0.png"
+		  "charging-1.png"
+		  "charging-2.png"
+		  "charging-1.png"
+		  "charging-2.png"
+		  "charging-1.png"
+		  "charging-0.png"))
+	(action
+	  (name "charging-right")
+	  (fps 9.0)
+	  (hitbox 8 8 80 80)
+	  (mirror-action "charging-left"))
+	(action
+	  (name "jumping-left")
+	  (hitbox 8 8 80 80)
+	  (images "jumping-0.png"))
+	(action
+	  (name "jumping-right")
+	  (hitbox 8 8 80 80)
+	  (mirror-action "jumping-left"))
+	(action
+	  (name "squished-left")
+	  (hitbox 8 8 80 80)
+	  (images "squished-0.png"))
+	(action
+	  (name "squished-right")
+	  (hitbox 8 8 80 80)
+	  (mirror-action "squished-left")))

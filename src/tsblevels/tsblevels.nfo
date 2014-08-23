@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (kind "Worldmap")
+  (title "Tux Strikes Back")
+  (author "Christian Schaefers")
+  (license "freeware that must not be sold provided \"as is\" without express or implied warranty")
+  (http-url "http://supertux.lethargik.org/addons/files/tsblevels.zip")
+  (file "tsblevels.zip")
+)

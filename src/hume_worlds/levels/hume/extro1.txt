@@ -1,0 +1,15 @@
+(supertux-text
+(background "extro.jpg")
+(music "music/greatgigantic.ogg")
+(text "
+-Tux unlocks a room!
+
+	By now we did not know why Tux unlocks achievements.
+	And here is the answer to this question.
+	Tux therefore had to unlock achievements and
+	unlocked to all, and then opened the door.
+	Tux looked around and saw that they opened the room
+	in which he could not get it. Tux went to an open
+	room.
+	Let's see him ...
+"))

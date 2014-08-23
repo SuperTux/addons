@@ -1,0 +1,22 @@
+(supertux-text
+(background "extro.jpg")
+(music "music/greatgigantic.ogg")
+(text "
+-Tux unlocks all archivements!
+
+	By now we did not know why Tux unlocks achievements.
+	And here is the answer to this question.
+	Tux therefore had to done this level.
+	Tux continued in the way and then the road forked.
+	One path led to the gate and the second into a rocket.
+	Tux tried to open the gate. Tux must enter the code
+	that he did not know. Perhaps the code can be found on
+	the bug tracker. Tux was unable to go back home to
+	find that code. Tux had to go into the rocket. Tux
+	tried to flee the Hume's rainbow cave. Tux did not
+	have management	experience, so he shipwrecked in an
+	unknown location far
+	away from home. And where? This is your choice, what
+	worldmap you play next. 
+
+"))

@@ -1,0 +1,31 @@
+(supertux-text
+(background "oiltux.jpg")
+(music "music/credits.ogg")
+(text "
+-Hume's rainbow cave
+*by Hume
+
+
+
+
+	Congratulations!
+	You done it!
+
+
+
+*contacts:
+
+	E-mail:
+*teratux.mail@gmail.com
+
+	You can give feedback on
+	SuperTux-bug tracker
+*http://supertux.lethargik.org/bugs
+ bug #0000900
+
+	Any comments and criticisms are welcome!
+	
+	Thanks for add this worldmap to add-ons!
+ (That's a long time for waiting.)
+-Thank you for playing!
+"))

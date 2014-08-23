@@ -1,0 +1,5 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Hume's islands")
+ (levelset #f)
+ )

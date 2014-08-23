@@ -1,0 +1,2095 @@
+(supertux-level
+  (version 2)
+  (name "Room by room (easy)")
+  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
+  (sector
+    (name "main") ;startovní sector(povinné)
+    (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+    (ambient-light 1 1 1)
+    (camera
+      (mode "normal")
+    )
+    (leveltime
+      (time 300) ;vložit èasový limit(nepoviné)
+    )
+    (ambient-light 1 1 1)
+    (background ;pozadí(nepoviné)
+      (speed 0.5)
+      (image-top "images/background/arctis_top.jpg")
+      (image "images/background/arctis.jpg")
+      (image-bottom "images/background/arctis_bottom.jpg")
+      (y 0)
+    )
+    (spawnpoint (name "main") (x 0) (y 0)) ;start(implicitnì 0,0)
+    (tilemap ;mapa prvkù(jeden pevný je povinný)
+      (z-pos -100)
+      (solid #t)
+      (speed 1)
+      (width 25)
+      (height 19)
+      (tiles 0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    68   66   66   64   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    2007 1353 1353 68   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    2007 1353 1353 68   
+             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    2007 1353 1353 68   
+             0    0    0    0    0    0    0    0    27   28   28   28   28   28   28   28   28   28   28   28   28   68   65   65   64   
+             0    0    0    0    0    0    0    1000 48   0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    0    1000 1036 1007 0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    0    1000 1036 1040 1015 0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             0    0    0    0    1000 1036 1040 1013 1015 0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             1001 1001 1001 1001 1036 1040 1020 1022 1015 0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   
+             1005 1005 1005 1005 1040 1013 1026 1028 1015 0    0    0    0    0    0    0    0    0    0    0    0    68   64   64   64   )
+      )
+   (infoblock
+     (x 608)
+     (y 288)
+     (message "#note: Level exit is in room 25"))
+   (door
+     (x 704)
+     (y 288)
+     (spawnpoint "main")
+     (sector "room0"))
+  )
+   (sector
+     (name "room0")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #0\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room1"))
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room2"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room4"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room8"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room16"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+   (sector
+     (name "room1")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #1\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room3"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room5"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room9"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room17"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+   (sector
+     (name "room2")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #2\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room3"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room6"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room10"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room18"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+   (sector
+     (name "room3")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #3\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room7"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room11"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room19"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room4")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #4\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room5"))
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room6"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room12"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room20"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room5")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #5\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room7"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room13"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room21"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room6")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #6\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room7"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room14"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room22"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room7")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #7\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room15"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room23"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room8")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #8\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room9"))
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room10"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room12"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room24"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room9")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #9\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room11"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room13"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room25"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room10")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #10\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room11"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room14"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room26"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room11")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #11\");
+     Text.fade_in(0.2)"
+     )
+    (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room15"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room27"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room12")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #12\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room13"))
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room14"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room28"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room13")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #13\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room15"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room29"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room14")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #14\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room15"))
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room30"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room15")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #15\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 352)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room31"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room16")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #16\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room17"))
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room18"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room20"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room24"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room17")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #17\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room19"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room21"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room25"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room18")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #18\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room19"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room22"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room26"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room19")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #19\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room23"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room27"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room20")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #20\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room21"))
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room22"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room28"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room21")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #21\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room23"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room29"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room22")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #22\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room23"))
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room30"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room23")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #23\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 288)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room31"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room24")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #24\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room25"))
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room26"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room28"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room25")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #25\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room27"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room29"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    102  0    0    0    0    2149 26   2150 48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    129  132  129  48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    129  132  129  48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    129  132  129  48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room26")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #26\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room27"))
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room30"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room27")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #27\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 224)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room31"))
+    (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room28")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #28\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room29"))
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room30"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room29")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #29\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 160)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room31"))
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room30")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #30\");
+     Text.fade_in(0.2)"
+     )
+     (door
+       (x 96)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room31"))
+
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+(sector
+     (name "room31")
+     (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+     (ambient-light 1 1 1)
+     (camera
+       (mode "normal")
+     )
+     (ambient-light 0.25 0.125 0.125)
+     (background ;pozadí(nepoviné)
+       (speed 0.5)
+       (image-top "images/background/arctis_dark.jpg")
+       (image "images/background/arctis_dark.jpg")
+       (image-bottom "images/background/arctis_dark.jpg")
+       (y 0)
+     )
+     (spawnpoint (name "main") (x 96) (y 96)) ;start(implicitnì 0,0)
+     (init-script "Text.set_text(\"Room #31\");
+     Text.fade_in(0.2)"
+     )
+
+     (door
+       (x 608)
+       (y 480)
+       (spawnpoint "main")
+       (sector "room0"))
+     (tilemap ;mapa prvkù(jeden pevný je povinný)
+       (z-pos 0)
+       (solid #t)
+       (speed 1)
+       (width 25)
+       (height 19)
+       (tiles 48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    26   0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    48   
+              48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   48   )
+       )
+   )
+
+)
