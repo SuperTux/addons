@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "lolkat-levels")
+  (version 1)
+  (type "worldmap")
+  (title "Lolkat's Levels")
+  (author "Lolkat")
+  (license "GPL 2+ / CC-by-sa 3.0"))
