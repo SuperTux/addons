@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "hume-worldmaps")
+  (version 1)
+  (type "world")
+  (title "Hume's 2 worldmaps")
+  (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0"))
