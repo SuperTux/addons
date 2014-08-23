@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "rubberduck-levels")
+  (version 1)
+  (type "worldmap")
+  (title "Rubberducks levels")
+  (author "Basti")
+  (license "GPL 2+ / CC-by-sa 3.0"))
