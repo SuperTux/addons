@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "lmh-matties-world")
+  (version 1)
+  (type "world")
+  (title "Mattie's World")
+  (author "LMH")
+  (license "GPL 2 / CC-by-sa 3.0"))
