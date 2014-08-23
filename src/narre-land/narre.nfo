@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "narre-land")
+  (version 1)
+  (type "worldmap")
+  (title "Narre Land")
+  (author "Narre")
+  (license "GPL 2+ / CC-by-sa 3.0"))
