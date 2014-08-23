@@ -1,0 +1,6 @@
+(supertux-addoninfo
+  (id "lmh-fionas-world")
+  (type "worldmap")
+  (title "Fiona's World")
+  (author "LMH")
+  (license "GPL 2+ / CC-by-sa 3.0"))
