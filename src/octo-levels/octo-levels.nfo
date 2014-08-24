@@ -2,6 +2,6 @@
   (id "octo-levels")
   (version 1)
   (type "worldmap")
-  (title "*** Octo's Levels")
+  (title "Octo's Levels")
   (author "Octo")
   (license "GPL 2+ / CC-by-sa 3.0"))
