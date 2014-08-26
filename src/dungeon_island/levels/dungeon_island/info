@@ -1,6 +1,0 @@
-;SuperTux-Level-Subset
-(supertux-level-subset
-  (title (_ "Dungeon Island"))
-  (description "Some levels by Torfi Gunnarsson")
-  (levelset #f)
-)
