@@ -126,14 +126,23 @@
       (y 896)
     )
     (darttrap
+      (initial-delay 0)
+      (fire-delay 2)
+      (ammo -1)
       (x 8880)
       (y 800)
     )
     (darttrap
+      (initial-delay 0)
+      (fire-delay 2)
+      (ammo -1)
       (x 8880)
       (y 736)
     )
     (darttrap
+      (initial-delay 0)
+      (fire-delay 2)
+      (ammo -1)
       (x 8880)
       (y 640)
     )

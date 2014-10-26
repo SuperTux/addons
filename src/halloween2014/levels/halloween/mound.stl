@@ -39,23 +39,27 @@
       (layer 1000)
     )
     (bonusblock
+      (script "")
       (contents "explode")
       (sprite "images/objects/bonus_block/brickWeb.sprite")
       (x 5504)
       (y 1056)
     )
     (bonusblock
+      (script "")
       (contents "firegrow")
       (x 7440)
       (y 576)
     )
     (bonusblock
+      (script "")
       (contents "firegrow")
       (sprite "images/objects/bonus_block/brickWeb.sprite")
       (x 9344)
       (y 1152)
     )
     (bonusblock
+      (script "")
       (contents "explode")
       (x 8544)
       (y 512)
@@ -311,14 +315,18 @@
       (y 1280)
     )
     (ghostflame
+      (speed -1)
       (x 9344)
       (y 1280)
     )
     (ghostflame
+      (radius 67)
+      (speed -2)
       (x 11072)
       (y 1344)
     )
     (ghostflame
+      (speed 3)
       (x 11360)
       (y 1280)
     )
@@ -327,10 +335,12 @@
       (y 1024)
     )
     (ghostflame
+      (speed -0.5)
       (x 11744)
       (y 1280)
     )
     (ghostflame
+      (speed -3)
       (x 12480)
       (y 160)
     )
@@ -339,10 +349,13 @@
       (y 160)
     )
     (invisible_wall
+      (width 60)
+      (height 32)
       (x 13472)
       (y 576)
     )
     (powerup
+      (disable-physics #t)
       (sprite "images/powerups/star/star.sprite")
       (x 8848)
       (y 1360)
