@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "halloween2014")
+  (version 1)
+  (type "worldmap")
+  (title "Halloween 2014")
+  (author "SuperTux Team")
+  (license "GPL 2+ / CC-by-sa 3.0"))
