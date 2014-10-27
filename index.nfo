@@ -125,5 +125,14 @@
 	  (file "lolkat.zip")
 	  (md5 "0d15086eb5ff2fb9c6b9066fe73311af")
 	)
+
+        (supertux-addoninfo
+         (kind "Worldmap")
+         (title "Halloween 2014")
+         (author "SuperTux Team")
+         (license "GPL 2+ / CC-by-sa 3.0")
+         (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/halloween2014.zip")
+         (file "halloween2014.zip")
+         (md5 "28db69d4e84763277c02fdfd3d532eb0"))
 )
 

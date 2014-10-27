@@ -116,5 +116,15 @@
 	  (file "fiona.zip")
 	  (md5 "6da14cdf93e1118fee32788c0aed8a40")
 	)
+
+        (supertux-addoninfo
+         (kind "Worldmap")
+         (title "Halloween 2014")
+         (author "SuperTux Team")
+         (license "GPL 2+ / CC-by-sa 3.0")
+         (http-url "http://addons.supertux.googlecode.com/git/Worldmaps/halloween2014.zip")
+         (file "halloween2014.zip")
+         (md5 "28db69d4e84763277c02fdfd3d532eb0"))
+
 )
 
