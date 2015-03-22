@@ -9,7 +9,8 @@
     (music "music/salcon.ogg")
     (ambient-light 1 1 1)
     (bonusblock
-      (script "")
+      (script "hide.fade(0.3,3);
+background.fade(0.8,3);")
       (contents "1up")
       (x 160)
       (y 896)
@@ -49,14 +50,6 @@
       (message (_ "!levels/mattie_world/images/LMH/hint-02.png"))
       (x 736)
       (y 576)
-    )
-    (scripttrigger
-      (script "	hide.fade(0.3,3);background.fade(0.8,3);	")
-      (button #f)
-      (width 16)
-      (height 64)
-      (x 264)
-      (y 624)
     )
     (secretarea
       (script "")

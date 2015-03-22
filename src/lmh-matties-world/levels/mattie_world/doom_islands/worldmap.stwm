@@ -7,11 +7,9 @@
   (sector
     (name "main")
     (music "music/airship_remix.ogg")
-    (init-script "	map <- true;																																																																																							
-			import(\"levels/mattie_world/doom_islands/default.nut\");																																																																																							
-			set_map();																																																																																							
-																																																																																										
-						")
+    (init-script "map <- true;
+      state.coin_level_active <- false;
+      set_map();")
     (ambient-light 1 1 1)
     (special-tile
       (invisible-tile #t)
@@ -1110,6 +1108,11 @@
 				display_text_file(	\"levels/mattie_world/doom_islands/islands_end.txt\"	);	")
       (x 31)
       (y 2)
+    )
+    (level
+      (name "L_IceFire.stl")
+      (x 15)
+      (y 11)
     )
     (worldmap-spawnpoint
       (name "main")

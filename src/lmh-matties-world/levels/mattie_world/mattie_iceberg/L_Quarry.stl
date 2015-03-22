@@ -3,6 +3,7 @@
   (name (_ "03 - Quarrelsome Quarry"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
+  (target-time 20)
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -114,7 +115,7 @@
       (y 768)
     )
     (pushbutton
-      (script "	left.goto_node(1);	")
+      (script "  left.goto_node(1);  ")
       (x 2144)
       (y 1824)
     )

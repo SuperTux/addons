@@ -1,0 +1,14 @@
+(supertux-sprite
+      (action
+         (name "normal")
+         (images "../../../../../images/tiles/blocks/brick0.png"))
+      (action
+         (name "empty")
+         (images "../../../../../images/objects/bonus_block/empty.png"))
+      (action
+         (name "on")
+         (images "../../../../../images/objects/bonus_block/on.png"))
+      (action
+         (name "off")
+         (images "../../../../../images/objects/bonus_block/off.png"))
+)

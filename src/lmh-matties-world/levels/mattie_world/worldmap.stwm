@@ -3,16 +3,24 @@
   (name (_ "Mattie's Iceberg"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
+  (target-time 0)
   (sector
     (name "main")
     (music "music/salcon.ogg")
-    (init-script "	map <- true;
-				import(\"levels/mattie_world/mattie_iceberg/default.nut\");
-				if(!get_mattmap()){ exit_screen(); 																																										
-				if(get_doommap()){ load_worldmap(\"levels/mattie_world/doom_islands/worldmap.stwm\"); }																																									
-			}																																										
-			else{	show_map_rewards();																																									
-			}		")
+    (init-script "map <- true;
+import(\"levels/mattie_world/mattie_iceberg/default.nut\");
+if(!get_mattmap()){ exit_screen();
+  if(get_doommap()){ load_worldmap(\"levels/mattie_world/doom_islands/worldmap.stwm\"); }
+ }
+ else{
+  if(state.easy){
+    exit_screen();
+    load_worldmap(\"levels/mattie_world/easyworldmap.stwm\");
+  }else if(state.hard){
+    exit_screen();
+    load_worldmap(\"levels/mattie_world/hardworldmap.stwm\");
+  }else{ show_map_rewards(); }
+ }    ")
     (ambient-light 1 1 1)
     (special-tile
       (map-message (_ "You found a secret place!"))
@@ -70,8 +78,8 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 2030 2040 2040 2040 2040 2040 2040 2031 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-      0 0 0 0 0 0 0 0 0 0 0 2041 0 0 0 58 0 0 2041 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-      0 0 0 0 0 0 0 0 0 0 0 2041 0 0 0 59 0 0 2041 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 2041 0 0 0 2039 0 0 2041 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 2041 0 0 0 2044 0 0 2041 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 2041 0 0 0 47 0 0 2034 2040 2040 2031 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 2034 2040 2040 2040 2037 0 0 0 0 0 2034 2040 2043 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 48 40 40 44 40 40 40 40 40 39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -511,7 +519,7 @@
       (y 11)
     )
     (level
-      (name "mattie_iceberg/Midway Castle.stl")
+      (name "mattie_iceberg/MidwayCastle.stl")
       (x 21)
       (y 18)
     )
@@ -532,7 +540,7 @@
       (y 22)
     )
     (level
-      (name "mattie_iceberg/L_Meltbox.stl")
+      (name "mattie_iceberg/L_MtnPass.stl")
       (x 14)
       (y 21)
     )
@@ -542,14 +550,14 @@
       (y 21)
     )
     (level
-      (name "mattie_iceberg/Toad Castle.stl")
+      (name "mattie_iceberg/ToadCastle.stl")
       (x 8)
       (y 21)
     )
     (level
       (name "mattie_iceberg/L_Escape.stl")
-      (extro-script "	wait_for_screenswitch();																																									
-				display_text_file(	\"levels/mattie_world/mattie_iceberg/iceberg_end.txt\"	);	")
+      (extro-script "  wait_for_screenswitch();
+        display_text_file(  \"levels/mattie_world/mattie_iceberg/iceberg_end.txt\"  );  ")
       (x 7)
       (y 21)
     )
@@ -570,6 +578,12 @@
       (sprite "images/worldmap/common/bonusdot.sprite")
       (x 8)
       (y 19)
+    )
+    (level
+      (name "TimeWarp.stl")
+      (sprite "images/worldmap/common/hiddendot.sprite")
+      (x 15)
+      (y 5)
     )
     (worldmap-spawnpoint
       (name "main")

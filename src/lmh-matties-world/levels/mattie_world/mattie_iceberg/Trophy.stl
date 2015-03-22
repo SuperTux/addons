@@ -1,339 +1,339 @@
-(supertux-level																																									
-	(version 	2	)																																						
-	(name (_ "	The Shop	"))																																						
-	(author "LMH")																																								
-	(license	"GPL 2 / CC-by-sa 3.0"	)																																						
-	(sector	(name	"main"	)																																					
-		(ambient-light	1	1	1	)																																			
-		(camera	(mode	"normal"	))																																				
-		(gradient	(top_color	0.5	0	0.5	)																																		
-			(bottom_color	0	0	0	))																																		
-		(music	"music/bonuscave.ogg"	)																																					
-																																									
-		(init-script "	show_shop_rewards();	")																																					
-																																									
-		(spawnpoint	(name	"main"	)(x	160	)(y	640	))																																
-		(pushbutton	(script "	delete_progress();																																					
-				show_shop_rewards();	")																																				
-			(x	160	)(y	448	))																																		
-		(scripttrigger	(script "	Level.finish(false);	")(button	#f	)																																		
-			(width	16	)(height	64	)																																		
-			(x	32	)(y	640	))																																		
-		(scripttrigger	(script "	reveal_crystal(\"earthcrystal\");	")(button	#f	)																																		
-			(width	16	)(height	32	)																																		
-			(x	1138	)(y	560	))																																		
-		(scripttrigger	(script "	reveal_crystal(\"aircrystal\");	")(button	#f	)																																		
-			(width	16	)(height	32	)																																		
-			(x	1160	)(y	560	))																																		
-		(scripttrigger	(script "	reveal_crystal(\"firecrystal\");	")(button	#f	)																																		
-			(width	16	)(height	32	)																																		
-			(x	1183	)(y	560	))																																		
-		(scripttrigger	(script "	toggle_star_bonus()	")(button	#f	)																																		
-			(width	64	)(height	64	)																																		
-			(x	1136	)(y	544	))																																		
-		(scripttrigger	(script "	reset.fade(0,1);	")(button	#f	)																																		
-			(width	16	)(height	192	)																																		
-			(x	288	)(y	272	))																																		
-																																									
-		(tilemap	(name	"interactive"	)																																				
-			(z-pos	0	)(solid	#t	)																																		
-			(width 	40	)(height	25	)																																		
-			(tiles	;	160	192	224	256	288	320	352	384	416	448	480	512	544	576	608	640	672	704	736	768	800	832	864	896	928	960	992	1024	1056	1088	1120	1152	1184	1216	1248		
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131		
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	;	32
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	;	64
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	;	96
-131	131	131	131	131	131	131	131	131	131	131	1400	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1392	131	131	131	131	131	131	131	131	;	128
-131	131	131	131	131	131	131	131	1400	1379	1379	1371	1406	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1394	1383	1379	1379	1392	131	131	131	131	131	;	160
-131	131	131	131	131	131	1400	1379	1371	1406	1376	1376	1399	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1374	1376	1376	1394	1383	1379	1392	131	131	131	;	192
-131	131	131	131	131	1400	1371	1406	1376	1399	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1374	1376	1394	1383	1392	131	131	;	224
-131	131	131	131	1400	1371	1406	1399	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1374	1394	1383	1392	131	;	256
-131	131	131	1400	1371	1406	1399	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1374	1394	1373	131	;	288
-131	131	131	1404	1406	1399	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1383	1392	;	320
-131	131	131	1404	1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1374	1394	1373	;	352
-131	131	131	1404	1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1373	;	384
-131	131	131	1404	1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1373	;	416
-131	131	131	1404	1373	48	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1373	;	448
-131	131	131	1404	1381	1412	1412	1412	1388	0	0	0	0	0	0	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	2817	0	0	0	0	0	1404	1373	;	480
-131	131	131	1404	1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1373	;	512
-131	131	131	1404	1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1373	;	544
-131	1400	1379	1371	1373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1373	;	576
-131	1374	1376	1376	1399	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1400	1379	1379	1371	1373	;	608
-131	131	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1372	1372	1372	1373	;	640
-131	131	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1404	1372	1372	1372	1373	;	672
-131	1400	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1379	1371	1372	1372	1372	1373	;	704
-131	1404	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1372	1373	;	736
-131	1374	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1376	1399	;	768
-		))																																							
-		(tilemap	(name	"background"	)																																				
-			(z-pos	-100	)(solid	#f	)																																		
-			(width 	40	)(height	25	)																																		
-			(tiles																																						
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131		
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131		
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131		
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131		
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131		
-131	131	131	131	131	131	131	131	131	131	131	131	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131	131	131	131	131	131	131	131	131		
-131	131	131	131	131	131	131	131	131	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131	131	131	131	131	131		
-131	131	131	131	131	131	131	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131	131	131	131		
-131	131	131	131	131	131	0	0	0	0	80	0	80	0	80	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131	131	131		
-131	131	131	131	131	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131	131		
-131	131	131	131	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131	131		
-131	131	131	131	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	131	131	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	131	131	0	0	0	1628	1629	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	131	131	0	0	0	1630	1631	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	131	131	0	0	0	0	0	0	79	0	79	0	79	1408	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1412	1388	0	0	0	0	0	0	131		
-131	131	131	131	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	131	131	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	131	131	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	0	0	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	0	0	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	0	0	0	0	0	0	0	0	79	0	79	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131		
-131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131	131		
-		))																																							
-																																									
-		(tilemap	(name	"reset"	)(alpha	1	)																																		
-			(z-pos	100	)(solid	#t	)																																		
-			(path	(node	(x	128	)(y	224	))	)																															
-			(width	6	)(height	9	)																																		
-			(tiles	131	1400	1371	1372	1372	1373																																
-				1400	1371	1372	1372	1372	1373																																
-				1371	1372	1372	1372	1372	1373																																
-				1372	1372	1372	1372	1372	1373																																
-				1372	1372	1372	1372	1372	1373																																
-				1372	1372	1372	1372	1372	1373																																
-				1372	1372	1372	1372	1372	1373																																
-				1372	1372	1372	1372	1372	1373																																
-				1406	1376	1376	1376	1376	1399	))																															
-		(tilemap	(name	"ONE"	)(alpha	1	)																																		
-			(z-pos	100	)(solid	#t	)																																		
-			(path	(node	(x	608	)(y	560	))	)																															
-			(width	2	)(height	2	)																																		
-			(tiles	1400	1392	1374	1399	))																																	
-		(tilemap	(name	"TWO"	)(alpha	1	)																																		
-			(z-pos	100	)(solid	#t	)																																		
-			(path	(node	(x	800	)(y	560	))	)																															
-			(width	2	)(height	2	)																																		
-			(tiles	1400	1392	1374	1399	))																																	
-		(tilemap	(name	"THREE"	)(alpha	1	)																																		
-			(z-pos	100	)(solid	#t	)																																		
-			(path	(node	(x	992	)(y	560	))	)																															
-			(width	2	)(height	2	)																																		
-			(tiles	1400	1392	1374	1399	))																																	
-																																									
-		(infoblock	(message (_ "-Welcome to The Shop
-#Completing level statistics in the regular levels will allow you to purchase powerups here to aid in your journey."))																																						
-			(x	224	)(y	576	))																																		
-		(infoblock	(message (_ "-Progress Poles
-#Your progress in collecting coins, killing enemies, and speedy completion is tracked on the poles to your left.  Each dot represents a level starting with level 1 at the bottom.  Dots turn green when progress is completed."))																																						
-			(x	560	)(y	352	))																																		
-		(infoblock	(message (_ "-Powerups for Purchase
-#Below are the powerups currently available for purchase.  As more progress is completed, powerups become available from left to right."))																																						
-			(x	752	)(y	352	))																																		
-		(infoblock	(message (_ "-Star Stones
-#Finding all three star stones will allow you to gain Ultimate Invulnerability.  This ability will be activated and deactivated by placing the stones on the ledge to your right."))																																						
-			(x	944	)(y	352	))																																		
-																																									
-		(infoblock	(message (_ "*Teir 1 Reward
-#Purchase an egg for 50 coins"))																																						
-			(x	560	)(y	576	))																																		
-		(bonusblock	(x	624	)(y	576	)(contents	"custom"	)																																
-			(powerup	(sprite	"images/powerups/egg/egg.sprite"	)(script "	buy_powerup(\"egg\");	")	))																																
-		(infoblock	(message (_ "*Teir 2 Reward
-#Purchase a 2x iceflower for 200 coins"))																																						
-			(x	752	)(y	576	))																																		
-		(bonusblock	(x	816	)(y	576	)(contents	"custom"	)																																
-			(powerup	(sprite	"images/powerups/iceflower/iceflower.sprite"	)(script "	buy_powerup(\"ice\");	")	))																																
-		(infoblock	(message (_ "*Teir 3 Reward
-#Purchase a 3x fireflower for 600 coins"))																																						
-			(x	944	)(y	576	))																																		
-		(bonusblock	(x	1008	)(y	576	)(contents	"custom"	)																																
-			(powerup	(sprite	"images/powerups/fireflower/fireflower.sprite"	)(script "	buy_powerup(\"fire\");	")	))																																
-																																									
-		(infoblock	(message (_ "*---WARNING!---
+(supertux-level
+  (version   2  )
+  (name (_ "  The Shop  "))
+  (author "LMH")
+  (license  "GPL 2 / CC-by-sa 3.0"  )
+  (sector  (name  "main"  )
+    (ambient-light  1  1  1  )
+    (camera  (mode  "normal"  ))
+    (gradient  (top_color  0.5  0  0.5  )
+      (bottom_color  0  0  0  ))
+    (music  "music/bonuscave.ogg"  )
+
+    (init-script "  show_shop_rewards();  ")
+
+    (spawnpoint  (name  "main"  )(x  160  )(y  640  ))
+    (pushbutton  (script "  delete_progress();
+        show_shop_rewards();  ")
+      (x  160  )(y  448  ))
+    (scripttrigger  (script "  Level.finish(false);  ")(button  #f  )
+      (width  16  )(height  64  )
+      (x  32  )(y  640  ))
+    (scripttrigger  (script "  reveal_crystal(\"earthcrystal\");  ")(button  #f  )
+      (width  16  )(height  32  )
+      (x  1138  )(y  560  ))
+    (scripttrigger  (script "  reveal_crystal(\"aircrystal\");  ")(button  #f  )
+      (width  16  )(height  32  )
+      (x  1160  )(y  560  ))
+    (scripttrigger  (script "  reveal_crystal(\"firecrystal\");  ")(button  #f  )
+      (width  16  )(height  32  )
+      (x  1183  )(y  560  ))
+    (scripttrigger  (script "  toggle_star_bonus()  ")(button  #f  )
+      (width  64  )(height  64  )
+      (x  1136  )(y  544  ))
+    (scripttrigger  (script "  reset.fade(0,1);  ")(button  #f  )
+      (width  16  )(height  192  )
+      (x  288  )(y  272  ))
+
+    (tilemap  (name  "interactive"  )
+      (z-pos  0  )(solid  #t  )
+      (width   40  )(height  25  )
+      (tiles  ;  160  192  224  256  288  320  352  384  416  448  480  512  544  576  608  640  672  704  736  768  800  832  864  896  928  960  992  1024  1056  1088  1120  1152  1184  1216  1248
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  ;  32
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  ;  64
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  ;  96
+131  131  131  131  131  131  131  131  131  131  131  1400  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1392  131  131  131  131  131  131  131  131  ;  128
+131  131  131  131  131  131  131  131  1400  1379  1379  1371  1406  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1394  1383  1379  1379  1392  131  131  131  131  131  ;  160
+131  131  131  131  131  131  1400  1379  1371  1406  1376  1376  1399  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1374  1376  1376  1394  1383  1379  1392  131  131  131  ;  192
+131  131  131  131  131  1400  1371  1406  1376  1399  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1374  1376  1394  1383  1392  131  131  ;  224
+131  131  131  131  1400  1371  1406  1399  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1374  1394  1383  1392  131  ;  256
+131  131  131  1400  1371  1406  1399  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1374  1394  1373  131  ;  288
+131  131  131  1404  1406  1399  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1383  1392  ;  320
+131  131  131  1404  1373  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1374  1394  1373  ;  352
+131  131  131  1404  1373  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1373  ;  384
+131  131  131  1404  1373  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1373  ;  416
+131  131  131  1404  1373  48  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1373  ;  448
+131  131  131  1404  1381  1412  1412  1412  1388  0  0  0  0  0  0  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  2817  0  0  0  0  0  1404  1373  ;  480
+131  131  131  1404  1373  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1373  ;  512
+131  131  131  1404  1373  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1373  ;  544
+131  1400  1379  1371  1373  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1373  ;  576
+131  1374  1376  1376  1399  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1400  1379  1379  1371  1373  ;  608
+131  131  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1372  1372  1372  1373  ;  640
+131  131  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1404  1372  1372  1372  1373  ;  672
+131  1400  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1379  1371  1372  1372  1372  1373  ;  704
+131  1404  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1372  1373  ;  736
+131  1374  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1376  1399  ;  768
+    ))
+    (tilemap  (name  "background"  )
+      (z-pos  -100  )(solid  #f  )
+      (width   40  )(height  25  )
+      (tiles
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131
+131  131  131  131  131  131  131  131  131  131  131  131  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131  131  131  131  131  131  131  131  131
+131  131  131  131  131  131  131  131  131  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131  131  131  131  131  131
+131  131  131  131  131  131  131  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131  131  131  131
+131  131  131  131  131  131  0  0  0  0  80  0  80  0  80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131  131  131
+131  131  131  131  131  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131  131
+131  131  131  131  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131  131
+131  131  131  131  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  131  131  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  131  131  0  0  0  1628  1629  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  131  131  0  0  0  1630  1631  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  131  131  0  0  0  0  0  0  79  0  79  0  79  1408  1412  1412  1412  1412  1412  1412  1412  1412  1412  1412  1412  1412  1412  1412  1412  1412  1388  0  0  0  0  0  0  131
+131  131  131  131  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  131  131  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  131  131  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  0  0  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  0  0  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  0  0  0  0  0  0  0  0  79  0  79  0  79  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  131
+131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131  131
+    ))
+
+    (tilemap  (name  "reset"  )(alpha  1  )
+      (z-pos  100  )(solid  #t  )
+      (path  (node  (x  128  )(y  224  ))  )
+      (width  6  )(height  9  )
+      (tiles  131  1400  1371  1372  1372  1373
+        1400  1371  1372  1372  1372  1373
+        1371  1372  1372  1372  1372  1373
+        1372  1372  1372  1372  1372  1373
+        1372  1372  1372  1372  1372  1373
+        1372  1372  1372  1372  1372  1373
+        1372  1372  1372  1372  1372  1373
+        1372  1372  1372  1372  1372  1373
+        1406  1376  1376  1376  1376  1399  ))
+    (tilemap  (name  "ONE"  )(alpha  1  )
+      (z-pos  100  )(solid  #t  )
+      (path  (node  (x  608  )(y  560  ))  )
+      (width  2  )(height  2  )
+      (tiles  1400  1392  1374  1399  ))
+    (tilemap  (name  "TWO"  )(alpha  1  )
+      (z-pos  100  )(solid  #t  )
+      (path  (node  (x  800  )(y  560  ))  )
+      (width  2  )(height  2  )
+      (tiles  1400  1392  1374  1399  ))
+    (tilemap  (name  "THREE"  )(alpha  1  )
+      (z-pos  100  )(solid  #t  )
+      (path  (node  (x  992  )(y  560  ))  )
+      (width  2  )(height  2  )
+      (tiles  1400  1392  1374  1399  ))
+
+    (infoblock  (message (_ "-Welcome to The Shop
+#Completing level statistics in the regular levels will allow you to purchase powerups here to aid in your journey."))
+      (x  224  )(y  576  ))
+    (infoblock  (message (_ "-Progress Poles
+#Your progress in collecting coins, killing enemies, and speedy completion is tracked on the poles to your left.  Each dot represents a level starting with level 1 at the bottom.  Dots turn green when progress is completed."))
+      (x  560  )(y  352  ))
+    (infoblock  (message (_ "-Powerups for Purchase
+#Below are the powerups currently available for purchase.  As more progress is completed, powerups become available from left to right."))
+      (x  752  )(y  352  ))
+    (infoblock  (message (_ "-Star Stones
+#Finding all three star stones will allow you to gain Ultimate Invulnerability.  This ability will be activated and deactivated by placing the stones on the ledge to your right."))
+      (x  944  )(y  352  ))
+
+    (infoblock  (message (_ "*Teir 1 Reward
+#Purchase an egg for 50 coins"))
+      (x  560  )(y  576  ))
+    (bonusblock  (x  624  )(y  576  )(contents  "custom"  )
+      (powerup  (sprite  "images/powerups/egg/egg.sprite"  )(script "  buy_powerup(\"egg\");  ")  ))
+    (infoblock  (message (_ "*Teir 2 Reward
+#Purchase a 2x iceflower for 200 coins"))
+      (x  752  )(y  576  ))
+    (bonusblock  (x  816  )(y  576  )(contents  "custom"  )
+      (powerup  (sprite  "images/powerups/iceflower/iceflower.sprite"  )(script "  buy_powerup(\"ice\");  ")  ))
+    (infoblock  (message (_ "*Teir 3 Reward
+#Purchase a 3x fireflower for 600 coins"))
+      (x  944  )(y  576  ))
+    (bonusblock  (x  1008  )(y  576  )(contents  "custom"  )
+      (powerup  (sprite  "images/powerups/fireflower/fireflower.sprite"  )(script "  buy_powerup(\"fire\");  ")  ))
+
+    (infoblock  (message (_ "*---WARNING!---
 #Pressing this button will reset all your progress.
--DO NOT PUSH"))																																						
-			(x	224	)(y	352	))																																		
-																																									
-	(scriptedobject	(name	"COIN"	)(sprite	"images/objects/coin/coin.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	320	)(y	288	))																																			
-	(scriptedobject	(name	"KILL"	)(sprite	"images/creatures/mr_iceblock/mr_iceblock.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	384	)(y	288	))																																			
-	(scriptedobject	(name	"TIME"	)(sprite	"levels/mattie_world/images/LMH/time.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	448	)(y	288	))																																			
-;coin progress																																									
-	(scriptedobject	(name	"coin1"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	688	))																																			
-	(scriptedobject	(name	"coin2"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	656	))																																			
-	(scriptedobject	(name	"coin3"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	624	))																																			
-	(scriptedobject	(name	"coin4"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	592	))																																			
-	(scriptedobject	(name	"coin5"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	560	))																																			
-	(scriptedobject	(name	"coin6"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	528	))																																			
-	(scriptedobject	(name	"coin7"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	496	))																																			
-	(scriptedobject	(name	"coin8"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	464	))																																			
-	(scriptedobject	(name	"coin9"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	432	))																																			
-	(scriptedobject	(name	"coin10"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	400	))																																			
-	(scriptedobject	(name	"coin11"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	368	))																																			
-	(scriptedobject	(name	"coin12"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	337	)(y	336	))																																			
-;frag progress																																									
-	(scriptedobject	(name	"kill1"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	688	))																																			
-	(scriptedobject	(name	"kill2"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	656	))																																			
-	(scriptedobject	(name	"kill3"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	624	))																																			
-	(scriptedobject	(name	"kill4"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	592	))																																			
-	(scriptedobject	(name	"kill5"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	560	))																																			
-	(scriptedobject	(name	"kill6"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	528	))																																			
-	(scriptedobject	(name	"kill7"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	496	))																																			
-	(scriptedobject	(name	"kill8"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	464	))																																			
-	(scriptedobject	(name	"kill9"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	432	))																																			
-	(scriptedobject	(name	"kill10"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	400	))																																			
-	(scriptedobject	(name	"kill11"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	368	))																																			
-	(scriptedobject	(name	"kill12"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	401	)(y	336	))																																			
-;time progress																																									
-	(scriptedobject	(name	"time1"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	688	))																																			
-	(scriptedobject	(name	"time2"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	656	))																																			
-	(scriptedobject	(name	"time3"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	624	))																																			
-	(scriptedobject	(name	"time4"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	592	))																																			
-	(scriptedobject	(name	"time5"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	560	))																																			
-	(scriptedobject	(name	"time6"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	528	))																																			
-	(scriptedobject	(name	"time7"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	496	))																																			
-	(scriptedobject	(name	"time8"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	464	))																																			
-	(scriptedobject	(name	"time9"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	432	))																																			
-	(scriptedobject	(name	"time10"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	400	))																																			
-	(scriptedobject	(name	"time11"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	368	))																																			
-	(scriptedobject	(name	"time12"	)(sprite	"images/worldmap/common/leveldot.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#t	)(solid	#f	)																																			
-		(x	465	)(y	336	))																																			
-;SUPER SECRET PROGRESS	9																																								
-	(scriptedobject	(name	"EARTH"	)(sprite	"levels/mattie_world/images/powerups/crystal/green_crystal.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#f	)(solid	#f	)																																			
-		(x	1130	)(y	576	))																																			
-	(scriptedobject	(name	"AIR"	)(sprite	"levels/mattie_world/images/powerups/crystal/green_crystal.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#f	)(solid	#f	)																																			
-		(x	1152	)(y	563	))																																			
-	(scriptedobject	(name	"FIRE"	)(sprite	"levels/mattie_world/images/powerups/crystal/green_crystal.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#f	)(solid	#f	)																																			
-		(x	1175	)(y	576	))																																			
-																																									
-	(scriptedobject	(name	"STAR"	)(sprite	"images/powerups/star/star.sprite"	)																																			
-		(layer	50	)(physic-enabled	#f	)																																			
-		(visible	#f	)(solid	#f	)																																			
-		(x	1152	)(y	416	))																																			
-))																																									
+-DO NOT PUSH"))
+      (x  224  )(y  352  ))
+
+  (scriptedobject  (name  "COIN"  )(sprite  "images/objects/coin/coin.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  320  )(y  288  ))
+  (scriptedobject  (name  "KILL"  )(sprite  "images/creatures/mr_iceblock/mr_iceblock.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  384  )(y  288  ))
+  (scriptedobject  (name  "TIME"  )(sprite  "levels/mattie_world/images/LMH/time.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  448  )(y  288  ))
+;coin progress
+  (scriptedobject  (name  "coin1"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  688  ))
+  (scriptedobject  (name  "coin2"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  656  ))
+  (scriptedobject  (name  "coin3"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  624  ))
+  (scriptedobject  (name  "coin4"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  592  ))
+  (scriptedobject  (name  "coin5"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  560  ))
+  (scriptedobject  (name  "coin6"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  528  ))
+  (scriptedobject  (name  "coin7"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  496  ))
+  (scriptedobject  (name  "coin8"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  464  ))
+  (scriptedobject  (name  "coin9"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  432  ))
+  (scriptedobject  (name  "coin10"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  400  ))
+  (scriptedobject  (name  "coin11"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  368  ))
+  (scriptedobject  (name  "coin12"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  337  )(y  336  ))
+;frag progress
+  (scriptedobject  (name  "kill1"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  688  ))
+  (scriptedobject  (name  "kill2"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  656  ))
+  (scriptedobject  (name  "kill3"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  624  ))
+  (scriptedobject  (name  "kill4"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  592  ))
+  (scriptedobject  (name  "kill5"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  560  ))
+  (scriptedobject  (name  "kill6"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  528  ))
+  (scriptedobject  (name  "kill7"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  496  ))
+  (scriptedobject  (name  "kill8"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  464  ))
+  (scriptedobject  (name  "kill9"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  432  ))
+  (scriptedobject  (name  "kill10"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  400  ))
+  (scriptedobject  (name  "kill11"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  368  ))
+  (scriptedobject  (name  "kill12"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  401  )(y  336  ))
+;time progress
+  (scriptedobject  (name  "time1"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  688  ))
+  (scriptedobject  (name  "time2"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  656  ))
+  (scriptedobject  (name  "time3"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  624  ))
+  (scriptedobject  (name  "time4"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  592  ))
+  (scriptedobject  (name  "time5"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  560  ))
+  (scriptedobject  (name  "time6"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  528  ))
+  (scriptedobject  (name  "time7"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  496  ))
+  (scriptedobject  (name  "time8"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  464  ))
+  (scriptedobject  (name  "time9"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  432  ))
+  (scriptedobject  (name  "time10"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  400  ))
+  (scriptedobject  (name  "time11"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  368  ))
+  (scriptedobject  (name  "time12"  )(sprite  "images/worldmap/common/leveldot.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #t  )(solid  #f  )
+    (x  465  )(y  336  ))
+;SUPER SECRET PROGRESS  9
+  (scriptedobject  (name  "EARTH"  )(sprite  "levels/mattie_world/images/powerups/crystal/green_crystal.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #f  )(solid  #f  )
+    (x  1130  )(y  576  ))
+  (scriptedobject  (name  "AIR"  )(sprite  "levels/mattie_world/images/powerups/crystal/green_crystal.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #f  )(solid  #f  )
+    (x  1152  )(y  563  ))
+  (scriptedobject  (name  "FIRE"  )(sprite  "levels/mattie_world/images/powerups/crystal/green_crystal.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #f  )(solid  #f  )
+    (x  1175  )(y  576  ))
+
+  (scriptedobject  (name  "STAR"  )(sprite  "images/powerups/star/star.sprite"  )
+    (layer  50  )(physic-enabled  #f  )
+    (visible  #f  )(solid  #f  )
+    (x  1152  )(y  416  ))
+))

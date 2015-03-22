@@ -1,41 +1,46 @@
-print("doom_islands/default.nut loaded\n");
+if(false) print("doom_islands/default.nut loaded\n");
 
 //INITIALIZATION OF BONUSES
 bonus <- ["skycity" "secrets" "coins" "time" "frags"]
 
 if(! ("island_bonus" in state) || ! ("island_reveal" in state)){
-	state.island_bonus <- {};
-	state.island_reveal <- {};
-	foreach(name in bonus){
-		state.island_bonus[name] <- false;
-		state.island_reveal[name] <- false;
-	}
-	state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"] <- {};
-	state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"].levels <- {};
-	print("bonuses for DOOM islands initialized\n");
+  state.island_bonus <- {};
+  state.island_reveal <- {};
+  foreach(name in bonus){
+    state.island_bonus[name] <- false;
+    state.island_reveal[name] <- false;
+  }
+  state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"] <- {};
+  state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"].levels <- {};
+  print("bonuses for DOOM islands initialized\n");
 }
 else {
-	foreach(name in bonus){
-		if(!(name in state.island_bonus)){
-			state.island_bonus[name] <- false;
-			print("compensated for DOOM island old profile format\n");
-		}
-		if(!(name in state.island_reveal)){
-			state.island_reveal[name] <- false;
-			print("compensated for DOOM island old profile format\n");
-		}
-	}
+  foreach(name in bonus){
+    if(!(name in state.island_bonus)){
+      state.island_bonus[name] <- false;
+      print("compensated for DOOM island old profile format\n");
+    }
+    if(!(name in state.island_reveal)){
+      state.island_reveal[name] <- false;
+      print("compensated for DOOM island old profile format\n");
+    }
+  }
 }
 if(! ("mattmap" in state)){state.mattmap <- false;}
 if(! ("doommap" in state)){state.doommap <- true;}
 if(! ("pennmap" in state)){state.pennmap <- false;}
 if(!("worlds" in state)){
-	state.worlds <- {};
-	state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"] <- {};
-	state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"].levels <- {};
+  state.worlds <- {};
+  state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"] <- {};
+  state.worlds["levels/mattie_world/doom_islands/worldmap.stwm"].levels <- {};
 }
 if(! ("underground" in state)){
-	state.underground <- false;
+  state.underground <- false;
+}
+
+if(!("coin_level_active" in state)){
+  state.coin_level_active <- "false";
+  print("active coin level state initialized\n");
 }
 
 progress <- state.island_bonus;

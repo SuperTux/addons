@@ -3,6 +3,7 @@
   (name (_ "07 - Scary Skies"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
+  (target-time 39)
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -251,7 +252,7 @@
       (y 384)
     )
     (scripttrigger
-      (script "	first.goto_node(6);	")
+      (script "  first.goto_node(6);  ")
       (button #f)
       (width 64)
       (height 8)
@@ -259,7 +260,7 @@
       (y 440)
     )
     (scripttrigger
-      (script "	second.goto_node(14);	")
+      (script "  second.goto_node(14);  ")
       (button #f)
       (width 64)
       (height 8)
