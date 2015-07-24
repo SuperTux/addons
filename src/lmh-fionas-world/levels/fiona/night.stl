@@ -4,6 +4,7 @@
   (author "LMH")
   (contact "lmh.0013@gmail.com")
   (license "GPL 2 / CC-by-sa 3.0")
+  (target-time 0)
   (sector
     (name "main")
     (music "music/voc-night.ogg")
@@ -16,8 +17,8 @@
     )
     (bonusblock
       (script "")
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (count 5)
+      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 3456)
       (y 128)
     )
@@ -161,11 +162,11 @@
     )
     (flyingsnowball
       (x 6048)
-      (y 768)
+      (y 736)
     )
     (flyingsnowball
       (x 5952)
-      (y 768)
+      (y 736)
     )
     (haywire
       (x 4229)
@@ -199,19 +200,19 @@
       (y 838)
     )
     (smartball
-      (x 3299)
-      (y 838)
+      (x 3875)
+      (y 358)
     )
     (smartball
       (x 3011)
       (y 838)
     )
     (smartball
-      (x 3203)
-      (y 838)
+      (x 1123)
+      (y 422)
     )
     (smartball
-      (x 3299)
+      (x 3267)
       (y 358)
     )
     (smartball
@@ -232,12 +233,16 @@
       (y 640)
     )
     (secretarea
+      (script "")
+      (message "")
       (width 316)
       (height 172)
       (x 192)
       (y 820)
     )
     (secretarea
+      (script "")
+      (message "")
       (width 412)
       (height 109)
       (x 3264)

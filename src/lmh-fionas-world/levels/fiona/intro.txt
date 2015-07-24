@@ -1,26 +1,28 @@
-(supertux-text			
-	(background	"../../levels/fiona/images/intro.jpg"	)
-	(music	"music/salcon.ogg"	)
-	(text "	Welcome to 
+(supertux-text
+  (background "../../levels/fiona/images/intro.jpg")
+  (music  "music/salcon.ogg")
+  (text "	Welcome to
 -Fiona's World
-		This worldmap features ten levels 
-		made for the development version 
-		0.3.4-GIT of SuperTux.
-			
-		The levels were designed for, and 
-		with the help of, my 3-year-old 
-		daughter.  Given this intent, I 
-		am sorry if you find them too easy;
-		and I am really sorry if you find
-		them too difficult.
+	This worldmap features ten levels
+	made for the development version
+	0.3.4-GIT of SuperTux.  This version
+	of the wouldmap has be updated for
+	use with SuperTux version 0.3.5.
+
+	The levels were designed for, and
+	with the help of, my 3-year-old
+	daughter.  Given this intent, I
+	am sorry if you find them too easy;
+	and I am really sorry if you find
+	them too difficult.
 
 
-		Now, it's breakfast time!  Head out
-		and see if you can find something
-		tasty to eat.
+	Now, it's breakfast time!  Head out
+	and see if you can find something
+	tasty to eat.
 
 
 
-    
-	")
+
+  ")
 )
