@@ -52,13 +52,13 @@
    )
   (supertux-addoninfo
     (id "lmh-fionas-world")
-    (version 1)
+    (version 2)
     (type "worldmap")
     (title "Fiona's World")
     (author "LMH")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-fionas-world_v1.zip")
-    (md5 "4b731900668fb75de338f765fd41f58c")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-fionas-world_v2.zip")
+    (md5 "b521546dc994d50f10122cad18cca078")
    )
   (supertux-addoninfo
     (id "hume-worldmaps")
