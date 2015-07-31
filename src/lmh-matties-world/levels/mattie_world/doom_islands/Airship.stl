@@ -15,7 +15,7 @@
     (image  "images/background/bluemountain-middle.png")
     (image-bottom  "images/background/bluemountain-bottom.png"))
   (spawnpoint  (name  "main"  )(x  32  )(y  3872  ))
-  (scripttrigger  (button  #f  )(script "  Level.spawn(\"ship\", \"main\");  ")
+  (scripttrigger  (button  #f  )(script "  Level.spawn(\"ship\", \"main\");")
     (width  800  )(height  32  )
     (x  0  )(y  -64  ))
   (pushbutton  (script "  launch.goto_node(1);
@@ -44,7 +44,7 @@
   (snowman  (x  306  )(y  3744  ))
   (mrbomb  (x  402  )(y  3881  ))
 
-  (powerup  (x  1184  )(y  0  )(sprite  "images/powerups/egg/egg.sprite"  )(script "  eggup();  Tux.add_bonus(\"grow\");  find(\"airshipegg\");  "))
+  (powerup  (x  1184  )(y  0  )(sprite  "images/powerups/egg/egg.sprite"  )(script "eggup();  Tux.add_bonus(\"grow\");"))
 
   (tilemap
   (z-pos  0  )
@@ -380,18 +380,17 @@
     (width  352  )(height  96  )
     (x  1776  )(y  736  ))
 
-  (scripttrigger  (button  #f  )(script "  if(hidden){hidden <- false; find(\"airshipdoll\")}  ")
+  (scripttrigger  (button  #f  )(script "  if(hidden){hidden <- false;}  ")
     (width  40  )(height  40  )
     (x  9372  )(y  124  ))
-  (scripttrigger  (button  #f  )(script "  if(ready){ready <- false; find(\"airshipfirefly\");}  ")
+  (scripttrigger  (button  #f  )(script "  if(ready){ready <- false;}  ")
     (width  32  )(height  32  )
     (x  4370  )(y  210  ))
-  (scripttrigger  (button  #f  )(script "  if(ready){ready <- false; find(\"airshipfirefly\");}  ")
+  (scripttrigger  (button  #f  )(script "  if(ready){ready <- false;}  ")
     (width  32  )(height  32  )
     (x  6354  )(y  896  ))
   (bonusblock  (x  1600  )(y  1120  )(contents  "custom"  )
-    (powerup  (sprite  "images/powerups/fireflower/fireflower.sprite"  )(script "  Tux.add_bonus(\"fireflower\");  powerup();
-            find(\"airshipflower\");  ")  ))
+    (powerup  (sprite  "images/powerups/fireflower/fireflower.sprite"  )(script "  Tux.add_bonus(\"fireflower\");  powerup();")  ))
 
   (wind  (name  "board"  )(blowing  #t  )
     (speed-x  500  )(speed-y  -800  )(acceleration  500  )
@@ -504,8 +503,8 @@
     (x  1216  )(y  736  ))
 
   (infoblock    (message (_ "
--Flathead's Quarters #
-# KEEP OUT!
+-Flathead's Quarters
+#   KEEP OUT!
 #'Captain's busy... so should you be.'
       "))  ;  !images/creatures/totem/walking3.png
     (x  9344  )(y  544  ))

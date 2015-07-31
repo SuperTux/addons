@@ -1,11 +1,12 @@
-print("doom_islands/random.nut loaded\n");
+debug <- false;
+if(debug) print("doom_islands/random.nut loaded\n");
 
 function set_random_level(random){
 	random_background();
-	
+
 	bonus <- true;
 	if(! random){  //used for testing
-		print("Level not randomized!\n");
+		print("[WARNING] Level not properly randomized!\n");
 		Capricorn1.fade(1,0);
 		Aquarius1.fade(1,0);
 		Pisces3.fade(1,0);
@@ -37,9 +38,9 @@ function set_random_level(random){
 		}else{
 			Capricorn4.fade(1,0);
 		}
-		
+
 		temp2 <- rand() % 4;
-		print("Level configuration: "+temp+" "+temp2+" ");
+		if(debug) print("Level configuration: "+temp+" "+temp2+" ");
 		if(!(temp == temp2))
 			bonus <- false;
 		if(temp2 == 1){
@@ -52,7 +53,7 @@ function set_random_level(random){
 		}else{
 			Aquarius4.fade(1,0);
 		}
-		
+
 		temp <- rand() % 4;
 		if(!(temp == temp2))
 			bonus <- false;
@@ -66,9 +67,9 @@ function set_random_level(random){
 		}else{
 			Pisces4.fade(1,0);
 		}
-		
+
 		temp2 <- rand() % 4;
-		print(temp+" "+temp2+" ");
+		if(debug) print(temp+" "+temp2+" ");
 		if(!(temp == temp2))
 			bonus <- false;
 		if(temp2 == 1){
@@ -95,9 +96,9 @@ function set_random_level(random){
 		}else{
 			Taurus4.fade(1,0);
 		}
-		
+
 		temp2 <- rand() % 4;
-		print(temp+" "+temp2+" ");
+		if(debug) print(temp+" "+temp2+" ");
 		if(!(temp == temp2))
 			bonus <- false;
 		if(temp2 == 1){
@@ -124,9 +125,9 @@ function set_random_level(random){
 		}else{
 			Cancer4.fade(1,0);
 		}
-		
+
 		temp2 <- rand() % 4;
-		print(temp+" "+temp2+" ");
+		if(debug) print(temp+" "+temp2+" ");
 		if(!(temp == temp2))
 			bonus <- false;
 		if(temp2 == 1){
@@ -153,9 +154,9 @@ function set_random_level(random){
 		}else{
 			Virgo4.fade(1,0);
 		}
-		
+
 		temp2 <- rand() % 4;
-		print(temp+" "+temp2+" ");
+		if(debug) print(temp+" "+temp2+" ");
 		if(!(temp == temp2))
 			bonus <- false;
 		if(temp2 == 1){
@@ -184,9 +185,9 @@ function set_random_level(random){
 		}else{
 			Scorpio4.fade(1,0);
 		}
-		
+
 		temp2 <- rand() % 4;
-		print(temp+" "+temp2+" ");
+		if(debug) print(temp+" "+temp2+" ");
 		if(!(temp == temp2))
 			bonus <- false;
 		if(temp2 == 1){
@@ -201,7 +202,7 @@ function set_random_level(random){
 		}
 
 		temp <- rand() % 4;
-		print(temp+"\n");
+		if(debug) print(temp+"\n");
 		if(!(temp == temp2))
 			bonus <- false;
 		if(temp == 1){
@@ -216,7 +217,7 @@ function set_random_level(random){
 			Sagittarius4.fade(1,0);
 		}
 	}
-	
+
 	if(bonus || coins){
 		Zodiac.fade(0,0);
 		ZodiacTop.fade(0,0);
@@ -235,7 +236,7 @@ function random_background(){
 	Background_Far3.fade((temp2 == 2) ? 1 : 0, 0);
 	if(temp == temp2)
 		coins <- true;
-	print("Background set to configuration "+temp+" "+temp2+"\n");
+	if(debug) print("Background set to configuration "+temp+" "+temp2+"\n");
 }
 
 function bonus_rain(){

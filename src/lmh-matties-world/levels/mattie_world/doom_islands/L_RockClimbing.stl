@@ -1184,7 +1184,7 @@
   (sector  (name  "main"  )
     (music "music/chipdisko.ogg")
     (ambient-light 1 1 1)
-    (init-script "open_gate <- false; hard <- false;")
+    (init-script "open_gate <- false;")
     (camera  (mode "normal")  )
     (background  (speed 0.5)
       (image-top "images/background/bluemountain-top.png")
@@ -1205,17 +1205,9 @@
     (secretarea  (fade-tilemap "secret")
       (width  192  )(height  96  )
       (x  512  )(y   6560  ))
-    (scripttrigger  (script "  uppipe.goto_node(1);
-        hard <- false;  ")(button  #f  )
+    (scripttrigger  (script "uppipe.goto_node(1);")(button  #f  )
       (width  32  )(height  64  )
       (x  704  )(y  6656  ))
-
-    (scripttrigger  (script "  hard <- true;  ")(button  #f  )
-      (width  768  )(height  32  )
-      (x  0  )(y  9376  ))
-    (scripttrigger  (script "  if(hard){hard <- false; find(\"rockhard\");}  ")(button  #f  )
-      (width  32  )(height  512  )
-      (x  336  )(y  0  ))
 
     (scripttrigger
       (script "

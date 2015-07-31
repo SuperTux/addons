@@ -1,4 +1,5 @@
-print("pipes.nut loaded\n");
+debug <- false;
+if(debug) if(debug) print("pipes.nut loaded\n");
 flip <-false;//flip concept abandoned
 running <- false;
 upready <- false;
@@ -14,7 +15,7 @@ function EEEgo(){
 		Tux.deactivate();
 		if(!flip){
 			if(!upready6){
-				print("EkahiEluaEkolu going down...\n");
+				if(debug) print("EkahiEluaEkolu going down...\n");
 				EKAHIdown.goto_node(1);
 				ELUAdown.goto_node(1);
 				EKOLUdown.goto_node(1);
@@ -46,10 +47,10 @@ function EEEgo(){
 				upready6 <- true;
 				EKAHIup.fade(1,0);
 				ELUAup.fade(1,0);
-				EKOLUup.fade(1,0);		
+				EKOLUup.fade(1,0);
 			}
 			else{
-				print("EkahiEluaEkolu going up...\n");
+				if(debug) print("EkahiEluaEkolu going up...\n");
 				EKAHIup.goto_node(1);
 				ELUAup.goto_node(1);
 				EKOLUup.goto_node(1);
@@ -95,7 +96,7 @@ function ABGgo(){
 		Tux.deactivate();
 		if(!flip){
 			if(!upready5){
-				print("AlphaBetaGamma going down...\n");
+				if(debug) print("AlphaBetaGamma going down...\n");
 				ALPHAdown.goto_node(1);
 				BETAdown.goto_node(1);
 				GAMMAdown.goto_node(1);
@@ -127,10 +128,10 @@ function ABGgo(){
 				upready5 <- true;
 				ALPHAup.fade(1,0);
 				BETAup.fade(1,0);
-				GAMMAup.fade(1,0);		
+				GAMMAup.fade(1,0);
 			}
 			else{
-				print("AlphaBetaGamma going up...\n");
+				if(debug) print("AlphaBetaGamma going up...\n");
 				ALPHAup.goto_node(1);
 				BETAup.goto_node(1);
 				GAMMAup.goto_node(1);
@@ -176,7 +177,7 @@ function UDTgo(){
 		Tux.deactivate();
 		if(!flip){
 			if(!upready4){
-				print("UnoDosTres going down...\n");
+				if(debug) print("UnoDosTres going down...\n");
 				UNOdown.goto_node(1);
 				DOSdown.goto_node(1);
 				TRESdown.goto_node(1);
@@ -208,10 +209,10 @@ function UDTgo(){
 				upready4 <- true;
 				UNOup.fade(1,0);
 				DOSup.fade(1,0);
-				TRESup.fade(1,0);		
+				TRESup.fade(1,0);
 			}
 			else{
-				print("UnoDosTres going up...\n");
+				if(debug) print("UnoDosTres going up...\n");
 				UNOup.goto_node(1);
 				DOSup.goto_node(1);
 				TRESup.goto_node(1);
@@ -255,7 +256,7 @@ function primarysecondaryskip(){
 	if(!running){
 		running <- true;
 		if(!flip){
-			print("PrimarySecondary skipped\n");
+			if(debug) print("PrimarySecondary skipped\n");
 			PRIMARYdown.goto_node(0);
 			SECONDARYdown.goto_node(0);
 			PRIMARYdown.fade(1,0);
@@ -289,7 +290,7 @@ function primarysecondarygo(){
 		Tux.deactivate();
 		if(!flip){
 			if(!upready3){
-				print("PrimarySecondary going down...\n");
+				if(debug) print("PrimarySecondary going down...\n");
 				PRIMARYdown.goto_node(1);
 				SECONDARYdown.goto_node(1);
 				PRIMARYup.goto_node(0);
@@ -313,10 +314,10 @@ function primarysecondarygo(){
 				wait(1);
 				upready3 <- true;
 				PRIMARYup.fade(1,0);
-				SECONDARYup.fade(1,0);			
+				SECONDARYup.fade(1,0);
 			}
 			else{
-				print("PrimarySecondary going up...\n");
+				if(debug) print("PrimarySecondary going up...\n");
 				PRIMARYup.goto_node(1);
 				SECONDARYup.goto_node(1);
 				PRIMARYdown.goto_node(3);
@@ -355,7 +356,7 @@ function onetwothreego(){
 		Tux.deactivate();
 		if(!flip){
 			if(!upready2){
-				print("123 going down...\n");
+				if(debug) print("123 going down...\n");
 				ONEdown.goto_node(1);
 				TWOdown.goto_node(1);
 				ONEup.goto_node(0);
@@ -382,10 +383,10 @@ function onetwothreego(){
 				wait(1);
 				upready2 <- true;
 				ONEup.fade(1,0);
-				TWOup.fade(1,0);			
+				TWOup.fade(1,0);
 			}
 			else{
-				print("123 going up...\n");
+				if(debug) print("123 going up...\n");
 				ONEup.goto_node(1);
 				TWOup.goto_node(1);
 				ONEdown.goto_node(3);
@@ -422,7 +423,7 @@ function ABCgo(){
 		Tux.deactivate();
 		if(!flip){
 			if(!upready){
-				print("ABC going down...\n");
+				if(debug) print("ABC going down...\n");
 				Adown.goto_node(1);
 				Bdown.goto_node(1);
 				Cdown.goto_node(1);
@@ -460,7 +461,7 @@ function ABCgo(){
 				Cup.fade(1,0);
 			}
 			else{
-				print("ABC going up...\n");
+				if(debug) print("ABC going up...\n");
 				Aup.goto_node(1);
 				Bup.goto_node(1);
 				Cup.goto_node(1);
@@ -521,7 +522,7 @@ function allready(){
 		Amove.fade(0,0);
 		Bmove.fade(0,0);
 		Cmove.fade(0,0);
-		
+
 		ONEdown.goto_node(0);
 		TWOdown.goto_node(0);
 		ONEup.goto_node(0);
@@ -536,7 +537,7 @@ function allready(){
 		ONEmove.fade(0,0);
 		TWOmove.fade(0,0);
 		THREEmove.fade(1,0);
-		
+
 		PRIMARYdown.goto_node(0);
 		SECONDARYdown.goto_node(0);
 		PRIMARYup.goto_node(0);
@@ -549,7 +550,7 @@ function allready(){
 		SECONDARYup.fade(0,0);
 		PRIMARYmove.fade(0,0);
 		SECONDARYmove.fade(0,0);
-		
+
 		UNOdown.goto_node(0);
 		DOSdown.goto_node(0);
 		TRESdown.goto_node(0);
@@ -568,7 +569,7 @@ function allready(){
 		UNOmove.fade(0,0);
 		DOSmove.fade(0,0);
 		TRESmove.fade(0,0);
-		
+
 		ALPHAdown.goto_node(0);
 		BETAdown.goto_node(0);
 		GAMMAdown.goto_node(0);
@@ -587,7 +588,7 @@ function allready(){
 		ALPHAmove.fade(0,0);
 		BETAmove.fade(0,0);
 		GAMMAmove.fade(0,0);
-		
+
 		EKAHIdown.goto_node(0);
 		ELUAdown.goto_node(0);
 		EKOLUdown.goto_node(0);
@@ -606,8 +607,8 @@ function allready(){
 		EKAHImove.fade(0,0);
 		ELUAmove.fade(0,0);
 		EKOLUmove.fade(0,0);
-		
-		print("pipe transfer mode set to normal\n");
+
+		if(debug) print("pipe transfer mode set to normal\n");
 	}
 	else{
 		Adown.goto_node(2);
@@ -628,24 +629,24 @@ function allready(){
 		Amove.fade(0,0);
 		Bmove.fade(0,0);
 		Cmove.fade(0,0);
-		
-		
-		
+
+
+
 		pipetopsABC.fade(0,0);
-		
-		print("pipe transfer mode set to inverted\n");//mode abandoned
+
+		if(debug) print("pipe transfer mode set to inverted\n");//mode abandoned
 	}
 }
 
 function goexit(){
 	Tux.deactivate();
 	topblock.goto_node(2);
-	Effect.fade_out(1); 
-	wait(1); 
-	Level.spawn("maze","exit"); 
+	Effect.fade_out(1);
+	wait(1);
+	Level.spawn("maze","exit");
 	Effect.fade_in(1);
 	wait(2);
-	Tux.activate(); 
+	Tux.activate();
 }
 
 function endflag(val){
@@ -664,18 +665,18 @@ function setrand(){
 		randA.fade(1,0);
 		randB.fade(0,0);
 		randC.fade(0,0);
-		print("maze configuration A set\n");
+		if(debug) print("maze configuration A set\n");
 	}
 	else if(temp == 2){
 		randA.fade(0,0);
 		randB.fade(1,0);
 		randC.fade(0,0);
-		print("maze configuration B set\n");
+		if(debug) print("maze configuration B set\n");
 	}
 	else{
 		randA.fade(0,0);
 		randB.fade(0,0);
 		randC.fade(1,0);
-		print("maze configuration C set\n");
+		if(debug) print("maze configuration C set\n");
 	}
 }

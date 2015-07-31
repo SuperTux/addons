@@ -1,28 +1,28 @@
 (supertux-text
-  (background  "ToadEnd.png"  )
+  (background  "ToadEnd.jpg"  )
   (music  "music/credits.ogg"  )
-  (text "  Congratulations!
+  (text "	  Congratulations!
 
-    You have defeated the dreaded
-    Doom Toad and vanquished his
-    evil army from Mattie's Iceberg.
+	  You have defeated the dreaded
+	  Doom Toad and vanquished his
+	  evil army from Mattie's Iceberg.
 
-    As the remnants of the vile force
-    flees to the North, the fact that
-    they were only a small part of a
-    vast legion leaves no guarantee
-    of lasting peace.
+	  As the remnants of the vile force
+	  flees to the North, the fact that
+	  they were only a small part of a
+	  vast legion leaves no guarantee
+	  of lasting peace.
 
-    But that is another battle for
-    another day.
+	  But that is another battle for
+	  another day.
 
 
-    You've been playing
--    Mattie's Iceberg
+	  You've been playing
+-   Mattie's Iceberg
 
-    Levelset designed by
--    LMH
-*    lmh.0013@gmail.com
+	  Levelset designed by
+-   LMH
+*   lmh.0013@gmail.com
     (comments, criticisms welcomed)
 
   ")

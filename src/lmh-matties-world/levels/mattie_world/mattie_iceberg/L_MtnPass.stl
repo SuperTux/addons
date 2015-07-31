@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "The Mountain Pass"))
+  (name (_ "11 - The Mountain Pass"))
   (author "LMH")
   (license "GPL 2 / CC-by-sa 3.0")
   (target-time 75)

@@ -149,7 +149,7 @@
                 (width  16      )(height        16      )
                 (x      2200    )(y     2296    ))
         (platform       (name   "up"    )
-                (running        #f      )(sprite        "images/objects/platforms/stone-tiny.sprite"    )
+                (running        #f      )(sprite        "levels/mattie_world/images/objects/platforms/stone-tiny.sprite"    )
                 (path   (node   (x      2192    )(y     2368    )(time  0.1     ))
                         (node   (x      2192    )(y     2320    )(time  0.4     ))
                         (node   (x      2192    )(y     2320    )(time  1       ))
@@ -208,13 +208,13 @@
         (unstable_tile  (sprite "images/objects/unstable_tile/iceplatform.sprite"       )
                 (x      3968    )(y     1952    ))
 
-        (hurting_platform       (sprite "images/objects/hurting_platform/spike_up.sprite"       )
+        (hurting_platform       (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite"       )
                 (path   (node   (x      640     )(y     2048    )(time  2       ))
                         (node   (x      704     )(y     2048    )(time  2       ))
                         (node   (x      704     )(y     2048    )(time  2       ))
                         (node   (x      640     )(y     2048    )(time  2       ))      ))
 
-        (hurting_platform       (sprite "images/objects/hurting_platform/spike_up.sprite"       )
+        (hurting_platform       (sprite "levels/mattie_world/images/objects/hurting_platform/spike_up.sprite"       )
                 (path   (node   (x      2304    )(y     2272    )(time  2       ))
                         (node   (x      2912    )(y     2272    )(time  2       ))      ))
 
