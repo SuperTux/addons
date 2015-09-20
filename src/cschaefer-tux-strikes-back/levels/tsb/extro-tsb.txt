@@ -33,7 +33,8 @@
 	Created by Christian Schaefers
 *www.christian-schaefers.de
 
-
+	Converted and ported to version 0.3.5
+by Richard Qian, aka. Worldblender
 
 
 

@@ -1,7 +1,7 @@
 (supertux-addoninfo
   (id "cschaefer-tux-strikes-back")
-  (version 1)
+  (version 2)
   (type "worldmap")
   (title "Tux Strikes Back")
   (author "Christian Schaefers")
-  (license "freeware that must not be sold provided \"as is\" without express or implied warranty"))
+  (license "CC BY-SA 4.0+"))

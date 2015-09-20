@@ -32,13 +32,13 @@
    )
   (supertux-addoninfo
     (id "cschaefer-tux-strikes-back")
-    (version 1)
+    (version 2)
     (type "worldmap")
     (title "Tux Strikes Back")
     (author "Christian Schaefers")
-    (license "freeware that must not be sold provided \"as is\" without express or implied warranty")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/cschaefer-tux-strikes-back_v1.zip")
-    (md5 "fcac97363f29d8b30e4058206a4ab07f")
+    (license "CC BY-SA 4.0+")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/cschaefer-tux-strikes-back_v2.zip")
+    (md5 "155f9ef8a3189e47da6c38288379d7da")
    )
   (supertux-addoninfo
     (id "octo-levels")

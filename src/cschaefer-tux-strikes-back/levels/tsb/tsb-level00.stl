@@ -1,7 +1,7 @@
 (supertux-level
   (version 2)
   (name (_ "The Story"))
-  (license "see tsblevels.nfo")
+  (license "CC BY-SA 4.0+")
   (sector
     (name "main")
     (init-script "wait_for_screenswitch();Level.finish(true);display_text_file(\"levels/tsb/intro-tsb.txt\");")
