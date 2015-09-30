@@ -130,6 +130,16 @@
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v1.zip")
     (md5 "afb2221fda9a7ffb8b563799bdeb495d")
    )
+   (supertux-addoninfo
+    (id "michel-the-frozen-continent")
+    (version 1)
+    (type "world")
+    (title "The Frozen Continent")
+    (author "Michel")
+    (license "GPL 2 / CC-by-sa")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/michel-the-frozen-continent_v1.zip")
+    (md5 "17d8c424c6f5d71ec6843dc761ab8d7c")
+   )
 )
 
 ;; EOF ;;

@@ -1,0 +1,8 @@
+(supertux-addoninfo
+ (id "michel-the-frozen-continent")
+ (version 1)
+ (type "world")
+ (title "The Frozen Continent")
+ (author "Michel")
+ (license "GPL 2 / CC-by-sa")
+)
