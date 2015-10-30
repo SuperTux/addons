@@ -141,7 +141,7 @@
     (md5 "17d8c424c6f5d71ec6843dc761ab8d7c")
    )
    (supertux-addoninfo
-    (id "german-language-pack")
+    (id "langpack-de")
     (version 1)
     (type "languagepack")
     (title "German")
