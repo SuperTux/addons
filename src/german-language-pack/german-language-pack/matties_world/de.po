@@ -1,0 +1,506 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ettore Atalan <atalanttore@googlemail.com>, 2014
+# Marcel Haring, 2014
+# millimarg, 2015
+# M&m <martin.ebermann@googlemail.com>, 2014
+# Nils Welzk, 2013
+# Tobias Markus <tobbi@mozilla-uk.org>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-16 11:55+0200\n"
+"PO-Revision-Date: 2015-07-11 02:37+0000\n"
+"Last-Translator: Tobias Markus <tobbi@mozilla-uk.org>\n"
+"Language-Team: German (http://www.transifex.com/arctic-games/supertux/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Airship.stl:3
+msgid "Flathead's Airship"
+msgstr "Flachkopfs Luftschiff"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Airship.stl:506
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/S_Airship.stl:503
+msgid ""
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"-Flathead's Quarters #\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"# KEEP OUT! \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"#'Captain's busy... so should you be.'\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"\t\t\t"
+msgstr "⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⏎\n-Flachkopf's Quartiere #⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⏎\n# BLEIB DRAUßEN! ⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⏎\n#'Der Kapitän ist beschäftigt... und du solltest das auch sein.'\n⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⏎\n⇥⇥⇥"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_Arena.stl:3
+msgid "Bonus Level: Skellington Arena"
+msgstr "Bonus Level: Skellington Arena"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_SavagedLands.stl:3
+msgid "Bouns Level: Savaged Lands"
+msgstr "Bonus Level: Verwilderte Länder"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:3
+msgid "\tThe Trophy Room\t"
+msgstr "⇥Der Pokalraum⇥"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:168
+msgid ""
+"-Sky Pirate Swag\n"
+"#\n"
+"#Steal a little booty from pirates in the Frosted Dunes."
+msgstr "-Himmelspiraten Beute\n#\n#Stiehl ein bisschen Beutegut von Piraten in den eisigen Dünen."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:176
+msgid ""
+"-Help from Above\n"
+"#\n"
+"#Find that extra boost to help you through the Frosted Dunes"
+msgstr "-Rettung von Oben\n#\n#Finde den Extra Boost um durch die eisigen Dünen zu gelangen"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:185
+msgid ""
+"-Crystal Quick\n"
+"#\n"
+"#Find the two shortcuts through The Giant Geode. [DISABLED]"
+msgstr "-Kristallschnell\n#\n#Finde die zwei Abkürzungen durch Die Gigantische Geode [DEAKTIVIERT]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:212
+msgid ""
+"-Airship Cannon\n"
+"#\n"
+"#Launch yourself from the airship cannon accessable from the level Under The Airship."
+msgstr "-Luftschiffkanone\n#\n#Schieße dich selbst aus Luftschiffkanone, erreichbar aus dem Level 'Unter dem Luftschiff'."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:227
+msgid ""
+"-Ode to Useless Stars\n"
+"#\n"
+"#Don't you just hate it when your invincibility goes to waste?"
+msgstr "-Ode an nutzlose Sterne\n#\n#Ist es nicht einfach ärgerlich, wenn deine Unbesiegbarkeit verschwendet ist?"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:242
+msgid ""
+"-The Hard Way\n"
+"#\n"
+"#In Rock Climbing take the hard path to the top without dieing or taking shortcuts."
+msgstr "-Der Schwierige Weg\n#\n#Nimm den schwierigen Pfad im Level Felsenklettern ohne zu sterben oder Abkürzungen zu nehmen."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:302
+msgid ""
+"*Bonus Level: Savaged Lands\n"
+"#\n"
+"#Discover and start the bonus level Savaged Lands."
+msgstr "*Bonus-Level: Verwilderte Länder\n#\n#Finde und starte das Bonus-Level Verwilderte Länder"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:310
+msgid ""
+"-Fire in the Sky\n"
+"#\n"
+"#Seek out the fire-flower hidden above the Savaged Lands."
+msgstr "-Feuer im Himmel\n#\n#Finde die Feuerblume, die über den Verwilderten Ländern versteckt ist."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:319
+msgid ""
+"*Bonus Level: On the Open Ocean\n"
+"#\n"
+"#Discover and start the bonus level On the Open Ocean. [DISABLED]"
+msgstr "*Bonus-Level: In der offenen See\n#\n#Entdecke und beginne den Bonus-Level 'In der offenen See' [DEAKTIVIERT]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:334
+msgid ""
+"*Bonus Level: Skellington Arena\n"
+"#\n"
+"#Find and start the bonus level Skellington Arena."
+msgstr "*Bonus-Level: Skellington Arena\n#\n#Finde und starte das Bonus-Level Skellington Arena"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:342
+msgid ""
+"-Hole in the Wall\n"
+"#\n"
+"#Who doesn't like extra coins?"
+msgstr "-Loch in der Wand\n#\n#Wer mag denn keine Extramünzen?"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:351
+msgid ""
+"-Toad Tower Treasure\n"
+"#\n"
+"#Find Toad's hidden stash within his castle."
+msgstr "-Toads Turmschatz\n#\n#Finde Toads geheimes Versteck in seinem Schloss."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:359
+msgid ""
+"-Toad Castle Dungeon\n"
+"#\n"
+"#Find the alternate route through Toad Castle."
+msgstr "-Toads Burgverlies\n#\n#Finde den alternativen Weg durch Toads Schloss."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:368
+msgid ""
+"-A Little Help\n"
+"#\n"
+"#No sense in Tux attacking the Airship while small."
+msgstr "-Eine kleine Hilfe\n#\n#Es hat keinen Sinn, wenn Tux das Luftschiff angreift, solange er klein ist."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:376
+msgid ""
+"-Fire in the Sky\n"
+"#\n"
+"#Discover the fire-flower on Flathead's Airship."
+msgstr "-Feuer im Himmel\n#\n#Finde die Feuerblume unter Flachkopfs Luftschiff"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:384
+msgid ""
+"-Do Over\n"
+"#\n"
+"#Find any one of two respawn bells on Flathead's Airship"
+msgstr "-Und Nochmal\n#\n#Finde eine von den beiden Kontrollpunkten in Flachkopfs Luftschiff"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:392
+msgid ""
+"-Something for Your Trouble\n"
+"#\n"
+"#Find the Tux doll on Flathead's Airship"
+msgstr "-Etwas für deine Mühe.\n#\n#Finde den kleinen Pinguin unter Flachkopfs Luftschiff"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:401
+msgid ""
+"-Trophy Room\n"
+"#\n"
+"*Find the Trophy Room (hint: you're in it right now)."
+msgstr "-Pokalzimmer\n#\n#Finde das Pokalzimmer (Tipp: In diesem bist du gerade)"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:415
+msgid ""
+"-Master of Secrets\n"
+"#\n"
+"*Discover every secret area within DOOM Islands. [DISABLED]"
+msgstr "-Herr der Verstecke\n#\n*Finde alle Verstecke in DOOM Islands [DEAKTIVIERT]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:423
+msgid ""
+"-The Coin Collector\n"
+"#\n"
+"*Collect all the coins from each level within DOOM Islands. [DISABLED]"
+msgstr "-Der Münzsammler\n#\n*Sammle alle Münzen in jedem Level auf DOOM Islands. [DEAKTIVIERT]."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:431
+msgid ""
+"-Roadrunner\n"
+"#\n"
+"*Complete DOOM Islands with best times totalling less than ### seconds. [DISABLED]"
+msgstr "-Roadrunner\n#\n*Schließe DOOM Islands mit der besten Zeit weniger als ### Sekunde ab. [DEAKTIVIERT]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:439
+msgid ""
+"-DOOMBRINGER\n"
+"#\n"
+"*Eliminate every unique foe from within DOOM Islands. [DISABLED]"
+msgstr "-ÜBERBRINGER DER VERDAMMNIS\n#\n*Töte jeden einzelnen Gegner auf DOOM Islands [DEAKTIVIERT]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:460
+msgid ""
+"*---WARNING!---\n"
+"#Pressing this button will reset all your trophies and level statistics.\n"
+"-DO NOT PUSH"
+msgstr "*---WARNUNG!---\n#Wenn du diesen Knopf drückst, werden all deine Pokale und Levelstatistiken zurückgesetzt.\n-DRÜCKEN VERBOTEN"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/DecrepitCastle.stl:3
+msgid "Decrepit Castle"
+msgstr "Baufälliges Schloss"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Iceborer.stl:3
+msgid "Den of the Iceborer"
+msgstr "Höhle des Eisbohrers"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Day.stl:3
+msgid "\t\t- A Brand New Day"
+msgstr "\t\t- Ein ganz neuer Tag"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Dunes.stl:3
+msgid "\t01\t- Frosted Dunes"
+msgstr "\t01\t- Eisige Dünen"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Escape.stl:3
+msgid "13 - Castle Escape"
+msgstr "13 - Flucht aus dem Schloss"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Floodlands.stl:3
+msgid "\t02\t- Floodlands"
+msgstr "02 - Flutländer"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Geode.stl:3
+msgid "\t05\t- The Giant Geode"
+msgstr "05 - Die Gigantische Geode"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Geode.stl:30
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Pipes.stl:237
+msgid "!images/decal/explanations/helpboard_badflower.png"
+msgstr "!images/decal/explanations/helpboard_badflower.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Glorious.stl:3
+msgid "Glorious Crossing"
+msgstr "Glorreiche Kreuzung"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Pipes.stl:3
+msgid "\t04\t- Pipe Maze"
+msgstr "\t04\t- Rohrlabyrinth"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Pipes.stl:236
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_HighRoute.stl:141
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Mineshaft.stl:18
+msgid "!images/decal/explanations/helpboard_pipe.png"
+msgstr "!images/decal/explanations/helpboard_pipe.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Primed.stl:3
+msgid "\tPrimed for Action\t"
+msgstr "Ein Prim(a) Tag"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_RockClimbing.stl:3
+msgid "\t\t- Rock Climbing"
+msgstr "\t\t-  Felsenklettern"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_RockClimbing.stl:19
+msgid ""
+"-Welcome to the base of the mountain!\n"
+"#\n"
+"#The door to your left leads to the easy, and 'stress free' way up.\n"
+"#\n"
+"#To your right lies the door for the difficult route, which offers a more rewarding experience."
+msgstr "-Willkommen am Fuße des Berges!\n#\n#Die Tür zu deiner Linken führt zum einfachen, 'ruhigen' Aufstieg.\n#\n#Zu deiner Rechten liegt die Tür zu einer schwierigen, aber auch einträglicheren Route."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_SkyFall.stl:3
+msgid "\t\t- The Sky is Falling"
+msgstr "⇥⇥- Der Himmel stürzt ein "
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Thomp.stl:3
+msgid "\t03\t- The Crushed Garden"
+msgstr "\t03\t- Der zerkleinerte Garten"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Thomp.stl:153
+msgid ""
+"-Blue Coins \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"#3 blue coins in an instance of this level gains 2 Tux dolls. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"!images/decal/explanations/info_bluecoin_3.png"
+msgstr "-Blaue Münzen ⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥\n\n#Werden 3 blaue Münzen in diesem Level gesammelt, kriegt Tux 2 Pinguine. ⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥\n!images/decal/explanations/info_bluecoin_3.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_UnderAir.stl:3
+msgid "\t06\t- Under the Airship"
+msgstr "⇥06⇥- Unter dem Luftschiff"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/ToadCastle.stl:3
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Toad
+#: Castle.stl:3
+msgid "Toad's Castle"
+msgstr "Toads Schloss"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Toad_Entry.stl:3
+msgid "Entrance to Toad Castle"
+msgstr "Eingang zu Toads Schloss"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Yeti.stl:3
+msgid "Decrepit Yeti"
+msgstr "Gebrechlicher Yeti"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:3
+msgid "DOOM Islands"
+msgstr "DOOM-Inseln"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:78
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:81
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:73
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:79
+msgid "You found a secret place!"
+msgstr "Du hast ein Versteck gefunden!"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:84
+msgid "You found a secret behind the castle!"
+msgstr "Du hast ein Versteck hinter der Burg gefunden!"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:89
+msgid "Back to Mattie's Iceberg"
+msgstr "Zurück zu Mattie's Eisberg"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:92
+msgid "Go Home"
+msgstr "Nach Hause gehen"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/LSD.stl:3
+msgid "Bonus Level: Little Strange Day"
+msgstr "Bonus Level: Kleiner seltsamer Tag"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/LSD.stl:18
+msgid "!images/LMH/hint-01.png"
+msgstr "!images/LMH/hint-01.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Cavern.stl:3
+msgid "\t08\t- Through the Crystal Cavern"
+msgstr "08 - Durch die Kristallhöhle"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_DOOM.stl:3
+msgid "01\t-\tA\tDay\tof\tDOOM"
+msgstr "01 - Ein Tag der Verdammnis"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Dungeon.stl:3
+msgid "\t05\t- Dusky Dungeon"
+msgstr "\t05\t- Dunkles Verlies"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Escape.stl:3
+msgid "\t13\t- Castle Escape"
+msgstr "\t13\t- Schloss Entkommen"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Fields.stl:3
+msgid "02 - Squishy Fields"
+msgstr "02 - Matschige Felder"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_HighRoute.stl:3
+msgid "\t06\t- The High Route"
+msgstr "\t06\t- Der Hohe Weg"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Meltbox.stl:3
+msgid "11 - Beware of Fire"
+msgstr "11 - Vorsicht vor Feuer"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Mineshaft.stl:3
+msgid "\t04\t- Down the Mineshaft"
+msgstr "\t04\t- Den Grubenschacht hinab"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Moat.stl:3
+msgid "\t12\t- Across the Moat"
+msgstr "\t12\t- Über den Burggraben"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Moat.stl:78
+msgid ""
+"-WARNING!\n"
+"#\n"
+"#Water infested with angry bitefish.\n"
+"#\n"
+"#Do not swim."
+msgstr "-WARNUNG!\n#\n#Im Wasser sind wütende Beißfische.\n#\n#Schwimmen verboten."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Quarry.stl:3
+msgid "03 - Quarrelsome Quarry"
+msgstr "03 - Streitsüchtiger Steinbruch"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_ScarySkies.stl:3
+msgid "\t07\t- Scary Skies"
+msgstr "\t07\t- Schwindelnde Höhen"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_ThreeLanterns.stl:3
+msgid "\t09\t- Three Magic Lanterns"
+msgstr "\t09\t- Drei magische Laternen"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Wall.stl:3
+msgid "\t10\t- Over the Great Wall"
+msgstr "\t10\t- Über die große Mauer"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Midway
+#: Castle.stl:3
+msgid "Midway Castle"
+msgstr "Schloss in der Mitte"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Oasis.stl:3
+msgid "Oasis:  The Bonus Forest Level"
+msgstr "Oase: Das Bonus-Waldlevel"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Oasis.stl:29
+msgid "!images/LMH/hint-03.png"
+msgstr "!images/LMH/hint-03.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/S_Airship.stl:3
+msgid "Super Secret Bonus Level: Ambassador Flathead's Airship"
+msgstr "Supergeheimes Bonus-Level: Botschafter Flachkopfs Luftschiff"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/S_Mineshaft.stl:3
+msgid "Super Secret Bonus Level: Upside-Down Mine Shaft"
+msgstr "Supergeheimes Bonus-Level: Minenschacht kopfüber"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/S_ToadCastle.stl:3
+msgid "Super Secret Bonus Level: Original Concept Toad Castle"
+msgstr "Außerordentlich geheimer Bonus-Level: Ursprüngliches Konzept von Toads Schloss"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:3
+msgid "\tThe Shop\t"
+msgstr "Der Shop"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:128
+msgid ""
+"-Welcome to The Shop\n"
+"#Completing level statistics in the regular levels will allow you to purchase powerups here to aid in your journey."
+msgstr "-Willkommen Im Shop\n#Wenn du Levels vollständig abgeschlossen hast, kannst du hier Powerups kaufen, die dir bei deiner Reise behilflich sind."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:131
+msgid ""
+"-Progress Poles\n"
+"#Your progress in collecting coins, killing enemies, and speedy completion is tracked on the poles to your left.  Each dot represents a level starting with level 1 at the bottom.  Dots turn green when progress is completed."
+msgstr "-Fortschrittsmasten\n#Dein Fortschritt beim Sammeln von Münzen, Töten von Gegnern und schnellem Durchlaufen von Levels wird hier angezeigt. Jeder Punkt repräsentiert ein Level, beginnend bei Level 1 unten. Punkte werden grün, wenn Fortschritte erzielt wurden."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:134
+msgid ""
+"-Powerups for Purchase\n"
+"#Below are the powerups currently available for purchase.  As more progress is completed, powerups become available from left to right."
+msgstr "-Kaufbare Power-ups\n#Unten siehst du die Power-ups, die es zu kaufen gibt. Während du Fortschritte erzielst, werden die Power-ups von links nach rechts verfügbar."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:137
+msgid ""
+"-Star Stones\n"
+"#Finding all three star stones will allow you to gain Ultimate Invulnerability.  This ability will be activated and deactivated by placing the stones on the ledge to your right."
+msgstr "-Sternsteine\n#Wenn du alle drei Sternsteine findest, erhältst du ultimative Unbesiegbarkeit. Diese Fähigkeit wird aktiviert und deaktiviert, indem du die Steine auf die Kante zu deiner Rechten legst."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:141
+msgid ""
+"*Teir 1 Reward\n"
+"#Purchase an egg for 50 coins"
+msgstr "*Belohnung Stufe 1\n#Kaufe ein Ei für 50 Münzen."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:146
+msgid ""
+"*Teir 2 Reward\n"
+"#Purchase a 2x iceflower for 200 coins"
+msgstr "*Belohnung Stufe 2\n#Kaufe eine zweifache Eisblume für 200 Münzen"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:151
+msgid ""
+"*Teir 3 Reward\n"
+"#Purchase a 3x fireflower for 600 coins"
+msgstr "*Belohnung Stufe 3\n#Kaufe eine dreifache Feuerblume für 600 Münzen"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:157
+msgid ""
+"*---WARNING!---\n"
+"#Pressing this button will reset all your progress.\n"
+"-DO NOT PUSH"
+msgstr "*---WARNUNG!---\n#Wenn du diesen Knopf drückst, wird dein gesamter Fortschritt zurückgesetzt.\n-DRÜCKEN VERBOTEN"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Waldo.stl:3
+msgid "Bonus Level: Where's Waldo?"
+msgstr "Bonus Level: Wo ist Waldo?"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Waldo.stl:19
+msgid "!images/LMH/hint-02.png"
+msgstr "!images/LMH/hint-02.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:3
+msgid "Mattie's Iceberg"
+msgstr "Mattie's Eisberg"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:76
+msgid "Penguins shouldn't do drugs!"
+msgstr "Pinguine sollten keine Drogen nehmen!"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:83
+msgid "Um, are you lost?"
+msgstr "Äh, hast du dich verirrt?"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:85
+msgid "...so you think you're so clever"
+msgstr "...du denkst also, du bist so schlau"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:88
+msgid "Preview of DOOM Islands"
+msgstr "Vorschau von DOOM Inseln"

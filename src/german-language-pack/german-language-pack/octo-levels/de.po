@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# millimarg, 2015
+# Nils Welzk, 2013
+# Tobias Markus <tobbi@mozilla-uk.org>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-16 11:55+0200\n"
+"PO-Revision-Date: 2015-10-17 12:09+0000\n"
+"Last-Translator: Tobias Markus <tobbi@mozilla-uk.org>\n"
+"Language-Team: German (http://www.transifex.com/arctic-games/supertux/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/octo/levels/octo/SML0101.stl:3
+msgid "Super Mario Land 1-1"
+msgstr "Super Mario Land 1-1"
+
+#: data/levels/octo/levels/octo/SML0102.stl:3
+msgid "Super Mario Land 1-2"
+msgstr "Super Mario Land 1-2"
+
+#: data/levels/octo/levels/octo/SML0103.stl:3
+msgid "Super Mario Land 1-3"
+msgstr "Super Mario Land 1-3"
+
+#: data/levels/octo/levels/octo/SML0202.stl:3
+msgid "Super Mario Land 2-2"
+msgstr "Super Mario Land 2-2"
+
+#: data/levels/octo/levels/octo/SML0303.stl:3
+msgid "Super Mario Land 3-3"
+msgstr "Super Mario Land 3-3"
+
+#: data/levels/octo/levels/octo/broken_escalator.stl:3
+msgid "The broken elevator"
+msgstr "Der defekte Fahrstuhl"
+
+#: data/levels/octo/levels/octo/broken_escalator.stl:20
+msgid ""
+"-Oh no!\n"
+"\tThe elevator is frozen to the ground!"
+msgstr "-Oh nein!⏎\n⇥Der Fahrstuhl ist am Boden festgefroren!"
+
+#: data/levels/octo/levels/octo/cherry_frosting.stl:3
+msgid "The Cherry Frosting"
+msgstr "Die Kirschglasur"
+
+#: data/levels/octo/levels/octo/chocolate2.stl:3
+msgid "Chocolate Island 2"
+msgstr "Schokoladeninsel 2"
+
+#: data/levels/octo/levels/octo/chocolate2.stl:68
+msgid ""
+"\tHere, the coins you collect or the time remaining can change your "
+"progress. Can you find the special goal?"
+msgstr "⇥Hier können die Münzen, die du sammelst, und die übrige Zeit deinen Fortschritt verändern. Kannst du das Spezialziel finden?"
+
+#: data/levels/octo/levels/octo/cube_garden.stl:3
+msgid "Mad Ysonn Cube Garden"
+msgstr "Mad Ysonn's Würfelgarten"
+
+#: data/levels/octo/levels/octo/donut2.stl:3
+msgid "Donut Plains 2"
+msgstr "Dunutebene 2"
+
+#: data/levels/octo/levels/octo/drawbridge.stl:3
+msgid "The Drawbridge"
+msgstr "Die Zugbrücke"
+
+#: data/levels/octo/levels/octo/entrance.stl:3
+msgid "The Entrance"
+msgstr "Der Eingang"
+
+#: data/levels/octo/levels/octo/get_em_all.stl:3
+msgid "Gotta get 'em all!"
+msgstr "Sammel sie alle!"
+
+#: data/levels/octo/levels/octo/get_em_all.stl:38
+msgid ""
+"-Get 'em all!\n"
+"\tThere are 100 coins in this level. Do you have what it takes to collect them all?"
+msgstr "-Sammel sie alle!⏎\n⇥Es gibt 100 Münzen in diesem Level. Hast du das Zeug sie alle zu sammeln?"
+
+#: data/levels/octo/levels/octo/jolly_jumper.stl:3
+msgid "Jolly Jumper"
+msgstr "Jolly Jumper"
+
+#: data/levels/octo/levels/octo/throne_room.stl:3
+msgid "Throne room"
+msgstr "Thronsaal"
+
+#: data/levels/octo/levels/octo/through_mountain.stl:3
+msgid "Through the mountain"
+msgstr "Durch den Berg"
+
+#: data/levels/octo/levels/octo/torture_chamber.stl:3
+msgid "The Torture Chamber"
+msgstr "Die Kammer der Qualen"
+
+#: data/levels/octo/levels/octo/torture_chamber.stl:26
+msgid ""
+"-WARNING:\n"
+"\tYou're in the torture chamber. Those devices are no toys!"
+msgstr "-WARNUNG:\n\tDu bist in der Folterkammer. Diese Geräte sind kein Spielzeug!"
+
+#: data/levels/octo/levels/octo/tower.stl:3
+msgid "The Tower"
+msgstr "Der Turm"
+
+#: data/levels/octo/levels/octo/tower.stl:51
+msgid ""
+"-Dear Tux,\n"
+"#Nolok and I are having a picnic in the woods. Why don't you join us?\n"
+"#Love, Penny"
+msgstr "-Lieber Tux,⏎\n#Nolok und ich machen ein Picknick im Wald. Willst du dich nicht anschließen?⏎\n#In Liebe, Penny"
+
+#: data/levels/octo/levels/octo/working_title.stl:3
+msgid "Unnamed"
+msgstr "Unbenannt"
+
+#: data/levels/octo/levels/octo/worldmap.stwm:3
+msgid "octo's Island"
+msgstr "Octo's Insel"
+
+#: data/levels/octo/levels/octo/yoshi2.stl:3
+msgid "Yoshi's Island 2"
+msgstr "Yoshi's Insel 2"

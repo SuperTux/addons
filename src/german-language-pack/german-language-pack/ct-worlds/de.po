@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Marcel Haring, 2013-2014
+# Nils Welzk, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-16 11:55+0200\n"
+"PO-Revision-Date: 2015-07-11 02:37+0000\n"
+"Last-Translator: Marcel Haring\n"
+"Language-Team: German (http://www.transifex.com/arctic-games/supertux/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/cas-spiders.stl:3
+msgid "Castle of Creepy Spiders"
+msgstr "Schloss der unheimlichen Spinnen"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/extro.txt:6
+msgid ""
+"-Thanks for playing CT's Domain!\n"
+"\n"
+"#I hope you like liked this levelset.\n"
+"#If you have any questions, comments,\n"
+"#or ideas, please let me know on bug\n"
+"#number 827 on the bug tracker.\n"
+"\n"
+"#\" This has been CT's Domain\n"
+"#Levels by CT. da'Bomb and\n"
+"#Retep"
+msgstr "-Danke, dass Sie CT's Domain spielen!⏎\n⏎\n#Ich hoffe Sie mögen dieses Level-Set.⏎\n#Wenn Sie  Fragen, Kommentare⏎\n#oder Anregungen haben, lassen Sie es mich per Bug wissen⏎\n#Nummer 827 auf dem Bugtracker.⏎\n⏎\n#\" Dies war CT's Domain⏎\n#Levels by CT. da'Bomb und⏎\n#Retep"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-bluerock.stl:3
+msgid "Out on the Blue Rocks"
+msgstr "Draußen in den blauen Felsen"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-boss.stl:3
+msgid "Mr Ice Guy Came Back"
+msgstr "Mr. IceGuy kommt zurück"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-castle.stl:3
+msgid "Zeekling Fortress"
+msgstr "Zeeklingfestung"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-hevan.stl:3
+msgid "Tough Path to Heaven"
+msgstr "Zäher Pfad in den Himmel"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-machine.stl:3
+msgid "The machine"
+msgstr "Die Maschine"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-snomans.stl:3
+msgid "Stuck in sNOman's Land"
+msgstr "In sNOman's Land festsitzend"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-speedboat.stl:3
+msgid "A Trip in The Speed Boat"
+msgstr "Eine Reise im Speedboot"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-clearnight.stl:3
+msgid "The Clear Night Sky"
+msgstr "Der klare Nachthimmel"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-coin.stl:3
+msgid "Can You Find The Coins?"
+msgstr "Kannst du die Münzen finden?"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-coin.stl:20
+msgid ".You need to find the 5 coins before you can get through."
+msgstr ".Du musst 5 Münzen finden, bevor du durchkommst."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-cristoph4.stl:3
+msgid "Cristoph4.stl"
+msgstr "Cristoph4.stl"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-frogs.stl:3
+msgid "Those Waves of Frogs"
+msgstr "Diese Wellen von Fröschen"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:3
+msgid "Life on a Three Hole Golf Course"
+msgstr "Leben auf einem Drei-Loch-Golfplatz"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:146
+msgid ".The Pro Shop."
+msgstr ".Der Pro Shop."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:151
+msgid ".The First Hole."
+msgstr ".Das erste Loch."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:156
+msgid ".The Second Hole."
+msgstr ".Das zweite Loch."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:161
+msgid ".The Third Hole."
+msgstr ".Das dritte Loch."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-haul.stl:3
+msgid "The Long Haul"
+msgstr "Die lange Strecke"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-mntfort.stl:3
+msgid "The Mountain Fortress"
+msgstr "Das Bergbollwerk"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-moredirt.stl:3
+msgid "Some More Dirt"
+msgstr "Etwas mehr Dreck"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-pond.stl:3
+msgid "Frog Pond"
+msgstr "Froschteich"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/ghost-moreghosts.stl:3
+msgid "Some More Ghosts"
+msgstr "Einige Geister mehr"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/jump.stl:3
+msgid "Jump Up to Death"
+msgstr "Springe hoch zum Tod"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/sklife.stl:3
+msgid "So LOOOONG and Hard You Will Wish You Never Found It."
+msgstr "So LAAAANG und hart, du wird wünschen es nie gefunden zu haben."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/skyburn.stl:3
+msgid "The Sky is Falling and the Hay is Burning"
+msgstr "Der Himmel stürzt ein und das Heu brennt"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-42.stl:3
+msgid "42 Steps To Safety"
+msgstr "42 Schritte bis zur Sicherheit"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-avalan.stl:3
+msgid "Riding the Avalanche"
+msgstr "Die Lawine reiten"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-backwards.stl:3
+msgid "Somethings Backwards Here!!!"
+msgstr "Etwas rückwärts hier!!!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-backwards2.stl:3
+msgid "Somethings Backward here 2!!!"
+msgstr "Etwas rückwärts hier 2!!!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-backwards2.stl:149
+msgid ""
+"\tOh no! The path is Blocked\n"
+"\tto go though you must move the\n"
+"\tblocks, by pressing down the action\n"
+"\tkey and grabing the block!"
+msgstr "⇥Oh nein! Der Pfad ist blockiert⏎\n⇥um durchzugelangen musst du die⏎\n⇥Blöcke bewegen, indem die Action-Taste gedrückt⏎\n⇥und der Block gegriffen wird!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-boss.stl:3
+msgid "Take Your Pick....BOSS SYLE!!!!!"
+msgstr "Nimm deine Hacke...BOSS STYLE!!!!!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-cartoon.stl:3
+msgid "Tux in Cartoon Land"
+msgstr "Tux im Cartoon-Land"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-caveju.stl:3
+msgid "Jumping in a Cave"
+msgstr "In eine Höhle springen"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-city.stl:3
+msgid "Life in an Arctic City"
+msgstr "Leben in einer arktischen Stadt"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-crux.stl:3
+msgid "Crux Move"
+msgstr "Crux Schritt"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-cryflip.stl:3
+msgid "Can Crystals Flip?"
+msgstr "Können Kristalle schnipsen?"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-fog.stl:3
+msgid "A Foggy Day"
+msgstr "Ein nebliger Tag"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-high.stl:3
+msgid "A Long Way to Fall"
+msgstr "Ein weiter Weg zum scheitern"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-icecrusher.stl:3
+msgid "icecubeish nightmare"
+msgstr "EiswürfeligerAlbtraum"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-icecrusher.stl:1299
+msgid ""
+".you have to stop eating ice cubes before bed, it gives you nightmares like "
+"this one."
+msgstr ".du musst aufhören Eiswürfel zu essen, bevor du zu Bett gehst. Du bekommst Albträume wie diesen."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-log.stl:3
+msgid "A Visit to the Loggers Camp."
+msgstr "Ein Besuch im Holzfällerlager "
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-log.stl:76
+msgid ".This is a loggers cabin, WATCH OUT!."
+msgstr ".Dies ist eine Holzfällerkabine, AUFGEPASST!."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-mine.stl:3
+msgid "Visit to the cystal mine"
+msgstr "Besuch bei der Kristallmine"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-moresnow.stl:3
+msgid "Some More Snow"
+msgstr "Etwas mehr Schnee"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-name.stl:3
+msgid "It's Self Expanatory"
+msgstr "Es ist sich selbsterklärend"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-prize.stl:3
+msgid "A Prize For Originality"
+msgstr "Ein Preis für Originalität"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-secret.stl:3
+msgid "Do You Want to Find The Secret Area???"
+msgstr "Willst du das Versteck finden???"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-skijump.stl:3
+msgid "It's a Ski Jump!"
+msgstr "Es ist ein Himmelssprung!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-snow.stl:3
+msgid "Good Ol' Snow"
+msgstr "Guter Ol' Schnee"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-storms.stl:3
+msgid "thunderstorms at night"
+msgstr "Gewitter in der Nacht"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-tuphy.stl:3
+msgid "Tuphy"
+msgstr "Tuphy"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-waterfire.stl:3
+msgid "Where Water Mixes With Fire"
+msgstr "Wo Wasser mit Feuer gemischt wird"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-waterfire.stl:142
+msgid ".You are half way there."
+msgstr ".Du bist schon halb da."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-yellow.stl:3
+msgid "Don't Eat The Yellow Snow"
+msgstr "Esse nicht den gelben Schnee"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/worldmap.stwm:3
+msgid "CT's Domain"
+msgstr "CT's Domain"

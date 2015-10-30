@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Marcel Haring, 2014
+# M&m <martin.ebermann@googlemail.com>, 2014
+# Ondřej Hošek <ondra.hosek@gmail.com>, 2014
+# Tobias Markus <tobbi@mozilla-uk.org>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-01 00:18+0000\n"
+"PO-Revision-Date: 2015-10-17 12:16+0000\n"
+"Last-Translator: Tobias Markus <tobbi@mozilla-uk.org>\n"
+"Language-Team: German (http://www.transifex.com/arctic-games/supertux/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/bridge.stl:3
+msgid "The Bridge"
+msgstr "Die Brücke"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/bridge.stl:82
+msgid ""
+"* The itsy-bitsy spider\n"
+"* Went up the water spout.\n"
+"\n"
+"* Down came the rain and\n"
+"* Washed the spider out!"
+msgstr "* Die klitzekleine Spinne\n* Ging hoch das Abflussrohr\n\n* Runter kam der Regen und\n* Wusch sie wieder hervor!"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/castle.stl:3
+msgid "Fowl Fortress"
+msgstr "Hühnerfestung"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/castle.stl:79
+msgid ""
+"-One, two,\n"
+"\n"
+"-Buckle your shoe."
+msgstr "-Eins, zwei,\n\n-Binde deine Schuh."
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/castle.stl:722
+msgid ""
+"-Three, four,\n"
+"\n"
+"-Shut the door."
+msgstr "-Drei, vier,\n\n-Schließe die Tür."
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/castle.stl:3223
+msgid ""
+"-Five, six,\n"
+"\n"
+"-Pick up sticks."
+msgstr "-Fünf, Sechs,\n\n-Nimm dir Stäbe"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/castle.stl:3230
+msgid ""
+"-Seven, eight,\n"
+"\n"
+"-Lie them straight."
+msgstr "-Sieben, acht,\n\n-Lege sie gerade hin."
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/castle.stl:3237
+msgid ""
+"-Nine, ten,\n"
+"\n"
+"-A big fat hen!"
+msgstr "-Neun, zehn,\n\n-Eine große, fette Henne"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/color.stl:3
+msgid "The Color Cave"
+msgstr "Die Farbenhöhle"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/color.stl:98
+msgid ""
+"#R - E - D\n"
+"#\n"
+"#Spells the color red"
+msgstr "#R - O - T\n#\n#Ergibt die Farbe Rot"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/color.stl:105
+msgid ""
+"*B - L - U - E\n"
+"*\n"
+"*Spells the color blue"
+msgstr "#B - L - A - U\n#\n#Ergibt die Farbe Blau"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/color.stl:112
+msgid ""
+"#G - R - E - E - N\n"
+"#\n"
+"#Spells the color green"
+msgstr "#G - R - Ü - N\n#\n#Ergibt die Farbe Grün"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/color.stl:119
+msgid ""
+"-Y - E - L - L - O - W\n"
+"-\n"
+"-Spells the color yellow"
+msgstr "#G - E - L - B\n#\n#Ergibt die Farbe Gelb"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/color.stl:126
+msgid ""
+"#P - U - R - P - L - E\n"
+"#\n"
+"#Spells the color purple"
+msgstr "#L - I - L - A\n#\n#Ergibt die Farbe Lila"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/color.stl:133
+msgid ""
+"#O - R - A - N - G - E\n"
+"#\n"
+"#Spells the color orange"
+msgstr "#O - R - A - N - G - E\n#\n#Ergibt die Farbe Orange"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/count.stl:3
+msgid "The Counting Cave"
+msgstr "Die Zahlenhöhle"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/count.stl:158
+msgid "- Here is one penguin."
+msgstr "- Hier ist ein Pinguin"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/count.stl:163
+msgid "- Here are two flowers."
+msgstr "- Hier sind zwei Blumen"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/count.stl:168
+msgid "- Here are three stars."
+msgstr "- Hier sind drei Sterne"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/count.stl:173
+msgid "- Here are four blocks."
+msgstr "- Hier sind vier Blöcke"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/count.stl:178
+msgid "- Here are five coins."
+msgstr "- Hier sind fünf Münzen"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/drawbridge.stl:3
+msgid "Castle Drawbridge"
+msgstr "Die Zugbrücke"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/drawbridge.stl:600
+msgid ""
+"- Jack be nimble,\n"
+"- Jack be quick,\n"
+"- Jack jump over,\n"
+"- The Candelstick!"
+msgstr "- Jack, sei flink,\n- Jack, sei geschwind,\n- spring über die Kerze\n- so schnell wie der Wind!"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/fiona.stl:3
+msgid "Fiona's Level"
+msgstr "Fionas Level"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/fiona.stl:38
+msgid ""
+"-F - I - O - N - A\n"
+"*Fiona!\n"
+"-F - I - O - N - A\n"
+"*Fi - o - na!"
+msgstr "-F - I - O - N - A\n*Fiona!\n-F - I - O - N - A\n*Fi - o - na!"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/ice.stl:3
+msgid "We Need Ice!"
+msgstr "Wir brauchen Eis!"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/ice.stl:323
+msgid ""
+"-Ring around the rosie,\n"
+"-A pocket full of posies,\n"
+"-Ashes! Ashes!\n"
+"-We all fall down."
+msgstr "-Ringel, Ringel, Rosen!\n-Schöne Aprikosen!\n-Veilchen blau, Vergißmeinnicht!\n-Alle Kinder setzen sich!"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/intro.stl:3
+msgid "Intro"
+msgstr "Einführung"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/night.stl:3
+msgid "Starry Night"
+msgstr "Sternenklare Nacht"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/night.stl:175
+msgid ""
+"* Rain, rain, go away\n"
+"\n"
+"*Come again, another day"
+msgstr "* Regen, Regen, geh weg\n\n* komme an einem anderen Tag wieder."
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/pirates.stl:3
+msgid "Pirate Attack"
+msgstr "Attacke der Piraten"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/pirates.stl:1037
+msgid ""
+"#Twinkle, twinkle, little star\n"
+"#How I wonder what you are?\n"
+"\n"
+"#Up above the world so high\n"
+"#Like a diamond in the sky\n"
+"\n"
+"#Twinkle, twinkle, little star\n"
+"#How I wonder what you are?"
+msgstr "#Funkel, funkel, kleiner Stern,\n#Ach wie bist du mir so fern,\n\n#Wunderschön und unbekannt,\n#Wie ein strahlend Diamant\n\n#Funkel, funkel, kleiner Stern,\n#Ach wie bist du mir so fern."
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/river.stl:3
+msgid "Over the River"
+msgstr "Über den Fluss"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/river.stl:58
+msgid ""
+"# Row, row, row your boat\n"
+"# Gently down the stream.\n"
+"# Merrily, merrily, merrily, merrily,\n"
+"# Life is but a dream."
+msgstr "# Row, row, row your boat\n# Gently down the stream.\n# Merrily, merrily, merrily, merrily,\n# Life is but a dream."
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:3
+msgid "Fiona's World"
+msgstr "Fionas Welt"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:19
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:43
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:59
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:75
+msgid "Outside"
+msgstr "Draußen"
+
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:27
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:35
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:51
+#: Worldmaps-0_3_5/fiona/levels/fiona/worldmap.stwm:67
+msgid "Inside"
+msgstr "Drinnen"

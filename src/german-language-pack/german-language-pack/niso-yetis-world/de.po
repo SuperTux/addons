@@ -1,0 +1,194 @@
+# French translations for PACKAGE package
+# Traductions françaises du paquet PACKAGE.
+# Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nils Welzk, 2013
+# Tobias Markus <tobbi@mozilla-uk.org>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:53+0200\n"
+"PO-Revision-Date: 2015-07-11 02:38+0000\n"
+"Last-Translator: Tobias Markus <tobbi@mozilla-uk.org>\n"
+"Language-Team: German (http://www.transifex.com/arctic-games/supertux/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/A Wonderful Day.stl:3
+msgid "A Wonderful Day"
+msgstr "Ein wundervoller Tag"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Above The Clouds.stl:3
+msgid "Above the Clouds"
+msgstr "Über den Wolken"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Alls Well That Ends
+#: Well.stl:3
+msgid "All's Well That Ends Well"
+msgstr "Alles, was gut endet, ist gut"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Alls Well That Ends
+#: Well.stl:2777
+msgid ""
+"# Can you handle this\n"
+"# Skill-Jump?"
+msgstr "# Kannst du damit umgehen⏎\n# Kunstsprung?"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Big Wave.stl:3
+msgid "Big Wave"
+msgstr "Große Welle"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Blue Mountain.stl:3
+msgid "Blue Mountain"
+msgstr "Blauer Berg"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Cave Of Waterfalls.stl:3
+msgid "Cave Of Waterfalls"
+msgstr "Höhle der Wasserfälle"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Controlling the
+#: Temperature.stl:3
+msgid "Controlling The Temperature"
+msgstr "Die Temperatur kontrollieren"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Crazy Cave.stl:3
+msgid "Crazy Cave"
+msgstr "Verrückte Höhle"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Dont Be Afraid.stl:3
+msgid "Don't Be Afraid"
+msgstr "Sei nicht ängstlich"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Escape From The
+#: Pirates.stl:3
+msgid "Escape From The Pirates"
+msgstr "Flucht vor den Piraten"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Foreign Passenger.stl:3
+msgid "Foreign Passenger"
+msgstr "Blinder Passagier"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Hail Storm.stl:3
+msgid "Hail Storm"
+msgstr "Hagelschauer"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Hang Out In The
+#: Underground.stl:3
+msgid "Hang Out In The Underground"
+msgstr "Im Untergrund herumhängen"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/I Go With My Latern.stl:3
+msgid "I Go With My Latern"
+msgstr "Ich geh mit meiner Laterne"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/I Go With My Latern.stl:39
+msgid ""
+"#Attention: \n"
+"#Don't throw your laterns away! And: Think first before you go forward."
+msgstr "#Achtung:\n#Wirf deine Laternen nicht weg! Und: Denke nach bevor du weitergehst.  "
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/I Go With My Latern.stl:45
+msgid ""
+"#Help:\n"
+"#You have to throw one of the red laterns over the ice platform!"
+msgstr "#Hilfe:⏎\n#Du musst eine rote Laterne über die Eisplattform werfen!"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Its Getting Colder.stl:3
+msgid "It's Getting Colder"
+msgstr "Es wird kälter"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Leaving Home And Start The
+#: Journey.stl:3
+msgid "Leaving Home And Start The Journey"
+msgstr "Zuhause verlassen und die Reise beginnen"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Living Spikes.stl:3
+msgid "Living Spikes"
+msgstr "Lebendige Stacheln"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/More Of The Blue
+#: Mountain.stl:3
+msgid "More Of The Blue Mountain"
+msgstr "Mehr vom blauen Berg"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Next To The Stars.stl:3
+msgid "Next To The Stars"
+msgstr "Bei den Sternen"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/No Bridge Out There.stl:3
+msgid "No Bridge Out There"
+msgstr "Keine Brücke da draußen"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Path Without Name.stl:3
+msgid "Path Without Name"
+msgstr "Pfad ohne Namen"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Pirates Harbor.stl:3
+msgid "Pirate's Harbor"
+msgstr "Hafen der Piraten"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Playground In The
+#: Water.stl:3
+msgid "Playground In The Water"
+msgstr "Spielplatz im Wasser"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Shaft Racing.stl:3
+msgid "Shaft Racing"
+msgstr "Wellenrennen"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Shaft Racing.stl:76
+msgid "#It's a bad idea to jump from the wagon!"
+msgstr "#Es ist eine schlechte Idee vom Wagen zu springen!"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Slippery Climbing.stl:3
+msgid "Slippery Climbing"
+msgstr "Rutschiger Aufstieg"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Something In The Water.stl:3
+msgid "Something In The Water"
+msgstr "Etwas im Wasser"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Something To Enjoy.stl:3
+msgid "Something To Enjoy"
+msgstr "Etwas zum Genießen"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Spooky Way Of Life.stl:3
+msgid "Spooky Way Of Life"
+msgstr "Gespenstiger Weg des Lebens"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Staple Me.stl:3
+msgid "Staple Me"
+msgstr "Klammere mich"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Still Waters Run Deep.stl:3
+msgid "Still Waters Run Deep"
+msgstr "Stille Wasser sind tief"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Surfing Tux.stl:3
+msgid "Surfing Tux"
+msgstr "Surfender Tux"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Through The
+#: Groundwater.stl:3
+msgid "Through The Groundwater"
+msgstr "Durch das Grundwasser"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Windy Day On Ice.stl:3
+msgid "Windy Day On Ice"
+msgstr "Windiger Tag auf Eis"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Yetis Revenge.stl:3
+#: data/levels/yetis_revenge/levels/yetis_revenge/worldmap.stwm:3
+msgid "Yeti's Revenge"
+msgstr "Yeti's Rache"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/intro.stl:3
+msgid "A Loud Night"
+msgstr "Eine laute Nacht"
