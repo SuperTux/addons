@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "langpack-cs")
+  (version 1)
+  (type "languagepack")
+  (title "Czech")
+  (author "Various")
+  (license "GPL 2+ / CC-by-sa 3.0"))

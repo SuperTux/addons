@@ -1,0 +1,503 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jirka Paleček <nrrstttpt@gmail.com>, 2013
+# fri, 2013
+# TeraTux devel Team <teratux.mail@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-16 11:55+0200\n"
+"PO-Revision-Date: 2015-07-11 02:37+0000\n"
+"Last-Translator: TeraTux devel Team <teratux.mail@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/arctic-games/supertux/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Airship.stl:3
+msgid "Flathead's Airship"
+msgstr "Tupohlavcova vzducholoď"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Airship.stl:506
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/S_Airship.stl:503
+msgid ""
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"-Flathead's Quarters #\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"# KEEP OUT! \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"#'Captain's busy... so should you be.'\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"\t\t\t"
+msgstr "\t\n-Tupohlavcova čtvť\n#\t\n#NEVSTUPOVAT!\n\t\n#„Kapitán je zaneprázdněn... takže bys měl.\"\t"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_Arena.stl:3
+msgid "Bonus Level: Skellington Arena"
+msgstr "Bonusová úroveň: Aréna skellingtonu"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_SavagedLands.stl:3
+msgid "Bouns Level: Savaged Lands"
+msgstr "Bonusová úroveň: Kruté kraje"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:3
+msgid "\tThe Trophy Room\t"
+msgstr "\tMístnost s trofejemi\t"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:168
+msgid ""
+"-Sky Pirate Swag\n"
+"#\n"
+"#Steal a little booty from pirates in the Frosted Dunes."
+msgstr "-Lup pirátů na obloze\n#\nUkradni trochu z kořisti pirátů ve Zmrzlých dunách."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:176
+msgid ""
+"-Help from Above\n"
+"#\n"
+"#Find that extra boost to help you through the Frosted Dunes"
+msgstr "-Pomoc z vrchu\n#\n#Najděte další impulz, který vám pomůže se dostat přes Zmrzlé duny"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:185
+msgid ""
+"-Crystal Quick\n"
+"#\n"
+"#Find the two shortcuts through The Giant Geode. [DISABLED]"
+msgstr "-Rychlé krystaly\n#\n#Najdi dva zástupce pomocí Obři geody. [VYPNUTO]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:212
+msgid ""
+"-Airship Cannon\n"
+"#\n"
+"#Launch yourself from the airship cannon accessable from the level Under The Airship."
+msgstr "-Kanón vzducholodi\n#\n#Vylétni z kanónu vzducholodi, který visí pod vzducholodí."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:227
+msgid ""
+"-Ode to Useless Stars\n"
+"#\n"
+"#Don't you just hate it when your invincibility goes to waste?"
+msgstr "-Óda na zbytečné hvězdy\n#\n#Nesnášíš, když se tvá nesmrtelnost stane ztrátou?"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:242
+msgid ""
+"-The Hard Way\n"
+"#\n"
+"#In Rock Climbing take the hard path to the top without dieing or taking shortcuts."
+msgstr "-Těžká cesta\n#\n#V horolezectví si musíte najít pevnou cestu na vrchol bez zabití a zkratek."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:302
+msgid ""
+"*Bonus Level: Savaged Lands\n"
+"#\n"
+"#Discover and start the bonus level Savaged Lands."
+msgstr "*Bonusová úroveň: Kruté kraje\n#\n#Objevte bonusovou úroveň Kruté kraje."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:310
+msgid ""
+"-Fire in the Sky\n"
+"#\n"
+"#Seek out the fire-flower hidden above the Savaged Lands."
+msgstr "-Oheň na obloze\n#\n#Najděte ohnivou květinu schovanou nad Krutými kraji!"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:319
+msgid ""
+"*Bonus Level: On the Open Ocean\n"
+"#\n"
+"#Discover and start the bonus level On the Open Ocean. [DISABLED]"
+msgstr "*Bonusová úroveň: Na otevřeném oceáně\n#\n#Objevte bonusovou úroveň Na otevřeném oceáně. [VYPNUTO]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:334
+msgid ""
+"*Bonus Level: Skellington Arena\n"
+"#\n"
+"#Find and start the bonus level Skellington Arena."
+msgstr "*Bonusová úroveň: Aréna skellingtonu\n#\n#Najdi a spusť bonusovou úroveň Aréna skellingtonu."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:342
+msgid ""
+"-Hole in the Wall\n"
+"#\n"
+"#Who doesn't like extra coins?"
+msgstr "-Díra ve zdi\n#\n#Kdo nemá rád mince navíc?"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:351
+msgid ""
+"-Toad Tower Treasure\n"
+"#\n"
+"#Find Toad's hidden stash within his castle."
+msgstr "-Poklad věže ropuchy\n#\n#Najdi skrytou skrýš ropuchy v jeho hradu."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:359
+msgid ""
+"-Toad Castle Dungeon\n"
+"#\n"
+"#Find the alternate route through Toad Castle."
+msgstr "-Věznice hradu ropuchy\n#\n#Najdi alternativní trasu přes hrad ropuchy."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:368
+msgid ""
+"-A Little Help\n"
+"#\n"
+"#No sense in Tux attacking the Airship while small."
+msgstr "-Malá pomoc\n#\n#Nemá smysl, aby Tux útočil na vzducholoď, dokud je malý."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:376
+msgid ""
+"-Fire in the Sky\n"
+"#\n"
+"#Discover the fire-flower on Flathead's Airship."
+msgstr "-Oheň na obloze\n#\n#Objev ohnivou květinu na Tupohlavcově vzducholodi."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:384
+msgid ""
+"-Do Over\n"
+"#\n"
+"#Find any one of two respawn bells on Flathead's Airship"
+msgstr "-Předělat\n#\n#Najdi jakýkoli jeden ze dvou uložováků na Tupohlavcově vzducholodi."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:392
+msgid ""
+"-Something for Your Trouble\n"
+"#\n"
+"#Find the Tux doll on Flathead's Airship"
+msgstr "-Něco pro tvé potíže\n#\n#Najdi tučňáčí stokorunu na Tupohlavcově vzducholodi."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:401
+msgid ""
+"-Trophy Room\n"
+"#\n"
+"*Find the Trophy Room (hint: you're in it right now)."
+msgstr "-Místnost trofejí\n#\n*Najdi místnost trofejí (tip: Jsi od ní napravo)."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:415
+msgid ""
+"-Master of Secrets\n"
+"#\n"
+"*Discover every secret area within DOOM Islands. [DISABLED]"
+msgstr "-Mistr tajemství\n#\n*Objev každé tajné místo na ostrově osudu. [VYPNUTO]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:423
+msgid ""
+"-The Coin Collector\n"
+"#\n"
+"*Collect all the coins from each level within DOOM Islands. [DISABLED]"
+msgstr "-Sběrač mincí\n#\n*Seber všechny mince na ostrově osudu. [VYPNUTO]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:431
+msgid ""
+"-Roadrunner\n"
+"#\n"
+"*Complete DOOM Islands with best times totalling less than ### seconds. [DISABLED]"
+msgstr "-Běžec\n#\n*Dokonči Ostrovy osudu s nejlepšími časy, které dohromady dají méně, než ### sekund [VYPNUTO]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:439
+msgid ""
+"-DOOMBRINGER\n"
+"#\n"
+"*Eliminate every unique foe from within DOOM Islands. [DISABLED]"
+msgstr "-Nosič osudu\n#\n*Zabijte všechny zlejšky na Ostrovech osudu. [VYPNUTO]"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/B_TrophyRoom.stl:460
+msgid ""
+"*---WARNING!---\n"
+"#Pressing this button will reset all your trophies and level statistics.\n"
+"-DO NOT PUSH"
+msgstr "*---VAROVÁNÍ!---\n#Stisknutím tohoto tlačítka se zresetují všechny tvé trofeje a statistiky úrovní.\n-NEMAČKAT"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/DecrepitCastle.stl:3
+msgid "Decrepit Castle"
+msgstr "Slabý hrad"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Iceborer.stl:3
+msgid "Den of the Iceborer"
+msgstr "Ledoborec"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Day.stl:3
+msgid "\t\t- A Brand New Day"
+msgstr "\t\t- Zbrusu nový den"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Dunes.stl:3
+msgid "\t01\t- Frosted Dunes"
+msgstr "\t01\t- Zmrzlé duny"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Escape.stl:3
+msgid "13 - Castle Escape"
+msgstr "13 - Útěk z hradu"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Floodlands.stl:3
+msgid "\t02\t- Floodlands"
+msgstr "\t02\t- Zaplavené země"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Geode.stl:3
+msgid "\t05\t- The Giant Geode"
+msgstr "\t05\t- Obří Geoda"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Geode.stl:30
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Pipes.stl:237
+msgid "!images/decal/explanations/helpboard_badflower.png"
+msgstr "!images/decal/explanations/helpboard_badflower.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Glorious.stl:3
+msgid "Glorious Crossing"
+msgstr "Úžasný přechod"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Pipes.stl:3
+msgid "\t04\t- Pipe Maze"
+msgstr "\t04\t- Trubkové bludiště"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Pipes.stl:236
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_HighRoute.stl:141
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Mineshaft.stl:18
+msgid "!images/decal/explanations/helpboard_pipe.png"
+msgstr "!images/decal/explanations/helpboard_pipe.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Primed.stl:3
+msgid "\tPrimed for Action\t"
+msgstr "\tPřipraven k akci\t"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_RockClimbing.stl:3
+msgid "\t\t- Rock Climbing"
+msgstr "\t\t- Šplhání po skále"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_RockClimbing.stl:19
+msgid ""
+"-Welcome to the base of the mountain!\n"
+"#\n"
+"#The door to your left leads to the easy, and 'stress free' way up.\n"
+"#\n"
+"#To your right lies the door for the difficult route, which offers a more rewarding experience."
+msgstr "-Vítejte na základně hory!\n#\n#Dveře po tvé levici vedou k snadné a 'bezstresné' cestě vzhůru.\n#\n#Dveře po tvé pravici vedou k obtížné cestě bohaté na zkušenosti."
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_SkyFall.stl:3
+msgid "\t\t- The Sky is Falling"
+msgstr "\t\t- Obloha padá"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Thomp.stl:3
+msgid "\t03\t- The Crushed Garden"
+msgstr "\t03\t- Zničená zahrada"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_Thomp.stl:153
+msgid ""
+"-Blue Coins \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"#3 blue coins in an instance of this level gains 2 Tux dolls. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+"!images/decal/explanations/info_bluecoin_3.png"
+msgstr "-Modré mince\n#\n#3 modré mince v instanci této úrovně vám dají 2 tučňáčí stokoruny\n#\n!images/decal/explanations/info_bluecoin_3.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/L_UnderAir.stl:3
+msgid "\t06\t- Under the Airship"
+msgstr "\t06\t- Pod vzducholodí"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/ToadCastle.stl:3
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Toad
+#: Castle.stl:3
+msgid "Toad's Castle"
+msgstr "Hrad ropuchy"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Toad_Entry.stl:3
+msgid "Entrance to Toad Castle"
+msgstr "Vstup do hradu ropuchy"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/Yeti.stl:3
+msgid "Decrepit Yeti"
+msgstr "Sešlý Yeti"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:3
+msgid "DOOM Islands"
+msgstr "Ostrovy osudu"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:78
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:81
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:73
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:79
+msgid "You found a secret place!"
+msgstr "Našel jsi tajné místo!"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:84
+msgid "You found a secret behind the castle!"
+msgstr "Našel jsi tajnou skrýš za hradem!"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:89
+msgid "Back to Mattie's Iceberg"
+msgstr "Zpět na Mattieho ledovec"
+
+#: data/levels/mattie_world2012/levels/mattie_world/doom_islands/worldmap.stwm:92
+msgid "Go Home"
+msgstr "Jít domů"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/LSD.stl:3
+msgid "Bonus Level: Little Strange Day"
+msgstr "Bonusová úroveň: Trochu divný den"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/LSD.stl:18
+msgid "!images/LMH/hint-01.png"
+msgstr "!images/LMH/hint-01.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Cavern.stl:3
+msgid "\t08\t- Through the Crystal Cavern"
+msgstr "\t08\t- Přes krystalovou jeskyni"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_DOOM.stl:3
+msgid "01\t-\tA\tDay\tof\tDOOM"
+msgstr "01\t-\tOdudný\tden"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Dungeon.stl:3
+msgid "\t05\t- Dusky Dungeon"
+msgstr "\t05\t- Šerý důl"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Escape.stl:3
+msgid "\t13\t- Castle Escape"
+msgstr "\t13\t- Útěk z hradu"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Fields.stl:3
+msgid "02 - Squishy Fields"
+msgstr "02 - Rozmačkaná pole"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_HighRoute.stl:3
+msgid "\t06\t- The High Route"
+msgstr "\t06\t- \tvysoká trasa"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Meltbox.stl:3
+msgid "11 - Beware of Fire"
+msgstr "11 - Pozor na oheň"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Mineshaft.stl:3
+msgid "\t04\t- Down the Mineshaft"
+msgstr "\t04\t- Dolů štolou"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Moat.stl:3
+msgid "\t12\t- Across the Moat"
+msgstr "\t12\t- Přes hradní příkop"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Moat.stl:78
+msgid ""
+"-WARNING!\n"
+"#\n"
+"#Water infested with angry bitefish.\n"
+"#\n"
+"#Do not swim."
+msgstr "-VAROVÁNÍ!\n#\n#Voda je zamořená kousajícími rybami.\n#\n#Neplavat."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Quarry.stl:3
+msgid "03 - Quarrelsome Quarry"
+msgstr "03 - Hašteřivý lom"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_ScarySkies.stl:3
+msgid "\t07\t- Scary Skies"
+msgstr "\t07\t- Strašidelné nebe"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_ThreeLanterns.stl:3
+msgid "\t09\t- Three Magic Lanterns"
+msgstr "\t09\t- Tři magické lampy"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/L_Wall.stl:3
+msgid "\t10\t- Over the Great Wall"
+msgstr "\t10\t- Přes velkou zeď"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Midway
+#: Castle.stl:3
+msgid "Midway Castle"
+msgstr "Hrad na půli cesty"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Oasis.stl:3
+msgid "Oasis:  The Bonus Forest Level"
+msgstr "Oáza: Bonusová lesní úroveň"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Oasis.stl:29
+msgid "!images/LMH/hint-03.png"
+msgstr "!images/LMH/hint-03.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/S_Airship.stl:3
+msgid "Super Secret Bonus Level: Ambassador Flathead's Airship"
+msgstr "Supertajná úroveň: Velvyslanecká tupohlavcova vzducholoď"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/S_Mineshaft.stl:3
+msgid "Super Secret Bonus Level: Upside-Down Mine Shaft"
+msgstr "Supertajná úroveň: Vzhůru dolů dolem"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/S_ToadCastle.stl:3
+msgid "Super Secret Bonus Level: Original Concept Toad Castle"
+msgstr "Supertajná úroveň: Originální pojem Toadův hrad"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:3
+msgid "\tThe Shop\t"
+msgstr "\tObchod\t"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:128
+msgid ""
+"-Welcome to The Shop\n"
+"#Completing level statistics in the regular levels will allow you to purchase powerups here to aid in your journey."
+msgstr "-Vítejte v obchodě\n#Dokončení statistik úrovní vám umožní zde kupovat různá vylepšení, která vám pomohou ve vaší výpravě."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:131
+msgid ""
+"-Progress Poles\n"
+"#Your progress in collecting coins, killing enemies, and speedy completion is tracked on the poles to your left.  Each dot represents a level starting with level 1 at the bottom.  Dots turn green when progress is completed."
+msgstr "-Pokrokové póly\n#Tvůj pokrok ve sbírání mincí, zabíjení zlejšků a rychlém dokončování úrovní se zobrazuje na pokrokových pólec po tvé levici. Každý bod představuje úroveň, začínající úrovní 1 dole. Tečky se rozsvítí zeleně, když je postup dokončen."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:134
+msgid ""
+"-Powerups for Purchase\n"
+"#Below are the powerups currently available for purchase.  As more progress is completed, powerups become available from left to right."
+msgstr "-Vylepšení pro nákup\n#Níže vidíte vylepšení, která jsou v současné době dostupná. Čím více postupu je dokončeno, tím více vylepšení je dostupných zleva doprava."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:137
+msgid ""
+"-Star Stones\n"
+"#Finding all three star stones will allow you to gain Ultimate Invulnerability.  This ability will be activated and deactivated by placing the stones on the ledge to your right."
+msgstr "-Hvězdné kameny\n#Nalezením všech třech hvězdných kamenů získáte nezranitelnost. Schopnost bude aktivována a deaktivována pokládáním kamenů na římsu po tvé pravici."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:141
+msgid ""
+"*Teir 1 Reward\n"
+"#Purchase an egg for 50 coins"
+msgstr "*Odměna 1. stupně\n#Kup si vejce za 50 mincí"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:146
+msgid ""
+"*Teir 2 Reward\n"
+"#Purchase a 2x iceflower for 200 coins"
+msgstr "*Odměna 2.stupně\n#Kup si 2x ledovou květinu za 200 mincí"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:151
+msgid ""
+"*Teir 3 Reward\n"
+"#Purchase a 3x fireflower for 600 coins"
+msgstr "*Odměna 3. stupně\n#Kup si 3x ohnivou květinu za 600 mincí."
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Trophy.stl:157
+msgid ""
+"*---WARNING!---\n"
+"#Pressing this button will reset all your progress.\n"
+"-DO NOT PUSH"
+msgstr "*---VAROVÁNÍ!---\n#Stiskem tohoto tlačítka se zresetuje celý tvůj postup.\n-NEMAČKAT"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Waldo.stl:3
+msgid "Bonus Level: Where's Waldo?"
+msgstr "Bonusová úroveň: Kde je Waldo?"
+
+#: data/levels/mattie_world2012/levels/mattie_world/mattie_iceberg/Waldo.stl:19
+msgid "!images/LMH/hint-02.png"
+msgstr "!images/LMH/hint-02.png"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:3
+msgid "Mattie's Iceberg"
+msgstr "Mattieho ledovec"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:76
+msgid "Penguins shouldn't do drugs!"
+msgstr "Tučňáci by neměli dělat drogy!"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:83
+msgid "Um, are you lost?"
+msgstr "Um, ztratil ses?"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:85
+msgid "...so you think you're so clever"
+msgstr "...Takže si myslíš, že jsi chytrý"
+
+#: data/levels/mattie_world2012/levels/mattie_world/worldmap.stwm:88
+msgid "Preview of DOOM Islands"
+msgstr "Náhled Ostrovů osudu"

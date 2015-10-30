@@ -150,6 +150,16 @@
     (url "https://raw.githubusercontent.com/SuperTuxTeam/addons/master/repository/langpack-de.zip")
     (md5 "d93cd07d192240bc03e0a9313a854661")
    )
+   (supertux-addoninfo
+    (id "langpack-cs")
+    (version 1)
+    (type "languagepack")
+    (title "Czech")
+    (author "Various")
+    (license "GPL 2+ / CC-by-sa 3.0")
+    (url "https://raw.githubusercontent.com/SuperTuxTeam/addons/master/repository/langpack-cs.zip")
+    (md5 "4773a966b7b2f0ec5543ee06496c1236")
+   )
 )
 
 ;; EOF ;;

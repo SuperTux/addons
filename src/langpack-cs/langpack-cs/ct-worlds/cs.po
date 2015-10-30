@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jirka Paleček <nrrstttpt@gmail.com>, 2013
+# fri, 2013
+# TeraTux devel Team <teratux.mail@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-16 11:55+0200\n"
+"PO-Revision-Date: 2015-07-11 02:37+0000\n"
+"Last-Translator: TeraTux devel Team <teratux.mail@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/arctic-games/supertux/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/cas-spiders.stl:3
+msgid "Castle of Creepy Spiders"
+msgstr "Hrad příšerných pavouků"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/extro.txt:6
+msgid ""
+"-Thanks for playing CT's Domain!\n"
+"\n"
+"#I hope you like liked this levelset.\n"
+"#If you have any questions, comments,\n"
+"#or ideas, please let me know on bug\n"
+"#number 827 on the bug tracker.\n"
+"\n"
+"#\" This has been CT's Domain\n"
+"#Levels by CT. da'Bomb and\n"
+"#Retep"
+msgstr "-Děkuji za hraní CTovy domény!⏎\n⏎\n#Doufám, že se vám líbí tento soubor úrovní.⏎\n#Pokud máš nějaké otázky, komentáře,⏎\n#nebo nápady, prosím, dejte mi vědět na bugu⏎\n#827 na bug trackeru.⏎\n⏎\n#\"Tohle byla CTova doména.⏎\n#Úrovně udělal CT. da'Bomb a⏎\n#Retep"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-bluerock.stl:3
+msgid "Out on the Blue Rocks"
+msgstr "Na modrých kamenech"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-boss.stl:3
+msgid "Mr Ice Guy Came Back"
+msgstr "Ledová panna přišla zpět"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-castle.stl:3
+msgid "Zeekling Fortress"
+msgstr "Pevnost Zeeklingů"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-hevan.stl:3
+msgid "Tough Path to Heaven"
+msgstr "Tvrdá cesta do nebe"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-machine.stl:3
+msgid "The machine"
+msgstr "Stroj"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-snomans.stl:3
+msgid "Stuck in sNOman's Land"
+msgstr "Uvíznutí ve sNĚhulákově zemi"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/final-speedboat.stl:3
+msgid "A Trip in The Speed Boat"
+msgstr "Výlet v závodním člunu"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-clearnight.stl:3
+msgid "The Clear Night Sky"
+msgstr "Jasná noční obloha"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-coin.stl:3
+msgid "Can You Find The Coins?"
+msgstr "Umíš najít mince?"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-coin.stl:20
+msgid ".You need to find the 5 coins before you can get through."
+msgstr ".Musíš najít pět mincí, aby ses dostal skrz."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-cristoph4.stl:3
+msgid "Cristoph4.stl"
+msgstr "Kryštof4.stl"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-frogs.stl:3
+msgid "Those Waves of Frogs"
+msgstr "Tamty vlny žab"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:3
+msgid "Life on a Three Hole Golf Course"
+msgstr "Život na tříjamkovém golfovém hřišti"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:146
+msgid ".The Pro Shop."
+msgstr ".Profesionální obchod"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:151
+msgid ".The First Hole."
+msgstr ".První jamka"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:156
+msgid ".The Second Hole."
+msgstr ".Druhá jamka"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-golf.stl:161
+msgid ".The Third Hole."
+msgstr ".Třetí jamka"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-haul.stl:3
+msgid "The Long Haul"
+msgstr "Dlouhý tah"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-mntfort.stl:3
+msgid "The Mountain Fortress"
+msgstr "Horská pevnost"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-moredirt.stl:3
+msgid "Some More Dirt"
+msgstr "Nějaká hlína navíc"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/for-pond.stl:3
+msgid "Frog Pond"
+msgstr "Žabí rybník"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/ghost-moreghosts.stl:3
+msgid "Some More Ghosts"
+msgstr "Nějací duchové navíc"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/jump.stl:3
+msgid "Jump Up to Death"
+msgstr "Skoč nahoru a zemřeš."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/sklife.stl:3
+msgid "So LOOOONG and Hard You Will Wish You Never Found It."
+msgstr "Tak DLOOOOUHÉ a těžké, že si budeš přát, abys to býval nikdy nenašel."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/skyburn.stl:3
+msgid "The Sky is Falling and the Hay is Burning"
+msgstr "Nebe padá a seno hoří"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-42.stl:3
+msgid "42 Steps To Safety"
+msgstr "42 kroků do bezpečí"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-avalan.stl:3
+msgid "Riding the Avalanche"
+msgstr "Jízda na lavině"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-backwards.stl:3
+msgid "Somethings Backwards Here!!!"
+msgstr "Zde trochu pozpátku!!!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-backwards2.stl:3
+msgid "Somethings Backward here 2!!!"
+msgstr "Zde trochu pozpátku 2!!!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-backwards2.stl:149
+msgid ""
+"\tOh no! The path is Blocked\n"
+"\tto go though you must move the\n"
+"\tblocks, by pressing down the action\n"
+"\tkey and grabing the block!"
+msgstr "⇥Ale ne! Cesta je zablokovaná⏎\n⇥K překonání musíš přesunout⏎\n⇥bloky stisknutím tlačítka akce⏎\n⇥a popadnutím bloku!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-boss.stl:3
+msgid "Take Your Pick....BOSS SYLE!!!!!"
+msgstr "Vyberte si....STYL ŠÉFA!!!!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-cartoon.stl:3
+msgid "Tux in Cartoon Land"
+msgstr "Tux v kreslené zemi"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-caveju.stl:3
+msgid "Jumping in a Cave"
+msgstr "Skákání v jeskyni"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-city.stl:3
+msgid "Life in an Arctic City"
+msgstr "Život v Arktickém městě"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-crux.stl:3
+msgid "Crux Move"
+msgstr "Pohyb jádrem"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-cryflip.stl:3
+msgid "Can Crystals Flip?"
+msgstr "Umí krystaly převracet?"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-fog.stl:3
+msgid "A Foggy Day"
+msgstr "Mlhavý den"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-high.stl:3
+msgid "A Long Way to Fall"
+msgstr "Dlouhá cesta k pádu"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-icecrusher.stl:3
+msgid "icecubeish nightmare"
+msgstr "Noční můra ledových drtičů"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-icecrusher.stl:1299
+msgid ""
+".you have to stop eating ice cubes before bed, it gives you nightmares like "
+"this one."
+msgstr ".musíš zastavit pojídání ledových drtičů před spaním, abys neměl noční můry, jako je tato."
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-log.stl:3
+msgid "A Visit to the Loggers Camp."
+msgstr "Návštěva chatařského kempu"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-log.stl:76
+msgid ".This is a loggers cabin, WATCH OUT!."
+msgstr ".Toto je chatařská kabina, dávej si pozor!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-mine.stl:3
+msgid "Visit to the cystal mine"
+msgstr "Návštěva krystalového dolu"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-moresnow.stl:3
+msgid "Some More Snow"
+msgstr "Nějaký sníh navíc"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-name.stl:3
+msgid "It's Self Expanatory"
+msgstr "To je samozřejmé"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-prize.stl:3
+msgid "A Prize For Originality"
+msgstr "Cena za originalitu"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-secret.stl:3
+msgid "Do You Want to Find The Secret Area???"
+msgstr "Dokážeš najít tajnou skrýš?"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-skijump.stl:3
+msgid "It's a Ski Jump!"
+msgstr "To je skok na lyžích!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-snow.stl:3
+msgid "Good Ol' Snow"
+msgstr "Dobrý sníh"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-storms.stl:3
+msgid "thunderstorms at night"
+msgstr "Bouře v noci"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-tuphy.stl:3
+msgid "Tuphy"
+msgstr "Tuphy"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-waterfire.stl:3
+msgid "Where Water Mixes With Fire"
+msgstr "Kde se voda míchá s ohněm"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-waterfire.stl:142
+msgid ".You are half way there."
+msgstr ".Jsi na půli cesty"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/snow-yellow.stl:3
+msgid "Don't Eat The Yellow Snow"
+msgstr "Nejez žlutý sníh!"
+
+#: data/levels/CTs_Domain/levels/CT's Domain/worldmap.stwm:3
+msgid "CT's Domain"
+msgstr "CTova doména"

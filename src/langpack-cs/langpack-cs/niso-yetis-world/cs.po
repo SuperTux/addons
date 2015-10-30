@@ -1,0 +1,195 @@
+# French translations for PACKAGE package
+# Traductions françaises du paquet PACKAGE.
+# Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jirka Paleček <nrrstttpt@gmail.com>, 2013
+# fri, 2013
+# TeraTux devel Team <teratux.mail@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:53+0200\n"
+"PO-Revision-Date: 2015-07-11 02:38+0000\n"
+"Last-Translator: TeraTux devel Team <teratux.mail@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/arctic-games/supertux/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/A Wonderful Day.stl:3
+msgid "A Wonderful Day"
+msgstr "Nádherný den"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Above The Clouds.stl:3
+msgid "Above the Clouds"
+msgstr "Nad oblaky"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Alls Well That Ends
+#: Well.stl:3
+msgid "All's Well That Ends Well"
+msgstr "Všechno je dobré, co skončí dobře"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Alls Well That Ends
+#: Well.stl:2777
+msgid ""
+"# Can you handle this\n"
+"# Skill-Jump?"
+msgstr "#Dokážete vyskočit nahoru?"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Big Wave.stl:3
+msgid "Big Wave"
+msgstr "Velká vlna"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Blue Mountain.stl:3
+msgid "Blue Mountain"
+msgstr "Modrá hora"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Cave Of Waterfalls.stl:3
+msgid "Cave Of Waterfalls"
+msgstr "Jeskyně vodopádů"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Controlling the
+#: Temperature.stl:3
+msgid "Controlling The Temperature"
+msgstr "Řízení teploty"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Crazy Cave.stl:3
+msgid "Crazy Cave"
+msgstr "Bláznivá jeskyně"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Dont Be Afraid.stl:3
+msgid "Don't Be Afraid"
+msgstr "Neboj se"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Escape From The
+#: Pirates.stl:3
+msgid "Escape From The Pirates"
+msgstr "Útěk od pirátů"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Foreign Passenger.stl:3
+msgid "Foreign Passenger"
+msgstr "Cizí cestující"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Hail Storm.stl:3
+msgid "Hail Storm"
+msgstr "Bouře krup"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Hang Out In The
+#: Underground.stl:3
+msgid "Hang Out In The Underground"
+msgstr "Věšet prádlo v podzemí"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/I Go With My Latern.stl:3
+msgid "I Go With My Latern"
+msgstr "Jdu se svou lucernou"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/I Go With My Latern.stl:39
+msgid ""
+"#Attention: \n"
+"#Don't throw your laterns away! And: Think first before you go forward."
+msgstr "#Pozor:\\n\n#Neodhazujte své lampy! A přemýšlejte dřív, než se vydáte dál."
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/I Go With My Latern.stl:45
+msgid ""
+"#Help:\n"
+"#You have to throw one of the red laterns over the ice platform!"
+msgstr "#Nápověda:\\n\n#Musíte hodit jednu z červených lamp nad ledovou plošinu!"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Its Getting Colder.stl:3
+msgid "It's Getting Colder"
+msgstr "Ochlazuje se"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Leaving Home And Start The
+#: Journey.stl:3
+msgid "Leaving Home And Start The Journey"
+msgstr "Opouštění domova a začátek výpravy"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Living Spikes.stl:3
+msgid "Living Spikes"
+msgstr "Oživlé bodláky"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/More Of The Blue
+#: Mountain.stl:3
+msgid "More Of The Blue Mountain"
+msgstr "Ještě víc z modré hory"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Next To The Stars.stl:3
+msgid "Next To The Stars"
+msgstr "Vedle hvězd"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/No Bridge Out There.stl:3
+msgid "No Bridge Out There"
+msgstr "Žádný most tam venku"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Path Without Name.stl:3
+msgid "Path Without Name"
+msgstr "Stezka bez názvu"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Pirates Harbor.stl:3
+msgid "Pirate's Harbor"
+msgstr "Pirátský přístav"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Playground In The
+#: Water.stl:3
+msgid "Playground In The Water"
+msgstr "Hřiště ve vodě"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Shaft Racing.stl:3
+msgid "Shaft Racing"
+msgstr "Závodění v šachtě"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Shaft Racing.stl:76
+msgid "#It's a bad idea to jump from the wagon!"
+msgstr "#Není dobrý nápad skákat z vozu!"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Slippery Climbing.stl:3
+msgid "Slippery Climbing"
+msgstr "Kluzké lezení"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Something In The Water.stl:3
+msgid "Something In The Water"
+msgstr "Něco ve vodě"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Something To Enjoy.stl:3
+msgid "Something To Enjoy"
+msgstr "Něco k vychutnání"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Spooky Way Of Life.stl:3
+msgid "Spooky Way Of Life"
+msgstr "Strašidelný způsob života"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Staple Me.stl:3
+msgid "Staple Me"
+msgstr "Sešij mě."
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Still Waters Run Deep.stl:3
+msgid "Still Waters Run Deep"
+msgstr "Klidné vody tečou hluboko"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Surfing Tux.stl:3
+msgid "Surfing Tux"
+msgstr "Serfující Tux"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Through The
+#: Groundwater.stl:3
+msgid "Through The Groundwater"
+msgstr "Skrz podzemní vodu"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Windy Day On Ice.stl:3
+msgid "Windy Day On Ice"
+msgstr "Větrný den na ledu"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/Yetis Revenge.stl:3
+#: data/levels/yetis_revenge/levels/yetis_revenge/worldmap.stwm:3
+msgid "Yeti's Revenge"
+msgstr "Yetiho pomsta"
+
+#: data/levels/yetis_revenge/levels/yetis_revenge/intro.stl:3
+msgid "A Loud Night"
+msgstr "Hlučná noc"
