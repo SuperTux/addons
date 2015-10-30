@@ -147,8 +147,8 @@
     (title "German")
     (author "Various")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTuxTeam/addons/master/repository/german-language-pack.zip")
-    (md5 "db3f1fb1aeaf6bd83b94fad1831c575b")
+    (url "https://raw.githubusercontent.com/SuperTuxTeam/addons/master/repository/langpack-de.zip")
+    (md5 "d93cd07d192240bc03e0a9313a854661")
    )
 )
 
