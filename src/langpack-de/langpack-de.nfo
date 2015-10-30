@@ -1,5 +1,5 @@
 (supertux-addoninfo
-  (id "german-language-pack")
+  (id "langpack-de")
   (version 1)
   (type "languagepack")
   (title "German")
