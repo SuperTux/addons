@@ -161,6 +161,7 @@
     (md5 "4773a966b7b2f0ec5543ee06496c1236")
    )
    (supertux-addoninfo
+	  (id "rubberduck-levels")
 	  (kind "worldmap")
 	  (title "Rubberducks levels")
 	  (author "Basti")
