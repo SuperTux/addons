@@ -160,6 +160,15 @@
     (url "https://raw.githubusercontent.com/SuperTuxTeam/addons/master/repository/langpack-cs.zip")
     (md5 "4773a966b7b2f0ec5543ee06496c1236")
    )
+   (supertux-addoninfo
+	  (kind "worldmap")
+	  (title "Rubberducks levels")
+	  (author "Basti")
+	  (license "GPL 2+ / CC-by-sa 3.0")
+	  (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v2.zip")
+	  (file "rubberduck.zip")
+	  (md5 "9b97f309addb9d236092bc9ff81c50f8e8569519")
+	)
 )
 
 ;; EOF ;;
