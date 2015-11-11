@@ -107,14 +107,15 @@
 	  (file "pre_git_bugtracker_worldmap.zip")
 	  (md5 "e3b01b66dfe6f3121277be685623ebd9")
 	)
-	(supertux-addoninfo
-	  (kind "Worldmap")
+   (supertux-addoninfo
+	  (id "rubberduck-levels")
+	  (type "worldmap")
 	  (title "Rubberducks levels")
 	  (author "Basti")
 	  (license "GPL 2+ / CC-by-sa 3.0")
-	  (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/Worldmaps/rubberduck.zip")
+	  (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/Worldmaps/rubberduck-levels_v2.zip")
 	  (file "rubberduck.zip")
-	  (md5 "96fd633c272382a9776eb0a6ff61f34d")
+	  (md5 "9b97f309addb9d236092bc9ff81c50f8e8569519")
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
