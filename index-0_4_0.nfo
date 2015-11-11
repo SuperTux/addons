@@ -127,8 +127,8 @@
     (title "Rubberducks levels")
     (author "Basti")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v1.zip")
-    (md5 "afb2221fda9a7ffb8b563799bdeb495d")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v2.zip")
+    (md5 "9b97f309addb9d236092bc9ff81c50f8e8569519")
    )
    (supertux-addoninfo
     (id "michel-the-frozen-continent")
