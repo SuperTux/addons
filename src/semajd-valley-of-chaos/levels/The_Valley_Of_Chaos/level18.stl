@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Assult On The Bridge"))
+  (name (_ "Assault On The Bridge"))
   (author "semajD")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector

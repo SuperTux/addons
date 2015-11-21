@@ -174,7 +174,7 @@
       (message (_ "#If you kicked an iceblock:
 #So you thought it was so easy?
 #
-#If you din't kick an iceblock:
+#If you didn't kick an iceblock:
 #Maybe good, maybe bad."))
       (x 1920)
       (y 352)
@@ -186,7 +186,7 @@
     )
     (infoblock
       (message (_ "-Congratulations!
-#You have been trough half the level!"))
+#You have been through half the level!"))
       (x 4736)
       (y 352)
     )

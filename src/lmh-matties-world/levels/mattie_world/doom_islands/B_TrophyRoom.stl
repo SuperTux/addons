@@ -241,7 +241,7 @@
 
     (infoblock  (message (_ "-The Hard Way
 #
-#In Rock Climbing take the hard path to the top without dieing or taking shortcuts."))
+#In Rock Climbing take the hard path to the top without dying or taking shortcuts."))
       (x  608  )(y  576  ))
     (scriptedobject  (name  "rock1"  )
       (z-pos  100  )(physic-enabled  #f  )
@@ -383,7 +383,7 @@
       (x  480  )(y  352  )(sprite  "images/objects/bonus_block/purpleblock.sprite"  ))
     (infoblock  (message (_ "-Do Over
 #
-#Find any one of two respawn bells on Flathead's Airship"))
+#Find one of the two respawn bells on Flathead's Airship"))
       (x  448  )(y  352  ))
     (scriptedobject  (name  "airship3"  )
       (z-pos  100  )(physic-enabled  #f  )
