@@ -1,8 +1,8 @@
 (supertux-level
   (version 2)
   (name (_ "Hello Land!"))
-  (author "Narre"
-  (license "GPL 2+ / CC-by-sa 3.0"))
+  (author "Narre")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (ambient-light 1 1 1)
