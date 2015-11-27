@@ -1083,7 +1083,7 @@
     (bonusblock
       (x 11392)
       (y 384)
-      (contents custom)
+      (contents "custom")
       (powerup
         (script "
 play_sound(\"sounds/countdown10s.wav\");
