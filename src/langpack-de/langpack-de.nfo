@@ -1,7 +1,0 @@
-(supertux-addoninfo
-  (id "langpack-de")
-  (version 1)
-  (type "languagepack")
-  (title "German")
-  (author "Various")
-  (license "GPL 2+ / CC-by-sa 3.0"))
