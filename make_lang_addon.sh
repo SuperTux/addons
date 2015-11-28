@@ -39,7 +39,7 @@ for i in ${languages[@]}; do
 	 (id \"langpack-$i\")\n\
 	 (version 1)\n\
 	 (type \"languagepack\")\n\
-	 (title \"langpack-$i\")\n\
+	 (title \"$i\")\n\
 	 (author \"Various\")\n\
 	 (license \"GPL 2+ / CC-by-sa 3.0\")\n\
 	)" >> "$NFO_FILE"
@@ -80,7 +80,7 @@ for i in ${languages[@]}; do
     (id \"langpack-$i\")\n\
     (version 1)\n\
     (type \"languagepack\")\n\
-    (title \"langpack-$i\")\n\
+    (title \"$i\")\n\
     (author \"Various\")\n\
     (license \"GPL 2+ / CC-by-sa 3.0\")\n\
     (url \"$final_destination/langpack-$i.zip\")\n\
