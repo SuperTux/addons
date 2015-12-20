@@ -8,7 +8,7 @@
     (author "Wolfs")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/wolf-levels_v1.zip")
-    (md5 "5cf1bb45f1f639944e7a53736b0e46b9")
+    (md5 "56350ea3a8785cdfb5ce9ae5482858ed")
    )
   (supertux-addoninfo
     (id "ctdabomb-worldmaps")
@@ -18,7 +18,7 @@
     (author "CT .da'Bomb")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ctdabomb-worldmaps_v1.zip")
-    (md5 "85da2891661f043e0b80a9a6c8ea60dc")
+    (md5 "e7c8f1db76ebbc8de31e95f525e64dc8")
    )
   (supertux-addoninfo
     (id "niso-yetis-revenge")
@@ -28,7 +28,7 @@
     (author "niso")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/niso-yetis-revenge_v1.zip")
-    (md5 "b4b00bdc91cd762ecf48a5668d160949")
+    (md5 "a33999163e1f78ed62064dade32bf37c")
    )
   (supertux-addoninfo
     (id "cschaefer-tux-strikes-back")
@@ -38,7 +38,7 @@
     (author "Christian Schaefers")
     (license "CC BY-SA 4.0+")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/cschaefer-tux-strikes-back_v2.zip")
-    (md5 "155f9ef8a3189e47da6c38288379d7da")
+    (md5 "0f099a1a925578c623665d2eb29fa03f")
    )
   (supertux-addoninfo
     (id "octo-levels")
@@ -48,7 +48,7 @@
     (author "Octo")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/octo-levels_v1.zip")
-    (md5 "1b3d29a02edc7cd34ba166db110037cd")
+    (md5 "cec3649d86bf6da183bb689250804106")
    )
   (supertux-addoninfo
     (id "lmh-fionas-world")
@@ -58,7 +58,7 @@
     (author "LMH")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-fionas-world_v2.zip")
-    (md5 "b521546dc994d50f10122cad18cca078")
+    (md5 "d66d4e654a3fae5cb6314d5e6e299b21")
    )
   (supertux-addoninfo
     (id "hume-worldmaps")
@@ -68,7 +68,7 @@
     (author "Hume")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/hume-worldmaps_v1.zip")
-    (md5 "60c95d34f635b49e0719caf51243ae0e")
+    (md5 "78717f758bee0fdc4ba18e0b0209310b")
    )
   (supertux-addoninfo
     (id "lmh-matties-world")
@@ -77,8 +77,8 @@
     (title "Mattie's World")
     (author "LMH")
     (license "GPL 2 / CC-by-sa 3.0")
-    (url "http://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-matties-world_v2.zip")
-    (md5 "b72fb2e35cea289e7b672ed359dfdf7d")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-matties-world_v2.zip")
+    (md5 "f5bc974e38ca5aaceb38e33fa7583b63")
    )
   (supertux-addoninfo
     (id "treskalle-island-of-moob")
@@ -88,7 +88,7 @@
     (author "treskalle")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/treskalle-island-of-moob_v1.zip")
-    (md5 "49cd84a701d03053fd0fe7e161483e08")
+    (md5 "9c9c0e6a72289ee61de770a8b586ed9e")
    )
   (supertux-addoninfo
     (id "lolkat-levels")
@@ -98,7 +98,7 @@
     (author "Lolkat")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lolkat-levels_v1.zip")
-    (md5 "059146860c00cedfff08e688095b6216")
+    (md5 "4ccb72849d1158e6a7d5a5b543bf5d99")
    )
   (supertux-addoninfo
     (id "semajd-valley-of-chaos")
@@ -108,7 +108,7 @@
     (author "SemajD")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/semajd-valley-of-chaos_v1.zip")
-    (md5 "0f50ad2412bc220bd6e5fb5d02e0f75e")
+    (md5 "8ed4e5db6e1655c89c6c759f394d9055")
    )
   (supertux-addoninfo
     (id "narre-land")
@@ -118,7 +118,7 @@
     (author "Narre")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/narre-land_v1.zip")
-    (md5 "c5ce27594195ba9fc086a0fb34fb4fbb")
+    (md5 "0d95536277d4c5235d90f6d4e381d53d")
    )
   (supertux-addoninfo
     (id "rubberduck-levels")
@@ -127,8 +127,8 @@
     (title "Rubberducks levels")
     (author "Basti")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v2.zip")
-    (md5 "30941bff2497090a93a4d50d262042e5")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v1.zip")
+    (md5 "d7cf94fd0878691518fe9d6514b43520")
    )
    (supertux-addoninfo
     (id "michel-the-frozen-continent")
@@ -138,7 +138,7 @@
     (author "Michel")
     (license "GPL 2 / CC-by-sa")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/michel-the-frozen-continent_v1.zip")
-    (md5 "17d8c424c6f5d71ec6843dc761ab8d7c")
+    (md5 "ac634e4d85e7449eee81889a57fb2311")
    )
 
    ; ###### LANGUAGE PACKS BEGIN ######
