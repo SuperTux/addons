@@ -300,7 +300,7 @@
        (author "Various")
        (license "GPL 2+ / CC-by-sa 3.0")
        (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-fr.zip")
-       (md5 "6b52bb7616729fa74d9cb716961b9456")
+       (md5 "5ce70d360a31123d060eca80ee35c090")
       )
    (supertux-addoninfo
        (id "langpack-he")
