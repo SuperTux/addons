@@ -2,7 +2,7 @@
 (background "extro.jpg")
 (music "music/greatgigantic.ogg")
 (text "
--Tux unlocks all archivements!
+-Tux unlocks all achievements!
 
 	By now we did not know why Tux unlocks achievements.
 	And here is the answer to this question.

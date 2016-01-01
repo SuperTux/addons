@@ -34,7 +34,7 @@ Text.set_text(this.a+this.operator+this.b+" = ?")
 Text.fade_in(0.2);
 
 function zvorej(){
- Text.set_text("WRONG!")
+ Text.set_text(_("WRONG!"))
  this.rand <- this.a%8
  if(this.rand==0){
   door1.goto_node(1)
@@ -69,7 +69,7 @@ function pridej(cislo){
   this.pokusy <- this.pokusy+1
   Text.set_text(this.a+this.operator+this.b+" = "+this.kod)
   if(this.kod==this.c){
-  Text.set_text("GOOD!")
+  Text.set_text(_("GOOD!"))
    this.pokusy <- 3
    door1.goto_node(1)
    door2.goto_node(1)

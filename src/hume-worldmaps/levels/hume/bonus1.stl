@@ -452,7 +452,7 @@ wait(90);
 set_game_speed(1);
 settings.set_ambient_light(1,1,1);
 this.party <- true;
-Text.set_text(\"Party over!\\n-500 coins\");
+Text.set_text(_(\"Party over!\\n-500 coins\"));
 sector.Tux.add_coins(-100*wheel.bonus);
 sector.Tux.add_coins(-100*wheel.bonus);
 sector.Tux.add_coins(-100*wheel.bonus);
@@ -674,7 +674,7 @@ import(\"levels/hume/bonus1.nut\");vylosuj();}")
     (name "exit")
     (init-script "Tux.deactivate();
 set_game_speed(1);
-Text.set_text(\"Stuck!??\\n-300 coins\");
+Text.set_text(_(\"Stuck!??\\n-300 coins\"));
 sector.Tux.add_coins(-100);
 sector.Tux.add_coins(-100);
 sector.Tux.add_coins(-100);

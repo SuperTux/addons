@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Climbable wall"))
+  (name (_ "Climbable wall")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")
@@ -365,9 +365,9 @@
     )
     (climbable
       (width 1020)
-      (height 7644)
+      (height 7676)
       (x 64)
-      (y 320)
+      (y 288)
     )
     (scripttrigger
       (script "complete_level(\"green\",\"g4\",\"fireworks\")")

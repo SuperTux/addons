@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Going up upwards."))
+  (name (_ "Going up upwards.")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Ivan Mamchak")
   (sector
     (name "main")

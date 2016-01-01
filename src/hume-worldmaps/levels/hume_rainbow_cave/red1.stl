@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Welcome in Hume's rainbow cave!"))
+  (name (_ "Welcome in Hume's rainbow cave!")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")
@@ -82,11 +82,11 @@
     )
     (infoblock
       (message (_ "-Bonus crystals
-#You must unlock all archivements for win this worldmap.
-#You get one archivement if you reach all bonus crystals.
+#You must unlock all achievements to win this worldmap.
+#You get one achievement if you reach all bonus crystals.
 #There are one bonus crystal in each level group.
 #One of them is above you.
-#If you won't go for the bonus cryctal, you can continue in this way."))
+#If you don't want to go for the bonus cryctal, you can continue in this way."))
       (x 832)
       (y 768)
     )
@@ -103,7 +103,7 @@
 #There are six levels in each level goup.
 #These level groups are named:
 *red, orange, yellow, green, blue, purple and white.
-#You get an archivement when you done all levels in each level group."))
+#You get an achievement when you done all levels in each level group."))
       (x 1376)
       (y 608)
     )
@@ -157,16 +157,17 @@
       (message (_ "-Boss levels
 #There are one boss level in each level group.
 #The boss level is the last level in each level group.
-#You must survive a minute in all bosses.
+#You must survive a minute in all bosses, when the goal is not obvious.
 #Wait for next platform for get to the other side."))
       (x 5984)
       (y 224)
     )
     (infoblock
       (message (_ "-Level exit
-#There is the last way for get an archivement.
+#There is the last way for get an achievement.
 #You get an archivement when you done all levels.
-#There are fourty two levels in this worldmap."))
+#There are fourty two levels in this worldmap.
+#Find a way out of this cave, good luck!"))
       (x 7328)
       (y 160)
     )

@@ -1,7 +1,7 @@
 (supertux-level
   (version 2)
   (name (_ "Hedgehog launch (medium)"))
-  (author "hume")
+  (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
     (music "music/chipdisko.ogg")
@@ -953,17 +953,10 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (ghosttree
+      )
+    (ghosttree
+      (dead-script "sector.Tux.trigger_sequence(\"fireworks\");")
       (x 730)
       (y 550)
-      (dead-script "  play_music("music/leveldone.ogg");
-  Tux.deactivate();
-  wait(6);
-  Effect.fade_out(2);
-  wait(2);
-  Level.finish(true);"
-  )
-      )
     )
-  )
-)
+))

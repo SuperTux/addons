@@ -7,7 +7,7 @@
     (music "music/forest.ogg")
     (init-script "import(\"levels/hume/defualt.nut\")
 unlock_archivement(\"l\")
-Text.set_text(\"outside\");
+Text.set_text(_(\"outside\"));
 Text.fade_in(0.2)
 wait(2)
 Text.fade_out(0.5)")
@@ -640,7 +640,7 @@ Text.fade_out(0.5)")
     (name "inside")
     (music "music/fortress.music")
     (init-script "Text.fade_in(0.2);
-Text.set_text(\"inside\")
+Text.set_text(_(\"inside\"))
 wait(2)
 Text.fade_out(0.5)")
     (ambient-light 0.2509804 0.5019608 0.5019608)

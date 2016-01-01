@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "A barricaded passage"))
+  (name (_ "A barricaded passage")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")

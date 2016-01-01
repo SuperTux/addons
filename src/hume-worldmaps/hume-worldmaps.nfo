@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "hume-worldmaps")
-  (version 1)
+  (version 2)
   (type "world")
   (title "Hume's 2 worldmaps")
   (author "Hume")

@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Give me a solid poit please. I want to vomit."))
+  (name (_ "Give me a solid poit please. I want to vomit.")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")

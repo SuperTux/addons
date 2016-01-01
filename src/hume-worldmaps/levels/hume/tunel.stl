@@ -275,7 +275,7 @@
       (sprite "images/objects/resetpoints/vbell.sprite")
     )
     (infoblock
-      (message (_ "#Boswer is behind that door."))
+      (message (_ "#Boss is behind that door."))
       (x 2720)
       (y 768)
     )

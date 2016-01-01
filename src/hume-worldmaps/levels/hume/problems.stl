@@ -4,7 +4,7 @@
   (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main") ;startovní sector(povinné)
-    (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+    (music "music/chipdisko.ogg") ;vloit hudbu(nepoviné)
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
@@ -58,7 +58,7 @@
   )
   (sector
     (name "orange") ;startovní sector(povinné)
-    (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+    (music "music/chipdisko.ogg") ;vloit hudbu(nepoviné)
     (ambient-light 1 1 1)
     (camera
       (mode "normal")
@@ -112,7 +112,7 @@
   )
     (sector
     (name "green") ;startovní sector(povinné)
-    (music "music/chipdisko.ogg") ;vložit hudbu(nepoviné)
+    (music "music/chipdisko.ogg") ;vloit hudbu(nepoviné)
     (ambient-light 1 1 1)
     (camera
       (mode "normal")

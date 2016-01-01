@@ -2,7 +2,6 @@ print("hume/boss.nut loaded\n");
 
 function rm_ready()
 {
-print("hume/default.nut//function rm_ready/seq:started\n");
 rampouch1.goto_node(1);
 play_sound("sounds/dartfire.wav");
 wait(0.05);
@@ -72,14 +71,12 @@ play_sound("sounds/dartfire.wav");
 rampouch23.goto_node(1);
 wait(0.05);
 play_sound("sounds/dartfire.wav");
-print("hume/default.nut//function rm_ready/seq:ending\n");
 }
 
 function rm_fall()
 {
 rm_ready();
 wait(1);
-print("hume/default.nut//function rm_fall/seq:started\n");
 rampouch1.goto_node(0);
 play_sound("sounds/fall.wav");
 wait(0.5);
@@ -175,12 +172,10 @@ wait(0.5);
 play_sound("sounds/explosion.wav");
 wait(0.5);
 play_sound("sounds/explosion.wav");
-print("hume/default.nut//function rm_fall/seq:ending\n");
 }
 
 function rm_bigfall()
 {
-print("hume/default.nut//function rm_bigfall/seq:started\n");
 rm_ready();
 wait(1)
 rampouch1.goto_node(0);
@@ -255,88 +250,68 @@ wait(0.5);
 play_sound("sounds/explosion.wav");
 play_sound("sounds/explosion.wav");
 play_sound("sounds/explosion.wav");
-print("hume/default.nut//function rm_bigfall/seq:ending\n");
 }
 
 function lu()
 {
-print("hume/default.nut//function lu/seq:started\n");
 spikes_lu.goto_node(1);
 spikes_lu.goto_node(0);
-print("hume/default.nut//function lu/seq:ending\n");
 }
 
 function ru()
 {
-print("hume/default.nut//function ru/seq:started\n");
 spikes_ru.goto_node(1);
 spikes_ru.goto_node(0);
-print("hume/default.nut//function ru/seq:ending\n");
 }
 
 function ld()
 {
-print("hume/default.nut//function ld/seq:started\n");
 spikes_ld.goto_node(1);
 spikes_ld.goto_node(0);
-print("hume/default.nut//function ld/seq:ending\n");
 }
 
 function rd()
 {
-print("hume/default.nut//function rd/seq:started\n");
 spikes_rd.goto_node(1);
 spikes_rd.goto_node(0);
-print("hume/default.nut//function rd/seq:ending\n");
 }
 
 function la()
 {
-print("hume/default.nut//function la/seq:started\n");
 lu();
 ld();
-print("hume/default.nut//function la/seq:ending\n");
 }
 
 function ra()
 {
-print("hume/default.nut//function ra/seq:started\n");
 ru();
 rd();
-print("hume/default.nut//function ra/seq:ending\n");
 }
 
 function au()
 {
-print("hume/default.nut//function au/seq:started\n");
 lu();
 ru();
-print("hume/default.nut//function au/seq:ending\n");
 }
 
 function ad()
 {
-print("hume/default.nut//function ad/seq:started\n");
 rd();
 ld();
-print("hume/default.nut//function ad/seq:ending\n");
 }
 
 function dark()
 {
-print("hume/default.nut//function dark/seq:started\n");
 Tux.deactivate();
 wait(0.5);
 play_sound("sounds/thunder.wav");
 settings.set_ambient_light(settings.get_ambient_red()-0.2,settings.get_ambient_green()-0.4,settings.get_ambient_blue()-0.34);
 wait(0.5);
 Tux.activate();
-print("hume/default.nut//function dark/seq:ending\n");
 }
 
 function boswer()
 {
-print("hume/default.nut//function boswer/seq:started\n");
 while(settings.get_ambient_green()>0){
  rm_fall()
  la()
@@ -359,5 +334,4 @@ while(settings.get_ambient_green()>0){
 import("levels/hume/defualt.nut")
 sector.Tux.trigger_sequence("fireworks");
 unlock_archivement("f");
-print("hume/default.nut//function boswer/seq:ending\n");
 }

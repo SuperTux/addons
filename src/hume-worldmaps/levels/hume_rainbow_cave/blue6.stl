@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Kill the yeti until the yeti kills you!"))
+  (name (_ "Kill the yeti until the yeti kills you!")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")
