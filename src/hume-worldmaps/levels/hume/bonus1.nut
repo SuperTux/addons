@@ -6,11 +6,11 @@ function green()
 {
  if (settings.get_ambient_green()>0.2){
   settings.set_ambient_light(settings.get_ambient_red(),settings.get_ambient_green()-0.2,settings.get_ambient_blue());
-  Text.set_text("Purple spotlights up!\n+10 coins");
+  Text.set_text(_("Purple spotlights up!\n+10 coins"));
   sector.Tux.add_coins(10*wheel.bonus);
   Text.fade_in(0.2);
  }else{
-  Text.set_text("Purple bonus!\n+30 coins");
+  Text.set_text(_("Purple bonus!\n+30 coins"));
   sector.Tux.add_coins(30*wheel.bonus);
   Text.fade_in(0.2);
  }
@@ -20,11 +20,11 @@ function red()
 {
  if (settings.get_ambient_red()>0.2){
   settings.set_ambient_light(settings.get_ambient_red()-0.2,settings.get_ambient_green(),settings.get_ambient_blue());
-  Text.set_text("Turquoise spotlights up!\n+10 coins");
+  Text.set_text(_("Turquoise spotlights up!\n+10 coins"));
   sector.Tux.add_coins(10*wheel.bonus);
   Text.fade_in(0.2);
  }else{
-  Text.set_text("Turquoise bonus!\n+30 coins");
+  Text.set_text(_("Turquoise bonus!\n+30 coins"));
   sector.Tux.add_coins(30*wheel.bonus);
   Text.fade_in(0.2);
  }
@@ -34,11 +34,11 @@ function blue()
 {
  if (settings.get_ambient_blue()>0.2){
   settings.set_ambient_light(settings.get_ambient_red(),settings.get_ambient_green(),settings.get_ambient_blue()-0.2);
-  Text.set_text("Yellow spotlights up!\n+10 coins");
+  Text.set_text(_("Yellow spotlights up!\n+10 coins"));
   sector.Tux.add_coins(10*wheel.bonus);
   Text.fade_in(0.2);
  }else{
-  Text.set_text("Yellow bonus!\n+30 coins");
+  Text.set_text(_("Yellow bonus!\n+30 coins"));
   sector.Tux.add_coins(30*wheel.bonus);
   Text.fade_in(0.2);
  }
@@ -48,7 +48,7 @@ function faster()
 {
  wheel.bonus <- wheel.bonus+1;
  set_game_speed(1/wheel.bonus);
- Text.set_text("Gamespeed up!\n+20 coins");
+ Text.set_text(_("Gamespeed up!\n+20 coins"));
  sector.Tux.add_coins(20*wheel.bonus);
  Text.fade_in(0.2);
 }
@@ -56,7 +56,7 @@ function faster()
 function skullyhop()
 {
  badguy0.goto_node(1);
- Text.set_text("Insert skullyhop!\n+15 coins");
+ Text.set_text(_("Insert skullyhop!\n+15 coins"));
  sector.Tux.add_coins(15*wheel.bonus);
  Text.fade_in(0.2);
  badguy0.goto_node(0);
@@ -65,7 +65,7 @@ function skullyhop()
 function bouncingsnowball()
 {
  badguy1.goto_node(1);
- Text.set_text("Insert bouncing snowball!\n+15 coins");
+ Text.set_text(_("Insert bouncing snowball!\n+15 coins"));
  sector.Tux.add_coins(15*wheel.bonus);
  Text.fade_in(0.2);
  badguy1.goto_node(0);
@@ -74,7 +74,7 @@ function bouncingsnowball()
 function poisonivi()
 {
  badguy2.goto_node(1);
- Text.set_text("Insert poison ivi!\n+15 coins");
+ Text.set_text(_("Insert poison ivi!\n+15 coins"));
  sector.Tux.add_coins(15*wheel.bonus);
  Text.fade_in(0.2);
  badguy2.goto_node(0);
@@ -83,7 +83,7 @@ function poisonivi()
 function snowball()
 {
  badguy3.goto_node(1);
- Text.set_text("Insert snowball!\n+15 coins");
+ Text.set_text(_("Insert snowball!\n+15 coins"));
  sector.Tux.add_coins(15*wheel.bonus);
  Text.fade_in(0.2);
  badguy3.goto_node(0);
@@ -92,7 +92,7 @@ function snowball()
 function mriceblock()
 {
  badguy4.goto_node(1);
- Text.set_text("Insert mr iceblock!\n+15 coins");
+ Text.set_text(_("Insert mr iceblock!\n+15 coins"));
  sector.Tux.add_coins(15*wheel.bonus);
  Text.fade_in(0.2);
  badguy4.goto_node(0);
@@ -100,7 +100,7 @@ function mriceblock()
 
 function growtux();
 {
- Text.set_text("No bonus\n *uf*");
+ Text.set_text(_("No bonus\n *uf*"));
  Text.fade_in(0.2);
  sector.Tux.add_bonus("grow");
 }

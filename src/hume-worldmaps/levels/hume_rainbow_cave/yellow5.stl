@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Octachoral test"))
+  (name (_ "Octachoral test")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")
@@ -18,7 +18,7 @@
 #You must get from side 1 to side 24.
 #You must answer the question in each sides.
 #If you answer correctly, you can chose your way to continue.
-#Else you must continue in predetermined way.
+#Else your way is chosen randomly and you can never undo it in that side.
 #Begin winth pressing this button."))
       (x 736)
       (y 480)

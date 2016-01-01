@@ -9,7 +9,7 @@
 
 
 	Congratulations!
-	You done it!
+	You did it!
 
 
 
@@ -26,6 +26,6 @@
 	Any comments and criticisms are welcome!
 	
 	Thanks for add this worldmap to add-ons!
- (That's a long time for waiting.)
+ (That was a long time to wait.)
 -Thank you for playing!
 "))

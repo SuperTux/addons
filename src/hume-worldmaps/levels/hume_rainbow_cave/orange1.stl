@@ -1,6 +1,7 @@
+
 (supertux-level
   (version 2)
-  (name (_ "Tux never saw orange crystals"))
+  (name (_ "Tux has never seen orange crystals")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")

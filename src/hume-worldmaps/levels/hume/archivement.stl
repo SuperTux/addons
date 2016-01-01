@@ -1,6 +1,7 @@
+
 (supertux-level
   (version 2)
-  (name (_ "Unlocked archivements"))
+  (name (_ "Unlocked achievements"))
   (author "hume") (license "GPL 2+ / CC-by-sa 3.0")
   (sector
     (name "main")
@@ -61,7 +62,7 @@ archivinit();
     )
     (infoblock
       (message (_ "##3
-#play level named unlocked archivements"))
+#play level named unlocked achievements"))
       (x 480)
       (y 576)
     )
@@ -73,14 +74,14 @@ archivinit();
     )
     (infoblock
       (message (_ "##5
-#get for a help for archivements"))
+#get for a help for achievements"))
       (x 608)
       (y 576)
     )
     (infoblock
-      (message (_ "-Welcome in the archivements preview!
-#This level is completely only after unlock all archivements.
-#You can unlock archivements in this worldmap."))
+      (message (_ "-Welcome in the achievements preview!
+#Unlock all these achievement to finish this level.
+#You can unlock achievements in this worldmap."))
       (x 96)
       (y 576)
     )
@@ -92,25 +93,25 @@ archivinit();
     )
     (infoblock
       (message (_ "##7
-#play the bonus level in icy sequence"))
+#play the bonus level in the icy sequence"))
       (x 928)
       (y 576)
     )
     (infoblock
       (message (_ "##8
-#find the secret level in icy sequence"))
+#find the secret level in the icy sequence"))
       (x 992)
       (y 576)
     )
     (infoblock
       (message (_ "##9
-#build the higherst totem"))
+#build the highest totem"))
       (x 1056)
       (y 576)
     )
     (infoblock
       (message (_ "##10
-#play a level in icy sequence"))
+#play a level in the icy sequence"))
       (x 1120)
       (y 576)
     )
@@ -122,31 +123,31 @@ archivinit();
     )
     (infoblock
       (message (_ "##12
-#use the deutor trough crystal sequence"))
+#use the detour trough the crystal sequence"))
       (x 1248)
       (y 576)
     )
     (infoblock
       (message (_ "##13
-#play a level in crystal sequence"))
+#play a level in the crystal sequence"))
       (x 1472)
       (y 576)
     )
     (infoblock
       (message (_ "##14
-#play the bonus level in crystal sequence"))
+#play the bonus level in the crystal sequence"))
       (x 1536)
       (y 576)
     )
     (infoblock
       (message (_ "##15
-#find the secret level in crystal sequence"))
+#find the secret level in the crystal sequence"))
       (x 1600)
       (y 576)
     )
     (infoblock
       (message (_ "##16
-#complete the deutor trough crystal sequence"))
+#complete the detour trough the crystal sequence"))
       (x 1664)
       (y 576)
     )
@@ -158,13 +159,13 @@ archivinit();
     )
     (infoblock
       (message (_ "##18
-#double score"))
+#60s to double score"))
       (x 1792)
       (y 576)
     )
     (infoblock
       (message (_ "##19
-#play a level in dark-forest sequence"))
+#play a level in the dark-forest sequence"))
       (x 1920)
       (y 576)
     )
@@ -182,13 +183,13 @@ archivinit();
     )
     (infoblock
       (message (_ "##22
-#do trough the boswer in dark-forest sequence"))
+#electrifying pass"))
       (x 2112)
       (y 448)
     )
     (infoblock
       (message (_ "##23
-#reach the impossible-hard level"))
+#finish the impossible-hard level"))
       (x 2176)
       (y 576)
     )
@@ -200,7 +201,7 @@ archivinit();
     )
     (infoblock
       (message (_ "##25
-#play a level in water sequence"))
+#play a level in the water sequence"))
       (x 2368)
       (y 544)
     )
@@ -242,7 +243,7 @@ archivinit();
     )
     (infoblock
       (message (_ "##32
-#play a level in secret sequence"))
+#play a level in the secret sequence"))
       (x 3040)
       (y 576)
     )
@@ -254,7 +255,7 @@ archivinit();
     )
     (infoblock
       (message (_ "##34
-#find the secret level in secret sequence"))
+#find the secret level in the secret sequence"))
       (x 2976)
       (y 448)
     )
@@ -271,32 +272,32 @@ archivinit();
       (y 448)
     )
     (infoblock
-      (message (_ "-Archivements from secret sequence"))
+      (message (_ "-achievements from secret sequence"))
       (x 2848)
       (y 448)
     )
     (infoblock
-      (message (_ "-Archivements from forest sequence"))
+      (message (_ "-achievements from forest sequence"))
       (x 271)
       (y 576)
     )
     (infoblock
-      (message (_ "-Archivements from icy sequence"))
+      (message (_ "-achievements from icy sequence"))
       (x 848)
       (y 576)
     )
     (infoblock
-      (message (_ "-Archivements from crystal sequence"))
+      (message (_ "-achievements from crystal sequence"))
       (x 1362)
       (y 577)
     )
     (infoblock
-      (message (_ "-Archivements from dark-forest sequence"))
+      (message (_ "-achievements from dark-forest sequence"))
       (x 1871)
       (y 575)
     )
     (infoblock
-      (message (_ "-Archivements from water sequence"))
+      (message (_ "-achievements from water sequence"))
       (x 2318)
       (y 560)
     )

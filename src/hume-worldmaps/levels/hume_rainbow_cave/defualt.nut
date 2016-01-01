@@ -294,7 +294,7 @@ function secret_area(sa) {
   if (!(archivements.archivements.secret)){
    archivements.archivements.secret <- true
    save_archivements();
-   Text.set_text("You found all secret areas!")
+   Text.set_text(_("You found all secret areas!"))
    play_sound("sounds/invincible_start.ogg")
    Text.fade_in(0.2)
    wait(5)
@@ -314,7 +314,7 @@ function finish_level_group(color,level){
   invincible()
   archivements.archivements[color] <- true
   save_archivements();
-  Text.set_text("You completed all "+color+" levels!")
+  Text.set_text(_("You completed all "+color+" levels!"))
   play_sound("sounds/invincible_start.ogg")
   Text.fade_in(0.2)
   wait(3)
@@ -329,8 +329,8 @@ function finish_level_group(color,level){
   if (!(archivements.archivements.goal)){
    archivements.archivements.goal <- true
    save_archivements();
-   Text.set_text("You completed all levels!")
-   play_sound("sounds/invincible_start.ogg")
+   Text.set_text(_("You completed all levels!"))
+   play_sound(_("sounds/invincible_start.ogg"))
    Text.fade_in(0.2)
    wait(3)
    Text.fade_out(0.2)
@@ -354,7 +354,7 @@ function found_crystal(crystal) {
   if (!(archivements.archivements.crystal)){
    archivements.archivements.crystal <- true
    save_archivements();
-   Text.set_text("You reached all bonus crystals")
+   Text.set_text(_("You reached all bonus crystals"))
    play_sound("sounds/invincible_start.ogg")
    Text.fade_in(0.2)
    wait(5)

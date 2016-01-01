@@ -25,7 +25,7 @@ unlock_archivement(\"a\")")
     (infoblock
       (message (_ "#Welcome to the base of the tower.
 #You can go down for some bonuses.
-#The main path leads up."))
+#The main path leads upwards."))
       (x 352)
       (y 800)
     )

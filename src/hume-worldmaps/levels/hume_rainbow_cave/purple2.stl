@@ -1,7 +1,7 @@
 (supertux-level
   (version 2)
-  (name (_ "You can find seven secret areas."))
-  (author "Ivan Mamchak")
+  (name (_ "You can find seven secret areas.")) (license "GPL 2+ / CC-by-sa 3.0")
+  (author "Hume")
   (sector
     (name "main")
     (music "music/cave.ogg")
@@ -49,43 +49,43 @@
       (y 768)
     )
     (infoblock
-      (message (_ "#Remembre code:
+      (message (_ "#Remember code:
 *489641"))
       (x 96)
       (y 896)
     )
     (infoblock
-      (message (_ "#Remembre code:
+      (message (_ "#Remember code:
 *028976"))
       (x 544)
       (y 288)
     )
     (infoblock
-      (message (_ "#Remembre code:
+      (message (_ "#Remember code:
 *360126"))
       (x 672)
       (y 96)
     )
     (infoblock
-      (message (_ "#Remembre code:
+      (message (_ "#Remember code:
 *289221"))
       (x 1536)
       (y 96)
     )
     (infoblock
-      (message (_ "#Remembre code:
+      (message (_ "#Remember code:
 *265813"))
       (x 2592)
       (y 96)
     )
     (infoblock
-      (message (_ "#Remembre code:
+      (message (_ "#Remember code:
 *598126"))
       (x 3232)
       (y 96)
     )
     (infoblock
-      (message (_ "#Remembre code:
+      (message (_ "#Remember code:
 *360312"))
       (x 3328)
       (y 96)

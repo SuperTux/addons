@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "The last possible choice"))
+  (name (_ "The last possible choice")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")

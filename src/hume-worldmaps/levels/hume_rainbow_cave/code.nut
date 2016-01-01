@@ -30,31 +30,31 @@ function pridej(cislo){
   if (this.posledni=="f"){
    this.posledni<-"g"
    if(this.kod=="567418"){
-    Text.set_text("567418 - Bonus levels are unlocked!");
+    Text.set_text(_("567418 - Bonus levels are unlocked!"));
     sector.Tux.trigger_sequence("fireworks");
    }else{
     if(this.kod=="489641"){
-    Text.set_text("489641 - 1 coin bonus!");
+    Text.set_text(_("489641 - 1 coin bonus!"));
     sector.Tux.add_coins(1);
     vynuluj();
     }else{
      if(this.kod=="028976"){
-     Text.set_text("028976 - 10 coins bonus!");
+     Text.set_text(_("028976 - 10 coins bonus!"));
      sector.Tux.add_coins(10);
      vynuluj();
      }else{
       if(this.kod=="360126"){
-      Text.set_text("360126 - 50 coins bonus!");
+      Text.set_text(_("360126 - 50 coins bonus!"));
       sector.Tux.add_coins(50);
       vynuluj();
       }else{
        if(this.kod=="289221"){
-       Text.set_text("289221 - 100 coins bonus!");
+       Text.set_text(_("289221 - 100 coins bonus!"));
        sector.Tux.add_coins(100);
        vynuluj();
        }else{
         if(this.kod=="265813"){
-        Text.set_text("265813 - 500 coins bonus!");
+        Text.set_text(_("265813 - 500 coins bonus!"));
         sector.Tux.add_coins(100);
         sector.Tux.add_coins(100);
         sector.Tux.add_coins(100);
@@ -63,17 +63,17 @@ function pridej(cislo){
         vynuluj();
         }else{
          if(this.kod=="310412"){
-         Text.set_text("310412 - Large Tux bonus!");
+         Text.set_text(_("310412 - Large Tux bonus!"));
          sector.Tux.add_bonus("grow")
          vynuluj();
          }else{
           if(this.kod=="598126"){
-          Text.set_text("598126 - Fire Tux bonus!");
+          Text.set_text(_("598126 - Fire Tux bonus!"));
           sector.Tux.add_bonus("fireflower")
           vynuluj();
           }else{
            if(this.kod=="860312"){
-           Text.set_text("860312 - Ice Tux bonus!");
+           Text.set_text(_("860312 - Ice Tux bonus!"));
            sector.Tux.add_bonus("iceflower")
            vynuluj();
            }else{

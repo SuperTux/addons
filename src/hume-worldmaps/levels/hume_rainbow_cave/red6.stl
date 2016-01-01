@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "The torture"))
+  (name (_ "The torture")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")

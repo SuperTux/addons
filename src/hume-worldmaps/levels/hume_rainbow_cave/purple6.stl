@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Warp out"))
+  (name (_ "Warp out")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")
@@ -1442,7 +1442,7 @@ Effect.fade_in(0)")
     )
     (infoblock
       (message (_ "#This is a way back home.
-#I hope you unlocked all archivements!"))
+#I hope you unlocked all achievements!"))
       (x 1216)
       (y 128)
     )

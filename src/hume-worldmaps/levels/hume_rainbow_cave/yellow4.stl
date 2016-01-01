@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Elevitor"))
+  (name (_ "Lift")) (license "GPL 2+ / CC-by-sa 3.0")
   (author "Hume")
   (sector
     (name "main")
@@ -20,7 +20,7 @@
           (time 60)
         )
         (node
-          (x 352)
+          (x 320)
           (y 256)
         )
       )
