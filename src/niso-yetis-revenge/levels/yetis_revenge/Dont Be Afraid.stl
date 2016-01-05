@@ -159,7 +159,7 @@
       (y 832)
     )
     (switch
-      (script "play_sound(\"sounds/countdown5s.wav\");
+      (script "play_sound(\"sounds/countdown5s.ogg\");
 steps.set_alpha(1);
 wait(6);
 steps.set_alpha(0);")
@@ -168,7 +168,7 @@ steps.set_alpha(0);")
       (y 770)
     )
     (switch
-      (script "play_sound(\"sounds/countdown5s.wav\");
+      (script "play_sound(\"sounds/countdown5s.ogg\");
 door.set_alpha(0);
 wait(6);
 door.set_alpha(1);")
@@ -1561,7 +1561,7 @@ play_sound(\"sounds/lifeup.wav\");
       (y 640)
     )
     (switch
-      (script "play_sound(\"sounds/countdown5s.wav\");
+      (script "play_sound(\"sounds/countdown5s.ogg\");
 door1.set_alpha(0);
 wait(6);
 door1.set_alpha(1);")
@@ -1570,7 +1570,7 @@ door1.set_alpha(1);")
       (y 834)
     )
     (switch
-      (script "play_sound(\"sounds/countdown10s.wav\");
+      (script "play_sound(\"sounds/countdown10s.ogg\");
 block1.set_alpha(1);
 wait(11);
 block1.set_alpha(0);")

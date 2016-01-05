@@ -36,7 +36,7 @@
       (contents "custom")
       (powerup
         (script "
-play_sound(\"sounds/countdown5s.wav\");
+play_sound(\"sounds/countdown5s.ogg\");
 blow1.stop();
 blow2.stop();
 block.set_alpha(1);

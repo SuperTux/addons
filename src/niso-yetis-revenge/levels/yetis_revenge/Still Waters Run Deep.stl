@@ -6238,7 +6238,7 @@ if(!watch2()){
 	head.goto_node(1);
 	wait(2);
 	LIFE.set_alpha(0.9);
-	play_sound(\"sounds/SeaSangry.wav\");
+	play_sound(\"sounds/SeaSangry.ogg\");
 	wait(6);
 	Tux.activate ();
 
@@ -6246,7 +6246,7 @@ if(!watch2()){
 	wait(6);
 }else{
 	LIFE.set_alpha(0.9);
-	play_sound(\"sounds/SeaSangry.wav\");
+	play_sound(\"sounds/SeaSangry.ogg\");
 	wait(2);
 }
 f3.goto_node(1);
@@ -6292,7 +6292,7 @@ flyer2.goto_node(5);
 wait(0.7);
 flyer3.goto_node(5);
 wait(3);
-play_sound(\"sounds/SeaSgrowl.wav\");
+play_sound(\"sounds/SeaSgrowl.ogg\");
 LIFE1.set_alpha(0.8);
 
 
@@ -6347,7 +6347,7 @@ bomb.goto_node(8);
 wait(3);
 play_sound(\"sounds/explosion.wav\");
 wait(2);
-play_sound(\"sounds/SeaSgrowl.wav\");
+play_sound(\"sounds/SeaSgrowl.ogg\");
 LIFE2.set_alpha(0.8);
 boomeffect.goto_node(1);
 stand1.start_moving();
@@ -6418,7 +6418,7 @@ flyer5.goto_node(5);
 wait(0.7);
 flyer6.goto_node(5);
 wait(3);
-play_sound(\"sounds/SeaSgrowl.wav\");
+play_sound(\"sounds/SeaSgrowl.ogg\");
 LIFE3.set_alpha(0.8);
 
 
@@ -6527,7 +6527,7 @@ bomb.goto_node(8);
 wait(5);
 play_sound(\"sounds/explosion.wav\");
 wait(2);
-play_sound(\"sounds/SeaSangry.wav\");
+play_sound(\"sounds/SeaSangry.ogg\");
 LIFE4.set_alpha(0.8);
 boomeffect.goto_node(1);
 wait(0.4);
@@ -6685,12 +6685,12 @@ kroshtransport.goto_node(2);
 wait(0.5);
 Krosh.goto_node(3);
 head.goto_node(0);
-play_sound(\"sounds/SeaSfinal.wav\");
+play_sound(\"sounds/SeaSfinal.ogg\");
 LIFE5.set_alpha(0.8);
 wait(4);
 Krosh.goto_node(4);
-Tux.do_cheer();																																																																																																																																																																																																																																																																																																										
-wait(0.5);																																																																																																																																																																																																																																																																																																								
+Tux.do_cheer();
+wait(0.5);
 sector.Tux.trigger_sequence(\"fireworks\");
 wait(8);
 Level.finish(true);")
