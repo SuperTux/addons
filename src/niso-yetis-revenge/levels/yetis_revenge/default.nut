@@ -50,7 +50,7 @@ function find_fish(box){
 		progress[box] <- true;
 		save_progress();
 		display_fishbox(box);
-		play_sound("sounds/clapping.wav");
+		play_sound("sounds/clapping.ogg");
 	}else{
 		play_sound("sounds/warp.wav");
 	}
@@ -140,7 +140,7 @@ function display_fishbox_counter(){
 	fishcount["fONE"].set_visible(true);
 	fishcount["tTEN"].set_visible(true);
 	fishcount["tONE"].set_visible(true);
-	
+
 	temp <- 0;
 	tot <- 0;
 	foreach(name in fishbox_names){
