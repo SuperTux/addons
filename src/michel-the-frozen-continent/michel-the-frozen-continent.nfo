@@ -1,6 +1,6 @@
 (supertux-addoninfo
  (id "michel-the-frozen-continent")
- (version 1)
+ (version 2)
  (type "world")
  (title "The Frozen Continent")
  (author "Michel")

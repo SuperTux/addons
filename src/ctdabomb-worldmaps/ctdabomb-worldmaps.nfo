@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "ctdabomb-worldmaps")
-  (version 1)
+  (version 2)
   (type "world")
   (title "CT's 2 worldmaps")
   (author "CT .da'Bomb")

@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "wolf-levels")
-  (version 1)
+  (version 2)
   (type "worldmap")
   (title "Levels of Wolfs")
   (author "Wolfs")

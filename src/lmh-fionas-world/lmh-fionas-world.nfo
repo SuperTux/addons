@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "lmh-fionas-world")
-  (version 2)
+  (version 3)
   (type "worldmap")
   (title "Fiona's World")
   (author "LMH")

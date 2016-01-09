@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "narre-land")
-  (version 1)
+  (version 2)
   (type "worldmap")
   (title "Narre Land")
   (author "Narre")

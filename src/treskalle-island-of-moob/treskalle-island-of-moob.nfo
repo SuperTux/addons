@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "treskalle-island-of-moob")
-  (version 1)
+  (version 2)
   (type "worldmap")
   (title "Island of Moob")
   (author "treskalle")

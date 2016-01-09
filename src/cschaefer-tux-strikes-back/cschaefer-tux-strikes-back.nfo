@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "cschaefer-tux-strikes-back")
-  (version 2)
+  (version 3)
   (type "worldmap")
   (title "Tux Strikes Back")
   (author "Christian Schaefers")

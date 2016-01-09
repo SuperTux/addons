@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "octo-levels")
-  (version 1)
+  (version 2)
   (type "worldmap")
   (title "Octo's Levels")
   (author "Octo")

@@ -1,6 +1,6 @@
  (supertux-addoninfo
   (id "niso-yetis-revenge")
-  (version 1)
+  (version 2)
   (type "worldmap")
   (title "Yeti's Revenge")
   (author "niso")
