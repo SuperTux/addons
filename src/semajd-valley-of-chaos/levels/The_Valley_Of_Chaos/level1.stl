@@ -75,7 +75,7 @@
       (y 2976)
     )
     (infoblock
-      (message (_ "#The Valley Of Chaos used to be a peacful place, where the snowballs, snowmen, and ice cubes lived together in harmony...."))
+      (message (_ "#The Valley Of Chaos used to be a peaceful place, where the snowballs, snowmen, and ice cubes lived together in harmony..."))
       (x 1568)
       (y 2976)
     )
@@ -602,8 +602,11 @@ Text.set_text(\"Tux:\\nOkay, goodbye\");
 	Text.fade_out(0.2);
 	wait(1.5);
 Effect.fade_out(1)
+
 wait(1)
+
 Text.fade_out(0.2)
+
 Level.spawn(\"two\",\"main\")")
       (button #f)
       (width 32)

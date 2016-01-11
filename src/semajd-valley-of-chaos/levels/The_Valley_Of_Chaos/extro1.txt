@@ -23,5 +23,5 @@
 #Tux left the castle through the secret
 #passageway and swam in the direction
 #of the island determined to find the
-#oppressor of The Valley Of Chaos...."))
+#oppressor of The Valley Of Chaos..."))
 )

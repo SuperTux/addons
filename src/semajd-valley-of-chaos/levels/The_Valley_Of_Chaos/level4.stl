@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Into The Valley (finally....)"))
+  (name (_ "Into The Valley (finally...)"))
   (author "semajD")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector
@@ -40,7 +40,7 @@
       (y 515)
     )
     (infoblock
-      (message (_ "#Once you enter the igloo, an elevator will take you down into the valley.... have fun!"))
+      (message (_ "#Once you enter the igloo, an elevator will take you down into the valley... have fun!"))
       (x 5088)
       (y 736)
     )

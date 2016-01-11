@@ -514,7 +514,7 @@
       (y 1286.1)
     )
     (infoblock
-      (message (_ "#You have entered a badguys' headquarters.... Beware!"))
+      (message (_ "#You have entered a badguys' headquarters... Beware!"))
       (x 448)
       (y 640)
     )

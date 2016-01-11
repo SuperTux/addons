@@ -49,12 +49,12 @@
       (y 1731)
     )
     (infoblock
-      (message (_ "#The way down from here used to be an imposible path, so the inhabitants added some stones and blocks to make the decent easier."))
+      (message (_ "#The way down from here used to be an impossible path, so the inhabitants added some stones and blocks to make the descent easier."))
       (x 192)
       (y 256)
     )
     (infoblock
-      (message (_ "#But ever since the yeti's takeover, the path has become worn down and crumbily. Be careful!"))
+      (message (_ "#But ever since the yeti's takeover, the path has become worn down and crumbly. Be careful!"))
       (x 256)
       (y 256)
     )

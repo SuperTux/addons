@@ -209,7 +209,7 @@
       (y 1768)
     )
     (infoblock
-      (message (_ "#You have entered a prison gaurded by many metal minions. Watch your step!"))
+      (message (_ "#You have entered a prison guarded by many metal minions. Watch your step!"))
       (x 192)
       (y 128)
     )
