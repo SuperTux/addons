@@ -70,7 +70,7 @@
       (y 3075)
     )
     (infoblock
-      (message (_ "#Welcome to The Valley Of Chaos! You are still hundereds of feet above ground, and will enter the valley when you go down. An arrow will point the way."))
+      (message (_ "#Welcome to The Valley Of Chaos! You are still hundreds of feet above ground, and will enter the valley when you go down. An arrow will point the way."))
       (x 288)
       (y 2976)
     )
