@@ -1,0 +1,7 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title (_ "SuperTux: Worldtour"))
+  (description "")
+  (levelset #f)
+  (hide-from-contribs #f)
+)
