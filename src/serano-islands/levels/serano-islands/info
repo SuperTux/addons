@@ -1,6 +1,6 @@
 ;SuperTux-Level-Subset
 (supertux-level-subset
-  (title (_ "SuperTux: Worldtour"))
+  (title (_ "Serano's Islands"))
   (description "")
   (levelset #f)
   (hide-from-contribs #f)
