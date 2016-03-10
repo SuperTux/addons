@@ -1477,13 +1477,15 @@
   )
   (tile
     (id 132)
-    (goal #t)
+    (object-name "sequencetrigger")
+    (object-data "(width 32) (height 32) (sequence \"stoptux\")")
     (editor-images "tiles/auxiliary/finalgoal.png")
     (data 1)
   )
   (tile
     (id 133)
-    (goal #t)
+    (object-name "sequencetrigger")
+    (object-data "(width 32) (height 32) (sequence \"endsequence\")")
     (editor-images "tiles/auxiliary/endseq.png")
   )
   ; For compatibility with 0.1.x levels, use tile to 1809-1814 instead
