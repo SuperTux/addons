@@ -68,13 +68,13 @@
 
   (supertux-addoninfo
     (id "lmh-matties-world")
-    (version 3)
+    (version 4)
     (type "world")
     (title "Mattie's World")
     (author "LMH")
     (license "GPL 2 / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-matties-world_v3.zip")
-    (md5 "1da941f30a3a2b86d9a2fdd55e1f2375")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-matties-world_v4.zip")
+    (md5 "cacd066393b8e826f57ef6a544c89cce")
    )
 
   (supertux-addoninfo

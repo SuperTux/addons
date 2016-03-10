@@ -1020,7 +1020,8 @@
       "objects/bonus_block/full-0.png"
     )
     (solid #t)
-    (fullbox #t)
+    (object-name "bonusblock")
+    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 1)")
     (next-tile 84)
     (data 1)
     (fps 2)
@@ -1067,6 +1068,7 @@
       "objects/coin/coin-7.png"
     )
     (coin #t)
+    (object-name "coin")
     (fps 10)
   )
   (tile
@@ -1219,7 +1221,8 @@
       "tiles/blocks/brick0.png"
     )
     (solid #t)
-    (brick #t)
+    (object-name "brick")
+    (object-data "(breakable #t) (sprite \"images/objects/bonus_block/brick.sprite\")")
   )
   (tile
     (id 78)
@@ -1227,7 +1230,8 @@
       "tiles/blocks/brick1.png"
     )
     (solid #t)
-    (brick #t)
+    (object-name "brick")
+    (object-data "(breakable #t) (sprite \"images/objects/bonus_block/brickIce.sprite\")")
   )
   (tiles
     (width 1)
@@ -1266,7 +1270,8 @@
       "objects/bonus_block/full-0.png"
     )
     (solid #t)
-    (fullbox #t)
+    (object-name "bonusblock")
+    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 1)")
     (next-tile 84)
     (data 1)
     (fps 2)
@@ -1320,8 +1325,8 @@
       "objects/bonus_block/full-0.png"
     )
     (solid #t)
-    (fullbox #t)
-    (next-tile 84)
+    (object-name "bonusblock")
+    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 2)")
     (editor-images "objects/bonus_block/bonus-fire_flower.png")
     (data 2)
     (fps 2)
@@ -1342,8 +1347,8 @@
       "objects/bonus_block/full-0.png"
     )
     (solid #t)
-    (fullbox #t)
-    (next-tile 84)
+    (object-name "bonusblock")
+    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 3)")
     (editor-images "objects/bonus_block/bonus-herring.png")
     (data 3)
     (fps 2)
@@ -1355,9 +1360,8 @@
     )
     (editor-images "tiles/blocks/brick0_full.png")
     (solid #t)
-    (brick #t)
-    (data 1)
-    (next-tile 84)
+    (object-name "brick")
+    (object-data "(breakable #f) (sprite \"images/objects/bonus_block/brick.sprite\")")
   )
   (tile
     (id 105)
@@ -1366,9 +1370,8 @@
     )
     (editor-images "tiles/blocks/brick1_full.png")
     (solid #t)
-    (brick #t)
-    (data 1)
-    (next-tile 84)
+    (object-name "brick")
+    (object-data "(breakable #f) (sprite \"images/objects/bonus_block/brickIce.sprite\")")
   )
   (tiles
     (width 3)
@@ -1382,8 +1385,7 @@
   (tile
     (id 112)
     (solid #t)
-    (fullbox #t)
-    (next-tile 84)
+    (object-name "invisible_block")
     (editor-images "objects/bonus_block/bonus-invisible.png")
   )
   (tiles
@@ -1425,8 +1427,8 @@
       "objects/bonus_block/full-0.png"
     )
     (solid #t)
-    (fullbox #t)
-    (next-tile 84)
+    (object-name "bonusblock")
+    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 4)")
     (editor-images "objects/bonus_block/bonus-1up.png")
     (data 4)
     (fps 2)
@@ -1525,8 +1527,8 @@
       "objects/bonus_block/full-0.png"
     )
     (solid #t)
-    (fullbox #t)
-    (next-tile 84)
+    (object-name "bonusblock")
+    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 5)")
     (editor-images "objects/bonus_block/bonus-ice_flower.png")
     (data 5)
     (fps 2)
