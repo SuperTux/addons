@@ -1,6 +1,6 @@
 (supertux-addoninfo
   (id "lmh-matties-world")
-  (version 4)
+  (version 5)
   (type "world")
   (title "Mattie's World")
   (author "LMH")
