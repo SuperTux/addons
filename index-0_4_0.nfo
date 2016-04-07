@@ -165,6 +165,17 @@
      (md5 "02ff9716b3f328cb1b0062cb89b52fe7")
     )
 
+    (supertux-addoninfo
+      (id "serano-halloween-islands")
+      (version 1)
+      (type "world")
+      (title "Serano's Halloween Islands")
+      (author "Serano")
+      (license "GPL 2 / CC-by-sa")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-halloween-islands_v1.zip")
+      (md5 "38a4e2b065f6705086b7da33d2f099f9")
+     )
+
    ; ###### LANGUAGE PACKS BEGIN ######
    (supertux-addoninfo
        (id "langpack-ar")
