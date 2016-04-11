@@ -57,13 +57,13 @@
 
   (supertux-addoninfo
     (id "niso-yetis-revenge")
-    (version 2)
+    (version 3)
     (type "worldmap")
     (title "Yeti's Revenge")
     (author "niso")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/niso-yetis-revenge_v2.zip")
-    (md5 "cbe954f4a0cc994e54d03b3978feb2cc")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/niso-yetis-revenge_v3.zip")
+    (md5 "250b8d8a80f9313f8777f329554718ff")
    )
 
   (supertux-addoninfo

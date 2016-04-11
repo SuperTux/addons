@@ -49,7 +49,7 @@
       (y 678)
     )
     (powerup
-      (script "play_sound(\"sounds/countdown10s.wav\");
+      (script "play_sound(\"sounds/countdown10s.ogg\");
 levelflip();
 s1.goto_node(1);
 wait(11.0);

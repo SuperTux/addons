@@ -2816,7 +2816,7 @@
     )
     (powerup
       (script "bigpress.stop_moving();
-play_sound(\"sounds/countdown5s.wav\");
+play_sound(\"sounds/countdown5s.ogg\");
 wait(6);
 bigpress.goto_node(12);")
       (sprite "images/powerups/potions/blue-potion.sprite")
@@ -3088,7 +3088,7 @@ secretlift.goto_node(1)")
     )
     (scripttrigger
       (script "if(! (\"NOLOK2\" in this) ){
-	
+
 	Tux.deactivate();
 	press.goto_node(2);
 	wait(1);
@@ -6026,7 +6026,7 @@ sp3.start_moving();")
       (y 743.4399)
     )
     (powerup
-      (script "Tux.deactivate(); 
+      (script "Tux.deactivate();
 levelflip();
 wait(1);
 Tux.activate();
@@ -6066,7 +6066,7 @@ Tux.activate();
       (y 864)
     )
     (powerup
-      (script "Tux.deactivate(); 
+      (script "Tux.deactivate();
 levelflip();
 wait(2);
 Tux.activate();
@@ -6091,7 +6091,7 @@ Tux.activate();
       (y 96)
     )
     (powerup
-      (script "Tux.deactivate(); 
+      (script "Tux.deactivate();
 levelflip();
 wait(1);
 Tux.activate();
@@ -6161,7 +6161,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6171,14 +6171,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 28)
@@ -6188,7 +6188,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6198,14 +6198,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 92)
@@ -6215,7 +6215,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6225,14 +6225,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 28)
@@ -6242,7 +6242,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6252,14 +6252,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 40)
@@ -6269,7 +6269,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6279,14 +6279,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 40)
@@ -6296,7 +6296,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6306,14 +6306,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 40)
@@ -6323,7 +6323,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6333,14 +6333,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 60)
@@ -6350,7 +6350,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6360,14 +6360,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 28)
@@ -6377,7 +6377,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6387,14 +6387,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 40)
@@ -6404,7 +6404,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6414,14 +6414,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 72)
@@ -6431,7 +6431,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6441,14 +6441,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 28)
@@ -6458,7 +6458,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6468,14 +6468,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 92)
@@ -6485,7 +6485,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6495,14 +6495,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 28)
@@ -6512,7 +6512,7 @@ Tux.activate ();")
     )
     (scripttrigger
       (script "for(;;)
-{ 
+{
 	if(settings.get_ambient_green() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), 1, settings.get_ambient_blue() );
 	}else{
@@ -6522,14 +6522,14 @@ Tux.activate ();")
 	if(settings.get_ambient_red() !=1){
 	settings.set_ambient_light( 1, settings.get_ambient_green(), settings.get_ambient_blue() );
 	}else{
-	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );	
+	settings.set_ambient_light( 0.14, settings.get_ambient_green(), settings.get_ambient_blue() );
 	};
 	wait(0.3);
 	if(settings.get_ambient_blue() !=1){
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 1 );
 	}else{
 	settings.set_ambient_light( settings.get_ambient_red(), settings.get_ambient_green(), 0.14 );
-	}	
+	}
 }")
       (button #f)
       (width 60)

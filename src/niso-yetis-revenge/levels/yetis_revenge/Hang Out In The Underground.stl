@@ -153,7 +153,7 @@
       (contents "custom")
       (powerup
         (script "
-play_sound(\"sounds/countdown10s.wav\");
+play_sound(\"sounds/countdown10s.ogg\");
 block.set_alpha(1);
 wait(11);
 block.set_alpha(0);

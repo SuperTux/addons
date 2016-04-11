@@ -217,7 +217,7 @@ play_sound(\"sounds/lifeup.wav\");
     (scripttrigger
       (script "if(! (\"enterbonus\" in this) ){
 wait(0.2);
-Level.spawn (\"bonus1\", \"bonus1\");	
+Level.spawn (\"bonus1\", \"bonus1\");
 this.enterbonus <- true;
 }")
       (button #f)
@@ -742,7 +742,7 @@ this.enterbonus <- true;
       (y 550)
     )
     (powerup
-      (script "play_sound(\"sounds/countdown10s.wav\");
+      (script "play_sound(\"sounds/countdown10s.ogg\");
 first.set_alpha(0);
 wait(11);
 first.set_alpha(1);")

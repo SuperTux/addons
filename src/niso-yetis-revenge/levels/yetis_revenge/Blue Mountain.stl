@@ -821,7 +821,7 @@
       (contents "custom")
       (powerup
         (script "
-play_sound(\"sounds/countdown10s.wav\");
+play_sound(\"sounds/countdown10s.ogg\");
 Spikes.set_alpha(0);
 wait(11.0);
 Spikes.set_alpha(1);

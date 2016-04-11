@@ -117,7 +117,7 @@
       (contents "custom")
       (powerup
         (script "
-play_sound(\"sounds/countdown10s.wav\");
+play_sound(\"sounds/countdown10s.ogg\");
 s1.goto_node(1);
 s2.goto_node(1);
 wait(11);

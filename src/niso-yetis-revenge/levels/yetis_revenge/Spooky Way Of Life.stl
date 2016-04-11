@@ -2833,7 +2833,7 @@
       (y 544)
     )
     (switch
-      (script "play_sound(\"sounds/countdown10s.wav\");
+      (script "play_sound(\"sounds/countdown10s.ogg\");
 secretdoor1.set_alpha(0);
 secretblock1.set_alpha(1);
 climbing.goto_node(1);
@@ -2845,7 +2845,7 @@ secretblock1.set_alpha(0);")
       (y 226)
     )
     (switch
-      (script "play_sound(\"sounds/countdown10s.wav\");
+      (script "play_sound(\"sounds/countdown10s.ogg\");
 exitblockdoor.set_alpha(0);
 exitblock.set_alpha(1);
 climbing.goto_node(1);
