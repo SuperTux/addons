@@ -40,8 +40,8 @@
     (title "The Valley of Chaos")
     (author "SemajD")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/semajd-valley-of-chaos_v2.zip")
-    (md5 "1d6e28a89575e37b371597aa857602fb")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/semajd-valley-of-chaos_v3.zip")
+    (md5 "79aebe0bb20c4070476f4226353b13f1")
    )
 
   (supertux-addoninfo

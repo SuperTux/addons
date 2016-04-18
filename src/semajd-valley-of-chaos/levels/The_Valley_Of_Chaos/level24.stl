@@ -17,7 +17,7 @@
       (mode "normal")
     )
     (infoblock
-      (message (_ "#As the yeti was killed, everyone in the valley was released from there spell cast on them by the yeti"))
+      (message (_ "#As the yeti was killed, everyone in the valley was released from the spell cast on them by the yeti"))
       (x 352)
       (y 160)
     )
