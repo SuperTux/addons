@@ -138,17 +138,17 @@
 #Finding all three star stones will allow you to gain Ultimate Invulnerability.  This ability will be activated and deactivated by placing the stones on the ledge to your right."))
       (x  944  )(y  352  ))
 
-    (infoblock  (message (_ "*Teir 1 Reward
+    (infoblock  (message (_ "*Tier 1 Reward
 #Purchase an egg for 50 coins"))
       (x  560  )(y  576  ))
     (bonusblock  (x  624  )(y  576  )(contents  "custom"  )
       (powerup  (sprite  "images/powerups/egg/egg.sprite"  )(script "  buy_powerup(\"egg\");  ")  ))
-    (infoblock  (message (_ "*Teir 2 Reward
+    (infoblock  (message (_ "*Tier 2 Reward
 #Purchase a 2x iceflower for 200 coins"))
       (x  752  )(y  576  ))
     (bonusblock  (x  816  )(y  576  )(contents  "custom"  )
       (powerup  (sprite  "images/powerups/iceflower/iceflower.sprite"  )(script "  buy_powerup(\"ice\");  ")  ))
-    (infoblock  (message (_ "*Teir 3 Reward
+    (infoblock  (message (_ "*Tier 3 Reward
 #Purchase a 3x fireflower for 600 coins"))
       (x  944  )(y  576  ))
     (bonusblock  (x  1008  )(y  576  )(contents  "custom"  )
