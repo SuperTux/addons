@@ -29,12 +29,12 @@
       (y 416)
     )
     (infoblock
-      (message (_ "#The blocks placed on the left can be moved by pressing on the Action key. Pile the blocks in order to go up on them, and jump over the wall."))
+      (message (_ "#The blocks placed on the left can be moved by pressing the Action key. Pile the blocks in order to go up on them, and jump over the wall."))
       (x 1984)
       (y 832)
     )
     (infoblock
-      (message (_ "#The trampoline placed on the right can be moved by pressing on the Action key. Put the trampoline in front of the wall to jump over the wall."))
+      (message (_ "#The trampoline placed on the right can be moved by pressing the Action key. Put the trampoline in front of the wall to jump over the wall."))
       (x 4224)
       (y 384)
     )
@@ -352,7 +352,7 @@
       (y 480)
     )
     (infoblock
-      (message (_ "#The lantern placed to the left can be moved by pressing the Action key. The light of the lantern allows you to walk on the magic blocs."))
+      (message (_ "#The lantern placed to the left can be moved by pressing the Action key. The light of the lantern allows you to walk on the magic blocks."))
       (x 992)
       (y 480)
     )
@@ -362,7 +362,7 @@
       (y 448)
     )
     (infoblock
-      (message (_ "#The blocks of wood that obstruct the way to the right can be broken by throwing an ice block on it."))
+      (message (_ "#The blocks of wood that obstruct the way to the right can be broken by throwing an ice block on them."))
       (x 3136)
       (y 512)
     )

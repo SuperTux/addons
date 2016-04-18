@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Distant Ices"))
+  (name (_ "Distant Ice"))
   (author "Michel")
   (license "GPL 2+ / CC-by-sa 3.0")
   (sector

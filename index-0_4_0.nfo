@@ -150,8 +150,8 @@
     (title "The Frozen Continent")
     (author "Michel")
     (license "GPL 2 / CC-by-sa")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/michel-the-frozen-continent_v2.zip")
-    (md5 "9dad63ef805f5d9779e01654b35ca5ca")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/michel-the-frozen-continent_v3.zip")
+    (md5 "232f9dc1fd8f49c4acda420f4f481854")
    )
 
    (supertux-addoninfo
