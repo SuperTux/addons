@@ -1,6 +1,6 @@
 (supertux-level
   (version 2)
-  (name (_ "Weltreise"))
+  (name (_ "Serano's Halloween Island"))
   (author "alex")
   (target-time 0)
   (sector
