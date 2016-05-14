@@ -185,7 +185,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-ar.zip")
-         (md5 "3626c1d8edcef087df70ca8b04b9dc56")
+         (md5 "8da4cccbd9f639373fdc08c4bc5e5504")
         )
      (supertux-addoninfo
          (id "langpack-az")
@@ -195,7 +195,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-az.zip")
-         (md5 "3c1260e878de1d2a075757e1f404731a")
+         (md5 "0188d123379e2546dcf41916a03c0b14")
         )
      (supertux-addoninfo
          (id "langpack-be")
@@ -205,7 +205,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-be.zip")
-         (md5 "a75574d72b46725843ffa39447de5b93")
+         (md5 "3145298f8da94661c3134b3211c50fb6")
         )
      (supertux-addoninfo
          (id "langpack-bg")
@@ -215,7 +215,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-bg.zip")
-         (md5 "71b1cb212d9fd1722cbc2ccfb64c3504")
+         (md5 "a4d234f7d9fdeb80205eea25454aacb6")
         )
      (supertux-addoninfo
          (id "langpack-br")
@@ -225,7 +225,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-br.zip")
-         (md5 "dc65c43a048e32b650c1f614cf2a5f4f")
+         (md5 "40a29d6b77f73e76c18a3d50ff830ade")
         )
      (supertux-addoninfo
          (id "langpack-ca")
@@ -235,7 +235,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-ca.zip")
-         (md5 "670170302314a41d049015a09bfcaf93")
+         (md5 "b6bbb59d4a896343a3afccd72e665d55")
         )
      (supertux-addoninfo
          (id "langpack-cmn")
@@ -245,7 +245,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-cmn.zip")
-         (md5 "7f256573a4440cb77c10242fb56262e0")
+         (md5 "147776bfa95302c1c6b599b69e01c9dd")
         )
      (supertux-addoninfo
          (id "langpack-cs")
@@ -255,7 +255,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-cs.zip")
-         (md5 "b30ece23577b3f316718732800b051a4")
+         (md5 "5bd1df51239093837eb3206d18f6a1a8")
         )
      (supertux-addoninfo
          (id "langpack-da")
@@ -265,7 +265,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-da.zip")
-         (md5 "f10af85c7fbde1b4a36d1a66d364c404")
+         (md5 "f52ad8ea222edc1c1b83e7423b27132e")
         )
      (supertux-addoninfo
          (id "langpack-de")
@@ -275,7 +275,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-de.zip")
-         (md5 "400043542dc23d742901b4f1de94af48")
+         (md5 "cbf6381e7c95444794aad03e1e9dd0a7")
         )
      (supertux-addoninfo
          (id "langpack-el")
@@ -285,7 +285,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-el.zip")
-         (md5 "0d90f4982c63c09fc96483e74b0dde4b")
+         (md5 "f5b146a0fa952149fc9e3842e64fc86f")
         )
      (supertux-addoninfo
          (id "langpack-eo")
@@ -295,7 +295,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-eo.zip")
-         (md5 "38081d33154520301ab99c4422a02379")
+         (md5 "e92f877b8ef2004b4c30f748c084f9b6")
         )
      (supertux-addoninfo
          (id "langpack-es")
@@ -305,7 +305,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-es.zip")
-         (md5 "73870d13e5270efbb7925e8f661177d4")
+         (md5 "efaf0db726281540e950fccfbb8b96d8")
         )
      (supertux-addoninfo
          (id "langpack-et")
@@ -315,7 +315,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-et.zip")
-         (md5 "6ba3420d5a034900786ecbbb6d6b170d")
+         (md5 "df5c48d7793c407fbf153add9954a1bd")
         )
      (supertux-addoninfo
          (id "langpack-fi")
@@ -325,7 +325,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-fi.zip")
-         (md5 "5065645d998b162a2342085db1509030")
+         (md5 "aa1442cc6e848f90b1e39a5ac87e981c")
         )
      (supertux-addoninfo
          (id "langpack-fr")
@@ -335,7 +335,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-fr.zip")
-         (md5 "062a82445c255fc64c5cc572707fdba5")
+         (md5 "372d2856cd1e498c52e5eeec173dc0f6")
         )
      (supertux-addoninfo
          (id "langpack-he")
@@ -345,7 +345,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-he.zip")
-         (md5 "4f1c46d36c6aa80503ec982e3f819552")
+         (md5 "3c9e984e8ad87e5a011b696d8aa836fc")
         )
      (supertux-addoninfo
          (id "langpack-hi_IN")
@@ -355,7 +355,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-hi_IN.zip")
-         (md5 "262b7bbaffcda451072ced23e471ae19")
+         (md5 "65ba7b8f0bfd4e5204da0bc1a3df7b98")
         )
      (supertux-addoninfo
          (id "langpack-hr")
@@ -365,7 +365,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-hr.zip")
-         (md5 "4141e2cead5575b0ea36e8ab7a6150cb")
+         (md5 "2d1538a9f8a0901f760ef89496eda13b")
         )
      (supertux-addoninfo
          (id "langpack-hu")
@@ -375,7 +375,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-hu.zip")
-         (md5 "aa64f86c53ee43feca9a49b6f6081ee9")
+         (md5 "001c3f0cfa01c13647f920a42065e67c")
         )
      (supertux-addoninfo
          (id "langpack-id")
@@ -385,7 +385,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-id.zip")
-         (md5 "95c1089c810ec2291e41e8e50bff384e")
+         (md5 "5dfc991eacd66387b6f56234d18a5f40")
         )
      (supertux-addoninfo
          (id "langpack-it")
@@ -395,7 +395,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-it.zip")
-         (md5 "4e263700719c1480a051ba4b6061621b")
+         (md5 "1485a3349714fe4f1870bf8c531b2266")
         )
      (supertux-addoninfo
          (id "langpack-ja")
@@ -405,7 +405,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-ja.zip")
-         (md5 "6785c1cf4ff6d4786a3c0f011fedb092")
+         (md5 "a33130a5f0f86004a642cd75d702d928")
         )
      (supertux-addoninfo
          (id "langpack-jbo")
@@ -415,7 +415,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-jbo.zip")
-         (md5 "c564255f8bb1e37812996c47064c2cda")
+         (md5 "33fe90871699fe1f75247f285cd9166d")
         )
      (supertux-addoninfo
          (id "langpack-jv")
@@ -425,7 +425,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-jv.zip")
-         (md5 "4ca8a6c80546f605525a73bed2743ba0")
+         (md5 "762a22417ed2d1d915f7262f5d886563")
         )
      (supertux-addoninfo
          (id "langpack-km")
@@ -435,7 +435,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-km.zip")
-         (md5 "502cba33433ab9dc3e511a0d2066aa86")
+         (md5 "1cc886a355c0af3756df5525653e6254")
         )
      (supertux-addoninfo
          (id "langpack-ko")
@@ -445,7 +445,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-ko.zip")
-         (md5 "6009f27ca422f65f6040170a72fbe3d7")
+         (md5 "c7af7254fc8ed63d18cc45ab6975fa38")
         )
      (supertux-addoninfo
          (id "langpack-la")
@@ -455,7 +455,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-la.zip")
-         (md5 "d10adeb52c3dc9102f768e2e36f24f93")
+         (md5 "c84b3f8c7c6295706b80906b526c3fea")
         )
      (supertux-addoninfo
          (id "langpack-lt")
@@ -465,7 +465,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-lt.zip")
-         (md5 "c7029d328748ac9edba6b5141097d27e")
+         (md5 "597699bd29ecc0e2fe28608e911c7339")
         )
      (supertux-addoninfo
          (id "langpack-ml")
@@ -475,7 +475,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-ml.zip")
-         (md5 "f80527dc42e54cd9011c56e415d4bd65")
+         (md5 "52123ddaf3cbcc34fe159ba39a59d7d5")
         )
      (supertux-addoninfo
          (id "langpack-nb")
@@ -485,7 +485,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-nb.zip")
-         (md5 "a18f70f4b9cdf2a038c5868249d14140")
+         (md5 "08217167cb5eca4db0142725fa9f8a25")
         )
      (supertux-addoninfo
          (id "langpack-ne")
@@ -495,7 +495,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-ne.zip")
-         (md5 "f612dfbe23a7bc2a4d3c10819c1cdbde")
+         (md5 "4a3dfbf67ce2a3eb1d22b3a5ca4e032a")
         )
      (supertux-addoninfo
          (id "langpack-nl")
@@ -505,7 +505,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-nl.zip")
-         (md5 "b4955df20cb45f92680418735e6d5f17")
+         (md5 "20cff5d38322b066d67e86699f2e8721")
         )
      (supertux-addoninfo
          (id "langpack-nn")
@@ -515,7 +515,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-nn.zip")
-         (md5 "1e5cc5bb21ca271de96659ec48a59a24")
+         (md5 "5d0793ee55a5c7ffa8089f52d57ed561")
         )
      (supertux-addoninfo
          (id "langpack-pl")
@@ -525,7 +525,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-pl.zip")
-         (md5 "0c8c1b7c3b5d750e140ea852a14ad0d6")
+         (md5 "0d8950d085cc61ff0def6d827771aa76")
         )
      (supertux-addoninfo
          (id "langpack-pt")
@@ -535,7 +535,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-pt.zip")
-         (md5 "8b614f8a950d41a28dcf9e65644e242a")
+         (md5 "b55a8781a1d2bdbaf30f90f135bb5a4e")
         )
      (supertux-addoninfo
          (id "langpack-pt_BR")
@@ -545,7 +545,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-pt_BR.zip")
-         (md5 "078c135b455c3f33066cf6ffeabed926")
+         (md5 "0d59f299d8092a1392eb7fcedab5d450")
         )
      (supertux-addoninfo
          (id "langpack-ro")
@@ -555,7 +555,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-ro.zip")
-         (md5 "33c431de7b4d9ce19d10afeafdbdad85")
+         (md5 "c35ac7ccfdac7e8c8a4adcf7e8667399")
         )
      (supertux-addoninfo
          (id "langpack-ru")
@@ -565,7 +565,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-ru.zip")
-         (md5 "4edd8457e10ad9c73e31fcf333a528b7")
+         (md5 "c81c35c0ca046a3902c848a471094067")
         )
      (supertux-addoninfo
          (id "langpack-sk")
@@ -575,7 +575,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-sk.zip")
-         (md5 "874ead302535e1fe7fc19fe45588d0d7")
+         (md5 "749580cd8a4a4f898c705e1cd2c75e50")
         )
      (supertux-addoninfo
          (id "langpack-sl")
@@ -585,7 +585,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-sl.zip")
-         (md5 "90f77b31376e7f4fcc7b55979b12f3b4")
+         (md5 "a0c0f875f2bff214baaf38f18c4995f1")
         )
      (supertux-addoninfo
          (id "langpack-sq")
@@ -595,7 +595,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-sq.zip")
-         (md5 "86d8aa52f3cb01cb59e6c2a62f381ff8")
+         (md5 "b24fe57bc2b86f9bd07743a133de8c0a")
         )
      (supertux-addoninfo
          (id "langpack-sr")
@@ -605,7 +605,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-sr.zip")
-         (md5 "548febaddd6ef46576b7c7c7ccabf146")
+         (md5 "1cedecf7c95c3368a1dcf7f742f4d1e7")
         )
      (supertux-addoninfo
          (id "langpack-sv")
@@ -615,7 +615,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-sv.zip")
-         (md5 "e8c0ec8e3998ee92b923b81d014e9b4c")
+         (md5 "f0a27a464cb9d023b7da67498cec25b5")
         )
      (supertux-addoninfo
          (id "langpack-tr")
@@ -625,7 +625,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-tr.zip")
-         (md5 "b3425c84bb88392b6ad50279bbb88f6f")
+         (md5 "75cad58800fe1cc3fc7a545ed5249016")
         )
      (supertux-addoninfo
          (id "langpack-tt")
@@ -635,7 +635,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-tt.zip")
-         (md5 "60476f1afdf3d1a612dae94e867a0396")
+         (md5 "35c9ec212fff27d7bc21a620718c6e10")
         )
      (supertux-addoninfo
          (id "langpack-uk")
@@ -645,7 +645,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-uk.zip")
-         (md5 "3542778b3b2ed7a72b3400e3c1673db4")
+         (md5 "d71e2728a7a24e16bdd6651f7220a646")
         )
      (supertux-addoninfo
          (id "langpack-uz")
@@ -655,7 +655,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-uz.zip")
-         (md5 "78b23c5b950ab26a600b82ca0c9b05d9")
+         (md5 "9695279902e6aa858212f83d6cdc6204")
         )
      (supertux-addoninfo
          (id "langpack-vi")
@@ -665,7 +665,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-vi.zip")
-         (md5 "d9bbbee7cc84f17ac525c8d7ba5db436")
+         (md5 "04e70d02d4e97826e4030304dc208de4")
         )
      (supertux-addoninfo
          (id "langpack-zh_CN")
@@ -675,7 +675,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-zh_CN.zip")
-         (md5 "ac7af1970f3cce185b79838036e6b090")
+         (md5 "1d4a604e53352352f0b5bea9ca9a0d59")
         )
      (supertux-addoninfo
          (id "langpack-zh_TW")
@@ -685,9 +685,10 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-zh_TW.zip")
-         (md5 "66afd56852485b3ce181c3011afdaf37")
+         (md5 "962f52ea8632785ac68163e066c1b226")
         )
      ; ###### LANGUAGE PACKS END ######
+
 
 
 )
