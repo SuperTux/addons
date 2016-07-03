@@ -1,5 +1,5 @@
 #!/bin/sh
-ignore_directories=( world-1 world-2 bonus-1 bonus-2 bonus-3 menu-principale )
+ignore_directories=()
 final_destination="https://raw.githubusercontent.com/SuperTux/addons/master/langpacks"
 
 languages=()
@@ -16,7 +16,7 @@ get_languages() {
 # Usage: inarray "$value" "${array[@]}" 
 inarray() { local n=$1 h; shift; for h; do [[ $n = "$h" ]] && return; done; return 1; }
 
-echo "${RED}Gathering available languages...${NC}"
+printf '%s\n' "${RED}Gathering available languages...${NC}"
 
 outdir="$1"
 langpack_dir="$outdir/langpacks"
@@ -29,20 +29,22 @@ echo > "$REPO_INDEX_FILE" # Clear file
 echo "; ###### LANGUAGE PACKS BEGIN ######" >> "$REPO_INDEX_FILE" 
 
 for i in ${languages[@]}; do
-	echo "${RED}Creating language pack for $i...${NC}"
+	printf '%s\n' "${RED}Creating language pack for $i...${NC}"
 	# create outer directory:
 	mkdir -p "$langpack_dir/langpack-$i"
 	
 	#create NFO file:
 	NFO_FILE="$langpack_dir/langpack-$i/langpack-$i.nfo"
-	echo "(supertux-addoninfo\n\
-	 (id \"langpack-$i\")\n\
-	 (version 1)\n\
-	 (type \"languagepack\")\n\
-	 (title \"$i\")\n\
-	 (author \"Various\")\n\
-	 (license \"GPL 2+ / CC-by-sa 3.0\")\n\
-	)" >> "$NFO_FILE"
+	cat <<EOF >> "$NFO_FILE"
+(supertux-addoninfo
+    (id "langpack-$i")
+    (version 1)
+    (type "languagepack")
+    (title "$i")
+    (author "Various")
+    (license "GPL 2+ / CC-by-sa 3.0")
+   )
+EOF
 	
 	# create inner directory:
 	mkdir -p "$langpack_dir/langpack-$i/langpack-$i"
@@ -73,19 +75,22 @@ for i in ${languages[@]}; do
 	zip -9 -q -r "$langpack_dir/langpack-$i.zip" "."
 	cd ..
 	
-	FILE_HASH=$(md5 -q "$langpack_dir/langpack-$i.zip")
+	#FILE_HASH=$(md5 -q "$langpack_dir/langpack-$i.zip")
+	FILE_HASH=$(md5sum "$langpack_dir/langpack-$i.zip" | awk -F' ' '{print $1;}')
 	
 	# update add-on info script:
-	echo "(supertux-addoninfo\n\
-    (id \"langpack-$i\")\n\
-    (version 1)\n\
-    (type \"languagepack\")\n\
-    (title \"$i\")\n\
-    (author \"Various\")\n\
-    (license \"GPL 2+ / CC-by-sa 3.0\")\n\
-    (url \"$final_destination/langpack-$i.zip\")\n\
-    (md5 \"$FILE_HASH\")\n\
-   )" >> "$REPO_INDEX_FILE"
+	cat <<EOF >> "$REPO_INDEX_FILE"
+(supertux-addoninfo
+    (id "langpack-$i")
+    (version 1)
+    (type "languagepack")
+    (title "$i")
+    (author "Various")
+    (license "GPL 2+ / CC-by-sa 3.0")
+    (url "$final_destination/langpack-$i.zip")
+    (md5 "$FILE_HASH")
+   )
+EOF
 	
 	# remove previously created folder:
 	rm -rf "langpack-$i/"
