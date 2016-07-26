@@ -1,6 +1,0 @@
-;SuperTux-Level-Subset
-(supertux-level-subset
-  (title (_ "The Valley Of Chaos"))
-  (description "A breif side trip in Tux's adventure")
-  (levelset #f)
-  )

@@ -1,6 +1,0 @@
-(supertux-world
-  (title (_ "Fiona's World"))
-  (description "Designed for a three-year-old")
-  (hide-from-contribs #f)
-  (levelset #f)
-  )

@@ -1,7 +1,0 @@
-(supertux-addoninfo
-  (id "wolf-levels")
-  (version 2)
-  (type "worldmap")
-  (title "Levels of Wolfs")
-  (author "Wolfs")
-  (license "GPL 2+ / CC-by-sa 3.0"))

@@ -1,6 +1,0 @@
-;SuperTux-Level-Subset
-(supertux-level-subset
-  (title (_ "Serano's Halloween Island"))
-  (description "")
-  (levelset #f)
-)

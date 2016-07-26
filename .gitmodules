@@ -1,3 +1,6 @@
 [submodule "translations"]
 	path = translations
 	url = https://github.com/supertux/translations
+[submodule "src"]
+	path = src
+	url = https://github.com/SuperTux/addons-src.git

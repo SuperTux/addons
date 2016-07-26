@@ -1,6 +1,0 @@
-;SuperTux-Level-Subset
-(supertux-level-subset
-  (title (_ "Race to Penny"))
-  (description " the last world from the Supertux story")
-  (levelset #f)
-)

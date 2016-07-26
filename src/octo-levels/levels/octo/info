@@ -1,6 +1,0 @@
-(supertux-world
-  (title (_ "octo's Levels"))
-  (description "Levels contributed by octo")
-  (hide-from-contribs #f)
-  (levelset #f)
-)

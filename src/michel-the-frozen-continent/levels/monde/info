@@ -1,6 +1,0 @@
-(supertux-world
- (title (_ "The Frozen Continent"))
- (description "SuperTux must cross my Frozen Continent in order to save Penny")
- (hide-from-contribs #f)
- (levelset #f)
-)

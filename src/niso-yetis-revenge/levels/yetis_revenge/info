@@ -1,6 +1,0 @@
-(supertux-world
- (title (_ "Yeti's Revenge"))
- (description "Yeti is back and meaner than ever")
- (hide-from-contribs #f)
- (levelset #f)
-)

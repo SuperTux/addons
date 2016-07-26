@@ -1,7 +1,0 @@
-(supertux-addoninfo
-  (id "semajd-valley-of-chaos")
-  (version 2)
-  (type "worldmap")
-  (title "The Valley of Chaos")
-  (author "SemajD")
-  (license "GPL 2+ / CC-by-sa 3.0"))
