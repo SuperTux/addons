@@ -444,7 +444,7 @@
           (title "la")
           (author "Various")
           (license "GPL 2+ / CC-by-sa 3.0")
-          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks/langpack-la.zip")
+          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks-0_5/langpack-la.zip")
           (md5 "79504b63025794b440e037bddabdf694")
          )
      (supertux-addoninfo
