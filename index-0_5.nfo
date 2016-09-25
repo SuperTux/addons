@@ -287,7 +287,7 @@
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks-0_5/langpack-el.zip")
          (md5 "0800cc451758019ed52a8d52e30d6fbc")
         )
-     (supertux-addoninfo
+      (supertux-addoninfo
          (id "langpack-eo")
          (version 1)
          (type "languagepack")
@@ -295,7 +295,7 @@
          (author "Various")
          (license "GPL 2+ / CC-by-sa 3.0")
          (url "https://raw.githubusercontent.com/SuperTux/addons/master/langpacks-0_5/langpack-eo.zip")
-         (md5 "74bb3558ad29c6a76feaea6caaffc643")
+         (md5 "57cdd9e83b52a1f4235b13a8f323d9af")
         )
      (supertux-addoninfo
          (id "langpack-es")
