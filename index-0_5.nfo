@@ -145,13 +145,13 @@
 
   (supertux-addoninfo
     (id "michel-the-frozen-continent")
-    (version 3)
+    (version 2)
     (type "world")
-    (title "The Frozen Mountains")
+    (title "The Frozen Continent")
     (author "Michel")
     (license "GPL 2 / CC-by-sa")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/michel-the-frozen-mountains.zip")
-    (md5 "2daf168bc84b65382ce47162c6ee50be")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/michel-the-frozen-continent_v3.zip")
+    (md5 "232f9dc1fd8f49c4acda420f4f481854")
    )
 
    (supertux-addoninfo
