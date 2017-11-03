@@ -175,6 +175,16 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-halloween-islands_v1.zip")
       (md5 "b7ba25d5479ea1522d4e1a13ae9c5346")
      )
+    (supertux-addoninfo
+      (id "crystalmine")
+      (version 1)
+      (type "worldmap")
+      (title "Crystal Mine")
+      (author "Carsten Wirtz")
+      (license "CC-BY-SA 4.0 International")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rustybox-crystal-mine_v1.zip")
+      (md5 "98f00eda66b82c795b76fbf46f8fdaaf")
+    )
 
      ; ###### LANGUAGE PACKS BEGIN ######
      (supertux-addoninfo
