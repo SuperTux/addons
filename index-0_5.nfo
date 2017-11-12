@@ -185,6 +185,16 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rustybox-crystal-mine_v1.zip")
       (md5 "98f00eda66b82c795b76fbf46f8fdaaf")
     )
+    (supertux-addoninfo
+      (id "community2016")
+      (version 1)
+      (type "worldmap")
+      (title "Community Island 2016")
+      (author "Various")
+      (license "GPL 2+ / CC-by-sa 3.0")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/community2016.zip")
+      (md5 "e39541a358e3fb5c11a5bd1c41249083")
+    )
 
      ; ###### LANGUAGE PACKS BEGIN ######
      (supertux-addoninfo
