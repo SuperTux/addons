@@ -202,6 +202,7 @@
       (title "Christmas Special")
       (author "Carsten Wirtz")
       (license "CC-BY-SA 4.0 International")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/christmas2016.zip")
       (md5 "869f6543367fa0f972be136861b8ae94")
     )
 
