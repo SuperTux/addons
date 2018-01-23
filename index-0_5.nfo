@@ -144,7 +144,7 @@
    )
 
   (supertux-addoninfo
-    (id "michel-the-frozen-continent")
+    (id "michel-the-frozen-mountains")
     (version 3)
     (type "world")
     (title "The Frozen Mountains")
