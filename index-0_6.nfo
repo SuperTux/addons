@@ -206,14 +206,14 @@
       (md5 "869f6543367fa0f972be136861b8ae94")
     )
     (supertux-addoninfo
-      (id "langpack")
+      (id "language-pack")
       (version 1)
       (type "languagepack")
       (title "Localization Update Pack")
       (author "SuperTux Team")
       (license "GNU General Public License 3")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/langpack_v1.zip")
-      (md5 "166c9a9b0bc4895d16d8f5c91b9d3b8d")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/language-pack_v1.zip")
+      (md5 "80de02550fe10fb9e8cd31828104398f")
     )
 )
 
