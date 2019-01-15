@@ -205,6 +205,28 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/language-pack_v1.zip")
       (md5 "80de02550fe10fb9e8cd31828104398f")
     )
+    (supertux-addoninfo
+      (id "ATTNW1")
+      (version 1)
+      (type "worldmap")
+      (title "Adventure to the New World")
+      (author "Miks ja Ants")
+      (license "GPL 2+ / CC-by-sa 3.0")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW1.zip")
+      (md5 "5acd63b0d96c8aca1d9e184e9e4ab952")
+    )
+
+    (supertux-addoninfo
+      (id "ATTNW2")
+      (version 1)
+      (type "worldmap")
+      (title "Adventure to the New World II")
+      (author "Miks ja Ants")
+      (license "GPL 2+ / CC-by-sa 3.0")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW2.zip")
+      (md5 "901d78e46dfe74f0b53308b22950eef5")
+    )
+
 )
 
 ;; EOF ;;
