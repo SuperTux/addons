@@ -227,6 +227,17 @@
       (md5 "901d78e46dfe74f0b53308b22950eef5")
     )
 
+    (supertux-addoninfo
+      (id "grandmaster-journey")
+      (version 1)
+      (type "world")
+      (title "The Grandmaster Journey")
+      (author "AllyTheOcelot")
+      (license "CC-by-sa 4.0")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/grandmaster-journey.zip")
+      (md5 "df976b0ceecaf6325f09390235aa5a49")
+    )
+
 )
 
 ;; EOF ;;
