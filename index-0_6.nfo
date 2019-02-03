@@ -158,7 +158,7 @@
      (id "serano-islands")
      (version 1)
      (type "world")
-     (title "Retro Island")
+     (title "Serano's Islands")
      (author "Serano")
      (license "GPL 2 / CC-by-sa")
      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-islands_v1.zip")
