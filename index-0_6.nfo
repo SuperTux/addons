@@ -237,6 +237,15 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/grandmaster-journey.zip")
       (md5 "df976b0ceecaf6325f09390235aa5a49")
     )
+    
+   (supertux-addoninfo
+  (id "manuel_desert_world")
+  (version 1)
+  (type "world")
+  (title "Desert World")
+  (author "manuel")
+  (license "GPL 2+ / CC-by-sa 3.0")
+)
 
 )
 
