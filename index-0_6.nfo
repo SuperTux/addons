@@ -249,6 +249,17 @@
   (md5 "b73466ec8a6f691421c9198e5ca3554b")
 )
 
+(supertux-addoninfo
+      (id "toufik-levels")
+      (version 6)
+      (type "worldmap")
+      (title "Toufik's Levels")
+      (author "Toufik")
+      (license "GPL 2+ / CC-by-sa 3.0")
+      (url "https://rwa.githubusercontent.com/SuperTux/addons/master/repository/toufiks-levels.zip")
+      (md5 "323a0a2f4ac44eaa27b816f8f0d82e38")
+    )
+    
 )
 
 ;; EOF ;;
