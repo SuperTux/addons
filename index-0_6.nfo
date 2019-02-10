@@ -256,7 +256,7 @@
       (title "Toufik's Levels")
       (author "Toufik")
       (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://rwa.githubusercontent.com/SuperTux/addons/master/repository/toufiks-levels.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/toufiks-levels.zip")
       (md5 "323a0a2f4ac44eaa27b816f8f0d82e38")
     )
     
