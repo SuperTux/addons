@@ -212,7 +212,7 @@
       (title "Adventure to the New World")
       (author "Miks ja Ants")
       (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW1.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW1_fix.zip")
       (md5 "5acd63b0d96c8aca1d9e184e9e4ab952")
     )
 
