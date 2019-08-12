@@ -173,7 +173,7 @@
       (author "Serano")
       (license "GPL 2 / CC-by-sa")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-halloween-islands_v1.zip")
-      (md5 "268d070a32e0c0543caffc053694b80f")
+      (md5 "d8cb1f5eca80fefe66b6580ef2289a75")
      )
 
    (supertux-addoninfo
