@@ -118,7 +118,7 @@
     (author "Christian Schaefers")
     (license "CC BY-SA 4.0+")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/cschaefer-tux-strikes-back_v3.zip")
-    (md5 "bef0ff614eb0a5200b44103e1a719099")
+    (md5 "8289ff182d1e53e4451f4ffbeae30100")
    )
 
   (supertux-addoninfo
