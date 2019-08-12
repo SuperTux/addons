@@ -162,7 +162,7 @@
      (author "Serano")
      (license "GPL 2 / CC-by-sa")
      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-islands_v1.zip")
-     (md5 "02ff9716b3f328cb1b0062cb89b52fe7")
+     (md5 "a490368a1234ac225136802c6a020e99")
     )
 
     (supertux-addoninfo
