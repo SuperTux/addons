@@ -158,11 +158,11 @@
      (id "serano-islands")
      (version 1)
      (type "world")
-     (title "Serano's Islands")
+     (title "Serano's Islands - Remastered")
      (author "Serano")
      (license "GPL 2 / CC-by-sa")
-     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-islands_v1.zip")
-     (md5 "a490368a1234ac225136802c6a020e99")
+     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-islands_remastered.zip")
+     (md5 "a84df419a66c2ebc4cf21adf8816d683")
     )
 
     (supertux-addoninfo
@@ -194,7 +194,7 @@
       (author "Miks ja Ants")
       (license "GPL 2+ / CC-by-sa 3.0")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW1_fix.zip")
-      (md5 "d2e776621d31640d3d524e71138c2e25")
+      (md5 "ff9e664ed83b57e6e758c2f78c8e3720")
     )
 
     (supertux-addoninfo
@@ -205,7 +205,7 @@
       (author "Miks ja Ants")
       (license "GPL 2+ / CC-by-sa 3.0")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW2.zip")
-      (md5 "901d78e46dfe74f0b53308b22950eef5")
+      (md5 "600935017dd28cace94eddb745d6bfa4")
     )
 
     (supertux-addoninfo
