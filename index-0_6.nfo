@@ -140,7 +140,7 @@
     (author "CT .da'Bomb")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ctdabomb-worldmaps_v2.zip")
-    (md5 "c60d3098ba9c34524603dce610107076")
+    (md5 "d3efe321dac75d150b65126260f74881")
    )
 
   (supertux-addoninfo
@@ -216,7 +216,7 @@
       (author "AllyTheOcelot")
       (license "CC-by-sa 4.0")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/grandmaster-journey.zip")
-      (md5 "df976b0ceecaf6325f09390235aa5a49")
+      (md5 "53d4180d68987698a643079ec81489b8")
     )
     
    (supertux-addoninfo
