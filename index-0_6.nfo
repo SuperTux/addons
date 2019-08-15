@@ -96,7 +96,7 @@
     (author "Hume")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/hume-worldmaps_v3.zip")
-    (md5 "260776f30c0ecfe967f8b2da781fb37d")
+    (md5 "6bd2ec652465d8c597a0ad8c92d91e25")
    )
 
   (supertux-addoninfo
@@ -107,7 +107,7 @@
     (author "LMH")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-fionas-world_v3.zip")
-    (md5 "ed81d1cf0e947ccf971fe9bda5905300")
+    (md5 "b5d5d8a82e11b46905fcafd81036607b")
    )
 
   (supertux-addoninfo
