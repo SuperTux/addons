@@ -8,7 +8,7 @@
     (author "Lolkat")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lolkat-levels_v2.zip")
-    (md5 "fbd906c41fcfee8fd58175ef1c64bcb7")
+    (md5 "2c8aaffcce7d18892250e8ec0e8ccec2")
    )
 
   (supertux-addoninfo
@@ -74,7 +74,7 @@
     (author "LMH")
     (license "GPL 2 / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-matties-world_v6.zip")
-    (md5 "896b98284d5b81459ebba8085c9a7836")
+    (md5 "14420bf3125ce8ba1496b7065e687031")
    )
 
   (supertux-addoninfo
