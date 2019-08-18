@@ -19,7 +19,7 @@
     (author "Narre")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/narre-land_v2.zip")
-    (md5 "845aa49fb1e348d1c78f33cb86355b33")
+    (md5 "a4c18ef451080d9252f53ae093507f26")
    )
 
   (supertux-addoninfo
@@ -63,7 +63,7 @@
     (author "niso")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/niso-yetis-revenge_v3.zip")
-    (md5 "250b8d8a80f9313f8777f329554718ff")
+    (md5 "d9e8523224a3c35b231e3d223e193e7e")
    )
 
   (supertux-addoninfo
