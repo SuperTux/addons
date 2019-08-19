@@ -30,7 +30,7 @@
     (author "Octo")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/octo-levels_v2.zip")
-    (md5 "6f9ee7d49891f9991afc03d826c03969")
+    (md5 "1cf75da9f9550116a5ba9364921da5cf")
    )
 
   (supertux-addoninfo
@@ -52,7 +52,7 @@
     (author "Basti")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v3.zip")
-    (md5 "da5e0bfe8e0c8d3cf7e8de95de5086e7")
+    (md5 "ea70daf6f544547aa9c173c87a644532")
    )
 
   (supertux-addoninfo
