@@ -154,18 +154,7 @@
     (md5 "4123df9c4791b52baa165540f67e5052")
    )
 
-   (supertux-addoninfo
-     (id "serano-islands")
-     (version 1)
-     (type "world")
-     (title "Retro Island")
-     (author "Serano")
-     (license "GPL 2 / CC-by-sa")
-     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-islands_v1.zip")
-     (md5 "02ff9716b3f328cb1b0062cb89b52fe7")
-    )
-
-    (supertux-addoninfo
+  (supertux-addoninfo
       (id "serano-halloween-islands")
       (version 1)
       (type "world")
@@ -175,38 +164,8 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-halloween-islands_v1.zip")
       (md5 "b7ba25d5479ea1522d4e1a13ae9c5346")
      )
-    (supertux-addoninfo
-      (id "crystalmine")
-      (version 1)
-      (type "worldmap")
-      (title "Crystal Mine")
-      (author "Carsten Wirtz")
-      (license "CC-BY-SA 4.0 International")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rustybox-crystal-mine_v1.zip")
-      (md5 "98f00eda66b82c795b76fbf46f8fdaaf")
     )
-    (supertux-addoninfo
-      (id "community2016")
-      (version 1)
-      (type "worldmap")
-      (title "Community Island 2016")
-      (author "Various")
-      (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/community2016.zip")
-      (md5 "ceba4b4b77798ba6ac682adcb62840ce")
-    )
-      (supertux-addoninfo
-      (id "christmas2016")
-      (version 1)
-      (type "worldmap")
-      (title "Christmas Special")
-      (author "Carsten Wirtz")
-      (license "CC-BY-SA 4.0 International")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/christmas2016.zip")
-      (md5 "869f6543367fa0f972be136861b8ae94")
-    )
-
-     ; ###### LANGUAGE PACKS BEGIN ######
+; ###### LANGUAGE PACKS BEGIN ######
      (supertux-addoninfo
          (id "langpack-ar")
          (version 1)
