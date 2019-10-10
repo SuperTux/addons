@@ -164,7 +164,7 @@
      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-islands_remastered.zip")
      (md5 "a84df419a66c2ebc4cf21adf8816d683")
      )
-    )
+     
 ; ###### LANGUAGE PACKS BEGIN ######
      (supertux-addoninfo
          (id "langpack-ar")
