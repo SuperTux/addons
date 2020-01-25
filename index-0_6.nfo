@@ -240,7 +240,16 @@
   (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/Treasure_Mountain.zip")
   (md5 "5ff494082317bdf626e79d5489995669")
   )
-    
+  (supertux-addoninfo
+   (id "Forest_World_Adventure_Pack")
+   (type "worldmap")
+   (title "Forest World Adventure Pack")
+   (author "S.Groundwater")
+   (license "GPL 2+ / CC-by-sa 3.0")
+   (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/forest_world_adventure_pack.zip")
+   (file "forest_world_adventure_pack.zip")
+   (md5 "e52552f31610d18cc0edf495b4e1e893")
+  )  
 )
 
 ;; EOF ;;
