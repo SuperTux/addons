@@ -120,13 +120,12 @@
 	(supertux-addoninfo
 	  (kind "Worldmap")
 	  (title "Lolkat's Levels")
-    (author "Lolkat")
-    (license "GPL 2+ / CC-by-sa 3.0")
+          (author "Lolkat")
+          (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/Worldmaps/lolkat.zip")
 	  (file "lolkat.zip")
 	  (md5 "0d15086eb5ff2fb9c6b9066fe73311af")
 	)
-
         (supertux-addoninfo
          (kind "Worldmap")
          (title "Halloween 2014")
@@ -134,6 +133,17 @@
          (license "GPL 2+ / CC-by-sa 3.0")
          (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/Worldmaps/halloween2014.zip")
          (file "halloween2014.zip")
-         (md5 "28db69d4e84763277c02fdfd3d532eb0"))
+         (md5 "28db69d4e84763277c02fdfd3d532eb0")
+         )
+         (supertux-addoninfo
+          (id "Forest_World_Adventure_Pack")
+          (type "worldmap")
+          (title "Forest World Adventure Pack")
+          (author "S.Groundwater")
+          (license "GPL 2+ / CC-by-sa 3.0")
+          (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/forest_world_adventure_pack.zip")
+          (file "forest_world_adventure_pack.zip")
+          (md5 "e52552f31610d18cc0edf495b4e1e893")
+        )
 )
 
