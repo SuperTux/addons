@@ -245,10 +245,10 @@
    (version 1)
    (type "worldmap")
    (title "Forest World Adventure Pack")
-   (author "S.Groundwater")
+   (author "gwater")
    (license "GPL 2+ / CC-by-sa 3.0")
    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/forest_world_adventure_pack.zip")
-   (md5 "e52552f31610d18cc0edf495b4e1e893")
+   (md5 "5c1f256a99a1a2439b6c65ca8d682395")
   )  
 )
 
