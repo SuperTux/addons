@@ -242,13 +242,13 @@
   )
   (supertux-addoninfo
    (id "Forest_World_Adventure_Pack")
-   (version 1)
+   (version 2)
    (type "worldmap")
    (title "Forest World Adventure Pack")
    (author "gwater")
    (license "GPL 2+ / CC-by-sa 3.0")
    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/forest_world_adventure_pack.zip")
-   (md5 "5c1f256a99a1a2439b6c65ca8d682395")
+   (md5 "1c091942544570a153a7c4369eb3e6f6")
   )  
 )
 
