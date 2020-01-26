@@ -242,7 +242,7 @@
   )
   (supertux-addoninfo
    (id "Forest_World_Adventure_Pack")
-   (version 3)
+   (version 4)
    (type "worldmap")
    (title "Forest World Adventure Pack")
    (author "gwater")
