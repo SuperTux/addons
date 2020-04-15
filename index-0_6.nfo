@@ -209,17 +209,17 @@
     )
     
    (supertux-addoninfo
-  (id "manuel_desert_world")
-  (version 1)
-  (type "world")
-  (title "Desert World")
-  (author "manuel")
-  (license "GPL 2+ / CC-by-sa 3.0")
-  (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/manuel_desert-world-v1.zip")
-  (md5 "0efc11e014c07a11f9926c3ac57234a5")
-)
+      (id "manuel_desert_world")
+      (version 1)
+      (type "world")
+      (title "Desert World")
+      (author "manuel")
+      (license "GPL 2+ / CC-by-sa 3.0")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/manuel_desert-world-v1.zip")
+      (md5 "0efc11e014c07a11f9926c3ac57234a5")
+    )
 
-(supertux-addoninfo
+    (supertux-addoninfo
       (id "toufik-levels")
       (version 6)
       (type "worldmap")
@@ -231,15 +231,26 @@
     )
     
     (supertux-addoninfo
-  (id "Treasure_Mountain")
-  (version 1)
-  (type "worldmap")
-  (title "Treasure Mountain")
-  (author "Daniel")
-  (license "CC-BY-SA 4.0 International")
-  (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/Treasure_Mountain.zip")
-  (md5 "5ff494082317bdf626e79d5489995669")
-  )
+      (id "Treasure_Mountain")
+      (version 1)
+      (type "worldmap")
+      (title "Treasure Mountain")
+      (author "Daniel")
+      (license "CC-BY-SA 4.0 International")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/Treasure_Mountain.zip")
+      (md5 "5ff494082317bdf626e79d5489995669")
+    )
+      
+    (supertux-addoninfo
+      (id "the-big-island")
+      (version 1)
+      (type "worldmap")
+      (title "The Big Island")
+      (author "JoJo")
+      (license "GPL 2+ / CC-by-sa 3.0")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/The_Big_Island-Adjusted-3.zip")
+      (md5 "ef5cb0bead0ba7ea8ffce64a769d03b8")
+    )
 )
 
 ;; EOF ;;
