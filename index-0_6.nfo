@@ -242,7 +242,7 @@
     )
       
     (supertux-addoninfo
-      (id "the-big-island")
+      (id "The_Big_Island")
       (version 1)
       (type "worldmap")
       (title "The Big Island")
