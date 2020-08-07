@@ -151,7 +151,7 @@
     (author "Michel")
     (license "GPL 2 / CC-by-sa")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/michel-the-frozen-mountains_v1.zip")
-    (md5 "49a8756b90c2c546f9a72067f143da03")
+    (md5 "f2cb34c68876479df4f3fc0bf6c4c467")
    )
 
    (supertux-addoninfo
