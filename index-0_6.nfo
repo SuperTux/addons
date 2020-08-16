@@ -251,6 +251,16 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/The_Big_Island-Adjusted-3.zip")
       (md5 "ef5cb0bead0ba7ea8ffce64a769d03b8")
     )
+        (supertux-addoninfo
+      (id "Arons_Levels")
+      (version 1)
+      (type "worldmap")
+      (title "Aron's Levels")
+      (author "Aron")
+      (license "CC-BY-SA 4.0 International")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/arons_levels.zip")
+      (md5 "0ca1566d10b552a3c253045dda097528")
+      )
 )
 
 ;; EOF ;;
