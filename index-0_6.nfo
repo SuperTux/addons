@@ -19,7 +19,7 @@
     (author "Narre")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/narre-land_v2.zip")
-    (md5 "a4c18ef451080d9252f53ae093507f26")
+    (md5 "d43f3bafb47442f7973c534fe7ee5460")
    )
 
   (supertux-addoninfo
