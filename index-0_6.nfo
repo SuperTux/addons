@@ -30,7 +30,7 @@
     (author "Octo")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/octo-levels_v2.zip")
-    (md5 "1cf75da9f9550116a5ba9364921da5cf")
+    (md5 "e8e033805f4c2c937f3ef198dc1e4a25")
    )
 
   (supertux-addoninfo
