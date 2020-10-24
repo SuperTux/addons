@@ -52,7 +52,7 @@
     (author "Basti")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v3.zip")
-    (md5 "ea70daf6f544547aa9c173c87a644532")
+    (md5 "c433d4260395f0bfa49d58e9ab7b88fd")
    )
 
   (supertux-addoninfo
