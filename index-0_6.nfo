@@ -19,7 +19,7 @@
     (author "Narre")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/narre-land_v2.zip")
-    (md5 "d43f3bafb47442f7973c534fe7ee5460")
+    (md5 "5f7b341104375e0eee9d5e0d33a5a773")
    )
 
   (supertux-addoninfo
@@ -30,7 +30,7 @@
     (author "Octo")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/octo-levels_v2.zip")
-    (md5 "e8e033805f4c2c937f3ef198dc1e4a25")
+    (md5 "4c160028624a351f66243070393c87a2")
    )
 
   (supertux-addoninfo
