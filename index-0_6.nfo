@@ -74,7 +74,7 @@
     (author "LMH")
     (license "GPL 2 / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-matties-world_v6.zip")
-    (md5 "14420bf3125ce8ba1496b7065e687031")
+    (md5 "d795795fac25d0da3cc464454b7d07a9")
    )
 
   (supertux-addoninfo
