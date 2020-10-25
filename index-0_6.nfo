@@ -63,7 +63,7 @@
     (author "niso")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/niso-yetis-revenge_v3.zip")
-    (md5 "d9e8523224a3c35b231e3d223e193e7e")
+    (md5 "c56a922ba69554a96ef92dd42d72771a")
    )
 
   (supertux-addoninfo
