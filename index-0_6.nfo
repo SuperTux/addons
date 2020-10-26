@@ -85,7 +85,7 @@
     (author "treskalle")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/treskalle-island-of-moob_v2.zip")
-    (md5 "22d5ba34b101cc4e82d952fc87cbc6e8")
+    (md5 "f675a06bff474106d1494b9ec7f611c3")
    )
 
   (supertux-addoninfo
