@@ -96,7 +96,7 @@
     (author "Hume")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/hume-worldmaps_v3.zip")
-    (md5 "6bd2ec652465d8c597a0ad8c92d91e25")
+    (md5 "f5ff82b8be8ab143c99edc1a43aaf8a5")
    )
 
   (supertux-addoninfo
