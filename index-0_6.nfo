@@ -107,7 +107,7 @@
     (author "LMH")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-fionas-world_v3.zip")
-    (md5 "b5d5d8a82e11b46905fcafd81036607b")
+    (md5 "ccbe5a4882b35c02988b98cca4a6ef0d")
    )
 
   (supertux-addoninfo
