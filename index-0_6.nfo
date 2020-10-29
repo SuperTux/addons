@@ -140,7 +140,7 @@
     (author "CT .da'Bomb")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ctdabomb-worldmaps_v2.zip")
-    (md5 "d3efe321dac75d150b65126260f74881")
+    (md5 "92929c89531b8d0a96b76dab38a0e8d0")
    )
 
   (supertux-addoninfo
