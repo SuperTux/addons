@@ -129,7 +129,7 @@
     (author "Wolfs")
     (license "GPL 2+ / CC-by-sa 3.0")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/wolf-levels_v2.zip")
-    (md5 "e7d031d4a41f89c07a6a59d351faf609")
+    (md5 "36b1cae44cb5d00bb38ba2359c643657")
    )
 
   (supertux-addoninfo
