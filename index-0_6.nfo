@@ -194,7 +194,7 @@
       (author "Miks ja Ants")
       (license "GPL 2+ / CC-by-sa 3.0")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW2.zip")
-      (md5 "600935017dd28cace94eddb745d6bfa4")
+      (md5 "fb7bfe84b93a6d386fd0e82b397c6405")
     )
 
     (supertux-addoninfo
