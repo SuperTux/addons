@@ -227,7 +227,7 @@
       (author "Toufik")
       (license "GPL 2+ / CC-by-sa 3.0")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/toufiks-levels.zip")
-      (md5 "d760a5247307b7d725e48bc668a8d0e7")
+      (md5 "089b3db7181f3e8c2fe5090327edaea9")
     )
     
     (supertux-addoninfo
