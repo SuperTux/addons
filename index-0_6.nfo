@@ -205,7 +205,7 @@
       (author "AllyTheOcelot")
       (license "CC-by-sa 4.0")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/grandmaster-journey.zip")
-      (md5 "53d4180d68987698a643079ec81489b8")
+      (md5 "600db26f64021c4077245bce17d351a6")
     )
     
    (supertux-addoninfo
