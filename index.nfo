@@ -33,7 +33,7 @@
 	  (license "GPL 2+ / CC-by-sa 3.0")
 	  (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/Worldmaps/hume_worlds.zip")
 	  (file "hume_worlds.zip")
-	  (md5 "8c638482cb30a713c88723fcb736f315")
+	  (md5 "ee41eeb4e64d746a43267bf6c31138eb")
 	)
 	(supertux-addoninfo
 	  (kind "World")
