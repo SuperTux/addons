@@ -238,7 +238,7 @@
       (author "Daniel")
       (license "CC-BY-SA 4.0 International")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/Treasure_Mountain.zip")
-      (md5 "bcbeadba10f43464f506174befce2d40")
+      (md5 "380c9cbb127d338ccfad9c0837fd0fd8")
     )
       
     (supertux-addoninfo
