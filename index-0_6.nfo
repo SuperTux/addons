@@ -118,7 +118,7 @@
     (author "Christian Schaefers")
     (license "CC BY-SA 4.0+")
     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/cschaefer-tux-strikes-back_v3.zip")
-    (md5 "d840f89e999cd0017be7b1653d14ad6d")
+    (md5 "bbfddc61c3c9d3c3bd3c9ba208737ca3")
    )
 
   (supertux-addoninfo
@@ -238,7 +238,7 @@
       (author "Daniel")
       (license "CC-BY-SA 4.0 International")
       (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/Treasure_Mountain.zip")
-      (md5 "5ff494082317bdf626e79d5489995669")
+      (md5 "bcbeadba10f43464f506174befce2d40")
     )
       
     (supertux-addoninfo
