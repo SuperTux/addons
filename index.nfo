@@ -82,15 +82,6 @@
 	)
 	(supertux-addoninfo
 	  (kind "Worldmap")
-	  (title "Narre Land")
-	  (author "Narre")
-	  (license "GPL 2+ / CC-by-sa 3.0")
-	  (http-url "https://raw.githubusercontent.com/SuperTux/addons/master/Worldmaps/narre_addon.zip")
-	  (file "narre_addon.zip")
-	  (md5 "b40559513180c61e76b636201a1b69d8")
-	)
-	(supertux-addoninfo
-	  (kind "Worldmap")
 	  (title "Levels of Wolfs")
 	  (author "Wolfs")
 	  (license "GPL 2+ / CC-by-sa 3.0")
