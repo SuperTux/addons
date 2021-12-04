@@ -12,17 +12,6 @@
    )
 
   (supertux-addoninfo
-    (id "narre-land")
-    (version 2)
-    (type "worldmap")
-    (title "Narre Land")
-    (author "Narre")
-    (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/narre-land_v2.zip")
-    (md5 "5f7b341104375e0eee9d5e0d33a5a773")
-   )
-
-  (supertux-addoninfo
     (id "octo-levels")
     (version 2)
     (type "worldmap")
