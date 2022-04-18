@@ -199,13 +199,13 @@
     
    (supertux-addoninfo
       (id "manuel_desert_world")
-      (version 1)
+      (version 2)
       (type "world")
       (title "Desert World")
       (author "manuel")
       (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/manuel_desert-world-v1.zip")
-      (md5 "0efc11e014c07a11f9926c3ac57234a5")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/manuel_desert-world-v2.zip")
+      (md5 "26daed0e5d69d71155c1271e623b16dd")
     )
 
     (supertux-addoninfo
