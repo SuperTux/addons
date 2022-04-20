@@ -7,7 +7,7 @@
     (title "Lolkat's Levels")
     (author "Lolkat")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lolkat-levels_v2.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/lolkat-levels.zip")
     (md5 "363988f9cb06bec5130681e0d83e8766")
    )
 
@@ -18,7 +18,7 @@
     (title "Octo's Levels")
     (author "Octo")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/octo-levels_v2.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/octo-levels.zip")
     (md5 "4c160028624a351f66243070393c87a2")
    )
 
@@ -29,7 +29,7 @@
     (title "The Valley of Chaos")
     (author "SemajD")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/semajd-valley-of-chaos_v3.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/semajd-valley-of-chaos.zip")
     (md5 "dcc5b888a4af301cbee3e87242deee20")
    )
 
@@ -40,7 +40,7 @@
     (title "Rubberducks levels")
     (author "Basti")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/rubberduck-levels_v3.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/rubberduck-levels.zip")
     (md5 "c433d4260395f0bfa49d58e9ab7b88fd")
    )
 
@@ -51,7 +51,7 @@
     (title "Yeti's Revenge")
     (author "niso")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/niso-yetis-revenge_v3.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/niso-yetis-revenge.zip")
     (md5 "e5cc6731898d6295f5034c2383eaca7b")
    )
 
@@ -62,7 +62,7 @@
     (title "Mattie's World")
     (author "LMH")
     (license "GPL 2 / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-matties-world_v6.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/lmh-matties-world.zip")
     (md5 "d795795fac25d0da3cc464454b7d07a9")
    )
 
@@ -73,7 +73,7 @@
     (title "Island of Moob")
     (author "treskalle")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/treskalle-island-of-moob_v2.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/treskalle-island-of-moob.zip")
     (md5 "f675a06bff474106d1494b9ec7f611c3")
    )
 
@@ -84,7 +84,7 @@
     (title "Hume's 2 worldmaps")
     (author "Hume")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/hume-worldmaps_v3.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/hume-worldmaps.zip")
     (md5 "f5ff82b8be8ab143c99edc1a43aaf8a5")
    )
 
@@ -95,7 +95,7 @@
     (title "Fiona's World")
     (author "LMH")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/lmh-fionas-world_v3.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/lmh-fionas-world.zip")
     (md5 "ccbe5a4882b35c02988b98cca4a6ef0d")
    )
 
@@ -106,7 +106,7 @@
     (title "Tux Strikes Back")
     (author "Christian Schaefers")
     (license "CC BY-SA 4.0+")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/cschaefer-tux-strikes-back_v3.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/cschaefer-tux-strikes-back.zip")
     (md5 "bbfddc61c3c9d3c3bd3c9ba208737ca3")
    )
 
@@ -117,7 +117,7 @@
     (title "Levels of Wolfs")
     (author "Wolfs")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/wolf-levels_v2.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/wolf-levels.zip")
     (md5 "36b1cae44cb5d00bb38ba2359c643657")
    )
 
@@ -128,7 +128,7 @@
     (title "CT's 2 worldmaps")
     (author "CT .da'Bomb")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ctdabomb-worldmaps_v2.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/ctdabomb-worldmaps.zip")
     (md5 "92929c89531b8d0a96b76dab38a0e8d0")
    )
 
@@ -139,7 +139,7 @@
     (title "The Frozen Mountains")
     (author "Michel")
     (license "GPL 2 / CC-by-sa")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/michel-the-frozen-mountains_v2.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/michel-the-frozen-mountains.zip")
     (md5 "f2cb34c68876479df4f3fc0bf6c4c467")
    )
 
@@ -150,7 +150,7 @@
      (title "Serano's Islands - Remastered")
      (author "Serano")
      (license "GPL 2 / CC-by-sa")
-     (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/serano-islands_remastered.zip")
+     (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/serano-islands_remastered.zip")
      (md5 "a84df419a66c2ebc4cf21adf8816d683")
     )
 
@@ -161,7 +161,7 @@
       (title "Localization Update Pack")
       (author "SuperTux Team")
       (license "GNU General Public License 3")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/language-pack_v1.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/language-pack.zip")
       (md5 "80de02550fe10fb9e8cd31828104398f")
     )
     (supertux-addoninfo
@@ -171,7 +171,7 @@
       (title "Adventure to the New World")
       (author "Miks ja Ants")
       (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW1_fix.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/ATTNW1.zip")
       (md5 "ff9e664ed83b57e6e758c2f78c8e3720")
     )
 
@@ -182,7 +182,7 @@
       (title "Adventure to the New World II")
       (author "Miks ja Ants")
       (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/ATTNW2.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/ATTNW2.zip")
       (md5 "fb7bfe84b93a6d386fd0e82b397c6405")
     )
 
@@ -193,7 +193,7 @@
       (title "The Grandmaster Journey")
       (author "AllyTheOcelot")
       (license "CC-by-sa 4.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/grandmaster-journey.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/grandmaster-journey.zip")
       (md5 "600db26f64021c4077245bce17d351a6")
     )
     
@@ -204,7 +204,7 @@
       (title "Desert World")
       (author "manuel")
       (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/manuel_desert-world-v2.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/manuel-desert-world.zip")
       (md5 "26daed0e5d69d71155c1271e623b16dd")
     )
 
@@ -215,7 +215,7 @@
       (title "Toufik's Levels")
       (author "Toufik")
       (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/toufiks-levels.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/toufiks-levels.zip")
       (md5 "089b3db7181f3e8c2fe5090327edaea9")
     )
     
@@ -226,7 +226,7 @@
       (title "Treasure Mountain")
       (author "Daniel")
       (license "CC-BY-SA 4.0 International")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/Treasure_Mountain.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/treasure-mountain.zip")
       (md5 "380c9cbb127d338ccfad9c0837fd0fd8")
     )
       
@@ -237,19 +237,20 @@
       (title "The Big Island")
       (author "JoJo")
       (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/The_Big_Island-Adjusted-3.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/the-big-island.zip")
       (md5 "ef5cb0bead0ba7ea8ffce64a769d03b8")
     )
-        (supertux-addoninfo
+		
+	(supertux-addoninfo
       (id "Arons_Levels")
       (version 1)
       (type "worldmap")
       (title "Aron's Levels")
       (author "Aron")
       (license "CC-BY-SA 4.0 International")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/Arons_Levels.zip")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/arons-levels.zip")
       (md5 "9e1cbe063e753f18889b1b15ad57ec38")
-      )
+	)
 )
 
 ;; EOF ;;
