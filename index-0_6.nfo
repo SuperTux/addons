@@ -68,13 +68,13 @@
 
   (supertux-addoninfo
     (id "treskalle-island-of-moob")
-    (version 2)
+    (version 3)
     (type "worldmap")
     (title "Island of Moob")
     (author "treskalle")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/treskalle-island-of-moob.zip")
-    (md5 "f675a06bff474106d1494b9ec7f611c3")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/998ed9275a365933df84815600e952752d68a67b/repository/treskalle-island-of-moob.zip")
+    (md5 "187985f00be55b89e43e5de8f4970a4a")
    )
 
   (supertux-addoninfo
