@@ -251,6 +251,17 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/arons-levels.zip")
       (md5 "9e1cbe063e753f18889b1b15ad57ec38")
 	)
+	
+	(supertux-addoninfo
+	  (id "The_Crystal_Catacombs")
+	  (version 1)
+	  (type "worldmap")
+	  (title "The Crystal Catacombs")
+	  (author "Alasdair")
+	  (license "CC-BY-SA 4.0 International")
+	  (url "https://raw.githubusercontent.com/SuperTux/addons/92772fff2a7172afd70d0053f49be15225164cb5/repository/the-crystal-catacombs.zip")
+	  (md5 "45c183ed3aa552efac126a9053588611")
+	)
 )
 
 ;; EOF ;;
