@@ -16,8 +16,8 @@
     (title "Mattie's World")
     (author "LMH")
     (license "GPL 2 / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/outdated/lmh-matties-world_v5.zip")
-    (md5 "2bcc8b2be9be045f08b916dedc0c416e")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/outdated/lmh-matties-world_v4.zip")
+    (md5 "e6687a081c1f77ceee20f002835063ee")
    )
   (supertux-addoninfo
     (id "hume-worldmaps")
