@@ -240,8 +240,8 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/the-big-island.zip")
       (md5 "ef5cb0bead0ba7ea8ffce64a769d03b8")
     )
-		
-	(supertux-addoninfo
+	
+    (supertux-addoninfo
       (id "Arons_Levels")
       (version 1)
       (type "worldmap")
@@ -250,18 +250,28 @@
       (license "CC-BY-SA 4.0 International")
       (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/arons-levels.zip")
       (md5 "9e1cbe063e753f18889b1b15ad57ec38")
-	)
-	
-	(supertux-addoninfo
-	  (id "The_Crystal_Catacombs")
-	  (version 1)
-	  (type "worldmap")
-	  (title "The Crystal Catacombs")
-	  (author "Alasdair")
-	  (license "CC-BY-SA 4.0 International")
-	  (url "https://raw.githubusercontent.com/SuperTux/addons/92772fff2a7172afd70d0053f49be15225164cb5/repository/the-crystal-catacombs.zip")
-	  (md5 "45c183ed3aa552efac126a9053588611")
-	)
+    )
+
+    (supertux-addoninfo
+      (id "The_Crystal_Catacombs")
+      (version 1)
+      (type "worldmap")
+      (title "The Crystal Catacombs")
+      (author "Alasdair")
+      (license "CC-BY-SA 4.0 International")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/92772fff2a7172afd70d0053f49be15225164cb5/repository/the-crystal-catacombs.zip")
+      (md5 "45c183ed3aa552efac126a9053588611")
+    )
+    (supertux-addoninfo
+      (id "Rob_s_Forest")
+      (version 1)
+      (type "worldmap")
+      (title "Rob's Forest")
+      (author "bruhmoent")
+      (license "CC-BY-SA 4.0 International")
+      (url "https://github.com/SuperTux/addons/raw/f6c0a3658fbfe8d2bb18f3c2f8b68fc6f44f050a/repository/Rob_s_Forest.zip")
+      (md5 "6a23f25f9be3092e5d6127ef1316ac2a")
+    )
 )
 
 ;; EOF ;;
