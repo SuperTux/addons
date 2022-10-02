@@ -279,8 +279,8 @@
       (title "Industrial Island")
       (author "Team Industrial")
       (license "CC-BY-SA 4.0 International")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/73541e26ad2fdb650e092de4f811964f36125109/repository/industrial-island.zip")
-      (md5 "87ce4e9ce93f945b61f9722f45b90b6c")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/89f39b1368daf60718c7e76fb6aa0f92a16c9312/repository/industrial-island.zip")
+      (md5 "9facd14981af9b0f3766adf4c863591c")
     )
 )
 
