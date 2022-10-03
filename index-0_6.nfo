@@ -272,6 +272,16 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/562724d3804e0413f8dddfd68aa60fc83e299a89/repository/Rob_s_Forest.zip")
       (md5 "6637bff798bec6b87e3c4a3c9439a33d")
     )
+    (supertux-addoninfo
+      (id "industrial-island")
+      (version 1)
+      (type "worldmap")
+      (title "Industrial Island")
+      (author "Team Industrial")
+      (license "CC-BY-SA 4.0 International")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/89f39b1368daf60718c7e76fb6aa0f92a16c9312/repository/industrial-island.zip")
+      (md5 "9facd14981af9b0f3766adf4c863591c")
+    )
 )
 
 ;; EOF ;;
