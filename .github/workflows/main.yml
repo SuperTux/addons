@@ -1,0 +1,48 @@
+name: Add-on auto-update
+
+on:
+  push:
+    branches: [ "master" ]
+    paths:
+      - repository/*.zip
+
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Get last commit
+        id: last-commit
+        run: |
+          echo "::set-output name=commit::$(git rev-parse HEAD)"
+
+      - name: Get modified add-ons
+        id: modified-addons
+        run: |
+          modified_addons=$(for path in `git diff --diff-filter=M --name-only HEAD~1..HEAD -- repository/` ; do basename $path ; done)
+          modified_addons="${modified_addons//'%'/'%25'}"
+          modified_addons="${modified_addons//$'\n'/'%0A'}"
+          modified_addons="${modified_addons//$'\r'/'%0D'}"
+          echo "::set-output name=list::$modified_addons"
+
+      - name: Run index file updater for each updated add-on
+        run: |
+          chmod +x scripts/update_addon_index.sh
+          while read file; do
+            echo "Executing script for modified add-on ${file}."
+            scripts/update_addon_index.sh -f $file -c ${{ steps.last-commit.outputs.commit }}
+          done <<< "${{ steps.modified-addons.outputs.list }}"
+
+      - name: Commit changes
+        run: |
+          git --version
+          git config --global user.email "supertux-addons"
+          git config --global user.name "SuperTux Add-ons"
+          git add \*.nfo
+          git commit -m "Update add-ons in latest index file"
+          git push
