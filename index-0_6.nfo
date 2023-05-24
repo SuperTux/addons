@@ -123,13 +123,13 @@
 
   (supertux-addoninfo
     (id "ctdabomb-worldmaps")
-    (version 2)
+    (version 3)
     (type "world")
     (title "CT's 2 worldmaps")
     (author "CT .da'Bomb")
     (license "GPL 2+ / CC-by-sa 3.0")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/25dbd9f7feded11079205b562360c3727915a5ad/repository/ctdabomb-worldmaps.zip")
-    (md5 "92929c89531b8d0a96b76dab38a0e8d0")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/e9c9c18e1e675183879171a7080b26576bd99943/repository/ctdabomb-worldmaps.zip")
+    (md5 "26bcf46e6151908151dbb39ddb489835")
    )
 
   (supertux-addoninfo
