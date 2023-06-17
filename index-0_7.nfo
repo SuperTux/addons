@@ -264,13 +264,13 @@
 	)
     (supertux-addoninfo
       (id "Skitt_land")
-      (version 1)
+      (version 2)
       (type "worldmap")
       (title "Skitt-land")
       (author "Skittles")
       (license "CC-BY-SA 4.0 International")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/be28d65cfd2e23080b7640db40dc46b38ee599af/repository/Skitt_land.zip")
-      (md5 "a12b52b952adaa3f5f1207da24c700f8")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/01cb6075b29432659943cecdb9b2990717512a0a/repository/Skitt_land.zip")
+      (md5 "66fc6a7f931bf8b7a104d19408c1b8dc")
     )
 )
 
