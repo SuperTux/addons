@@ -262,6 +262,16 @@
 	  (url "https://raw.githubusercontent.com/SuperTux/addons/92772fff2a7172afd70d0053f49be15225164cb5/repository/the-crystal-catacombs.zip")
 	  (md5 "45c183ed3aa552efac126a9053588611")
 	)
+    (supertux-addoninfo
+      (id "Skitt_land")
+      (version 1)
+      (type "worldmap")
+      (title "Skitt-land")
+      (author "Skittles")
+      (license "CC-BY-SA 4.0 International")
+      (url "https://raw.githubusercontent.com/SuperTux/addons/be28d65cfd2e23080b7640db40dc46b38ee599af/repository/Skitt_land.zip")
+      (md5 "a12b52b952adaa3f5f1207da24c700f8")
+    )
 )
 
 ;; EOF ;;
