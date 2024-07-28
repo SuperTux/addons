@@ -207,17 +207,6 @@
       (url "https://raw.githubusercontent.com/SuperTux/addons/4e4e23e01da309e10eacb32d7a24b19836807458/repository/manuel-desert-world.zip")
       (md5 "f2e087d5f69bf6f84d73976f2de39b0f")
     )
-
-    (supertux-addoninfo
-      (id "toufik-levels")
-      (version 6)
-      (type "worldmap")
-      (title "Toufik's Levels")
-      (author "Toufik")
-      (license "GPL 2+ / CC-by-sa 3.0")
-      (url "https://raw.githubusercontent.com/SuperTux/addons/4e4e23e01da309e10eacb32d7a24b19836807458/repository/toufiks-levels.zip")
-      (md5 "dde248e28fa5a7ef0bc2358feb00a183")
-    )
     
     (supertux-addoninfo
       (id "Treasure_Mountain")
