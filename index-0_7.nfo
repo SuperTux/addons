@@ -6,9 +6,9 @@
     (title "The Crystal Catacombs")
     (author "Alasdair")
     (license "CC-BY-SA 4.0 International")
-	(screenshots
-	  (screenshot (url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/The_Crystal_Catacombs/1.png"))
-	)
+    (screenshots
+      (screenshot (url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/The_Crystal_Catacombs/1.png"))
+    )
     (url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/repository/the-crystal-catacombs.zip")
     (md5 "45c183ed3aa552efac126a9053588611")
   )
@@ -48,6 +48,7 @@
     (type "weakresourcepack")
     (title "STAGE")
     (author "Narre")
+    (description "SuperTux Adventure Game Engine: A scripting library for creating and playing adventure-style levels.")
     (license "GPL 3+ / CC-BY-SA 4.0 International")
     (url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/repository/stage.zip")
     (md5 "7cdc83921adb47d77914fa4547924a57")
