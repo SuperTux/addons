@@ -50,7 +50,7 @@
     (author "Narre")
     (description "SuperTux Adventure Game Engine: A scripting library for creating and playing adventure-style levels.")
     (license "GPL 3+ / CC-BY-SA 4.0 International")
-    (url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/repository/stage.zip")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/e4e72a65994d3f3a7db74796b0c37f36240de494/repository/stage.zip")
     (md5 "7cdc83921adb47d77914fa4547924a57")
   )
   (supertux-addoninfo
