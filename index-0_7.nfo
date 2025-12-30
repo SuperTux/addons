@@ -117,6 +117,17 @@
     (url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/repository/frost-bonusisland-2-preview.zip")
     (md5 "8a7a221b06876bc05d5b57b8881ecac8")
   )
+  (supertux-addoninfo
+    (id "christmas-2016")
+    (version 1)
+    (type "worldmap")
+    (title "Christmas Special")
+    (description "Original Christmas 2016 Level Pack")
+    (author "Carsten Wirtz")
+    (license "GPL 2+ / CC-by-sa 3.0")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/3cc663ac6bc2210b974cb666ac0ab88ddd17834f/repository/christmas-2016.zip")
+    (md5 "6d04354092a2209eb53ce079fbdc17a6")
+  )
 )
 
 ;; EOF ;;
