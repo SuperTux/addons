@@ -1,4 +1,4 @@
-SuperTux Addons
+SuperTux Add-ons
 ==============
 
 ## Packaging your add-on
@@ -59,8 +59,10 @@ An add-on data entry looks like this:
     (description "<b>addon-description</b>")
     (author "<b>addon-author</b>")
     (license "<b>addon-license</b>")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/<b>addon-commit-hash</b>/screenshots/<b>addon-id</b>")
     (screenshots
-        (screenshot (url "https://raw.githubusercontent.com/SuperTux/addons/<b>addon-commit-hash</b>/screenshots/<b>addon-id</b>/<b>addon-screenshot-file-name</b>"))
+        (screenshot (url "<b>addon-screenshot-file-name</b>"))
+        (screenshot (url "<b>addon-screenshot-file-name</b>"))
         ...
     )
     (dependencies
