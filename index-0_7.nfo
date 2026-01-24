@@ -179,7 +179,7 @@
     (type "worldmap")
     (title "SuperTux Tales [DEMO]")
     (description "One day, Tux finds an unknown relic. Nobody knew where it would lead him to.")
-    (author "Salomon \"SkittlesHD\" Duarte")
+    (author "Sal¢mon \"SkittlesHD\" Duarte")
     (license "CC-BY-SA 4.0 International")
     (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/1c19d0618032541d8c391a712cdcf1e8a13a90ff/screenshots/supertux-tales")
     (screenshots
