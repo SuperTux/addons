@@ -6,7 +6,7 @@
     (title "The Crystal Catacombs")
     (author "Alasdair")
     (license "CC-BY-SA 4.0 International")
-		(screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/The_Crystal_Catacombs")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/The_Crystal_Catacombs")
     (screenshots
       (screenshot (url "1.png"))
     )
@@ -32,7 +32,7 @@
     (description "Tux's cowardice leads him down an alternative path.")
     (author "Team Industrial")
     (license "CC-BY-SA 4.0 International")
-		(screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/7e2efda2316ccd2b757b4b5f1a244381944be039/screenshots/industrial-island-v2")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/7e2efda2316ccd2b757b4b5f1a244381944be039/screenshots/industrial-island-v2")
     (screenshots
       (screenshot (url "1.jpg"))
       (screenshot (url "2.jpg"))
@@ -63,7 +63,7 @@
     (description "Will Tux save the world from Bill Brother?")
     (author "Hypernoot")
     (license "CC-BY-SA 4.0 International")
-		(screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/tuxquest")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/tuxquest")
     (screenshots
       (screenshot (url "1.png"))
       (screenshot (url "2.png"))
@@ -82,7 +82,7 @@
     (description "My first completed SuperTux Add-on.")
     (author "FrostC")
     (license "Attribution 4.0 International")
-		(screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/yet-another-icy-island")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/yet-another-icy-island")
     (screenshots
       (screenshot (url "1.jpg"))
       (screenshot (url "2.jpg"))
@@ -100,7 +100,7 @@
     (description "Remember the old Skitt-Land? Well, now there is an update with lots of new things!")
     (author "SkittlesHD")
     (license "CC-BY-SA 4.0 International")
-		(screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/6e1f902d9b1056410d9ca7eb8548043fb47a2d99/screenshots/skitt-land-remastered")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/6e1f902d9b1056410d9ca7eb8548043fb47a2d99/screenshots/skitt-land-remastered")
     (screenshots
       (screenshot (url "1.png"))
       (screenshot (url "2.png"))
@@ -121,7 +121,7 @@
     (description "Previews of some Bonus Island II levels by FrostC.")
     (author "FrostC")
     (license "CC-BY-SA 4.0 International")
-		(screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/frost-bonusisland-2")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/screenshots/frost-bonusisland-2")
     (screenshots
       (screenshot (url "1.png"))
     )
@@ -147,7 +147,7 @@
     (description "Levels from the first Level Design Challenge, which took place on the SuperTux Discord.")
     (author "FrostC & SuperTux Community")
     (license "CC-BY-SA 4.0 International")
-		(screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/f4b78b08975d38a9e4782edbf1e7c8df53127f99/screenshots/discord-challenge-1")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/f4b78b08975d38a9e4782edbf1e7c8df53127f99/screenshots/discord-challenge-1")
     (screenshots
       (screenshot (url "1.png"))
       (screenshot (url "2.png"))
@@ -163,15 +163,33 @@
     (title "Super Mario Bros (version 10)")
     (description "Port of levels from SMBv10 from Scratch, by PaulKoning. Ported by FrostC.")
     (author "PaulKoning & FrostC")
-		(screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/f4b78b08975d38a9e4782edbf1e7c8df53127f99/screenshots/super-mario-bros-version-10")
+    (license "CC-BY-SA 4.0 International")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/f4b78b08975d38a9e4782edbf1e7c8df53127f99/screenshots/super-mario-bros-version-10")
     (screenshots
       (screenshot (url "1.jpg"))
       (screenshot (url "2.jpg"))
       (screenshot (url "3.jpg"))
     )
-    (license "CC-BY-SA 4.0 International")
     (url "https://raw.githubusercontent.com/SuperTux/addons/f4b78b08975d38a9e4782edbf1e7c8df53127f99/repository/super-mario-bros-version-10.zip")
     (md5 "553ad5698e46c5ab58948e30f462b426")
+  )
+  (supertux-addoninfo
+    (id "supertux-tales")
+    (version 1)
+    (type "worldmap")
+    (title "SuperTux Tales [DEMO]")
+    (description "One day, Tux finds an unknown relic. Nobody knew where it would lead him to.")
+    (author "Salomon \"SkittlesHD\" Duarte")
+    (license "CC-BY-SA 4.0 International")
+    (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/245ed7e6949c5c7f2988203781f497fbee550c8c/screenshots/supertux-tales")
+    (screenshots
+      (screenshot (url "1.jpg"))
+      (screenshot (url "2.jpg"))
+      (screenshot (url "3.jpg"))
+      (screenshot (url "4.jpg"))
+    )
+    (url "https://raw.githubusercontent.com/SuperTux/addons/245ed7e6949c5c7f2988203781f497fbee550c8c/repository/supertux-tales.zip")
+    (md5 "0d944ea709e4cb6b1eeebd94a758a784")
   )
 )
 
