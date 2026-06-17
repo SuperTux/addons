@@ -57,7 +57,7 @@
   )
   (supertux-addoninfo
     (id "tuxquest")
-    (version 1)
+    (version 2)
     (type "worldmap")
     (title "TuxQuest")
     (description "Will Tux save the world from Bill Brother?")
@@ -71,8 +71,8 @@
       (screenshot (url "4.png"))
       (screenshot (url "5.png"))
     )
-    (url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/repository/tuxquest.zip")
-    (md5 "132fc35da333e000b92b8f0b295cb1e8")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/eefd528f1155c3c6a15077dc51b0a5570beee1df/repository/tuxquest.zip")
+    (md5 "03ed378b9c1e5afd26b0b6bc5bbf951d")
   )
   (supertux-addoninfo
     (id "yet-another-icy-island")
