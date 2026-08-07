@@ -89,8 +89,8 @@
       (screenshot (url "3.jpg"))
       (screenshot (url "4.jpg"))
     )
-    (url "https://raw.githubusercontent.com/SuperTux/addons/9b063aeb240476ed6cbbbe5bd96dae38348ea126/repository/yet-another-icy-island.zip")
-    (md5 "d4026a7a18fc13e061706d3726028e52")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/63194008bd279e891ddbdd5d08b212db6e29bb6d/repository/yet-another-icy-island.zip")
+    (md5 "7530f8b549eeef47689a42b85a20486c")
   )
   (supertux-addoninfo
     (id "skitt-land-remastered")
@@ -179,7 +179,7 @@
     (type "worldmap")
     (title "SuperTux Tales [DEMO]")
     (description "One day, Tux finds an unknown relic. Nobody knew where it would lead him to.")
-    (author "Sal¢mon \"SkittlesHD\" Duarte")
+    (author "Salï¿½mon \"SkittlesHD\" Duarte")
     (license "CC-BY-SA 4.0 International")
     (screenshots-base-url "https://raw.githubusercontent.com/SuperTux/addons/2b9c3e218640365880f2424fd3fb336ffbfe6188/screenshots/supertux-tales")
     (screenshots
