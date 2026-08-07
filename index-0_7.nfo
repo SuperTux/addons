@@ -76,7 +76,7 @@
   )
   (supertux-addoninfo
     (id "yet-another-icy-island")
-    (version 1)
+    (version 2)
     (type "worldmap")
     (title "Yet another Icy Island")
     (description "My first completed SuperTux Add-on.")
